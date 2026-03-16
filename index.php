@@ -341,13 +341,13 @@ include 'header.php';
                                     <div class="elementor-element elementor-element-fdb2e58 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="fdb2e58" data-element_type="container">
                                         <div class="elementor-element elementor-element-0136e6e elementor-widget elementor-widget-logico_heading" data-id="0136e6e" data-element_type="widget" data-widget_type="logico_heading.default">
                                             <div class="elementor-widget-container">
-                                                <div class="logico-title">/ what we do /
+                                                <div class="logico-title">/ About /
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-7500280 elementor-invisible elementor-widget elementor-widget-logico_heading" data-id="7500280" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;logico_heading_animation&quot;}" data-widget_type="logico_heading.default">
                                             <div class="elementor-widget-container">
-                                                <h3 class="logico-title">Special things which we do for our clients
+                                                <h3 class="logico-title">Redefining Logistics for Modern India
                                                 </h3>
                                             </div>
                                         </div>
@@ -359,7 +359,7 @@ include 'header.php';
                                         </div>
                                         <div class="elementor-element elementor-element-165dfa5 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="165dfa5" data-element_type="widget" data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Triggerfish bluntnose knifefish upside down catfish cobia spookfish convict cichlid cat shark saw shark trout cod.</p>
+                                                <p>We're not just another logistics company. We're building the counter-model to fragmented delivery services—connecting first, mid, and last miles into one seamless, accountable journey.</p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-da9d310 elementor-widget elementor-widget-logico_heading" data-id="da9d310" data-element_type="widget" data-widget_type="logico_heading.default">
@@ -857,7 +857,7 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-1698b85 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="1698b85" data-element_type="container">
+                        <!-- <div class="elementor-element elementor-element-1698b85 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="1698b85" data-element_type="container">
                             <div class="e-con-inner">
                                 <div class="elementor-element elementor-element-13abebf e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="13abebf" data-element_type="container">
                                     <div class="elementor-element elementor-element-1ad9dc3 elementor-widget elementor-widget-logico_heading" data-id="1ad9dc3" data-element_type="widget" data-widget_type="logico_heading.default">
@@ -974,7 +974,7 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="elementor-element elementor-element-4c3d65c e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="4c3d65c" data-element_type="container">
                             <div class="e-con-inner">
                                 <div class="elementor-element elementor-element-536e54b e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="536e54b" data-element_type="container">
