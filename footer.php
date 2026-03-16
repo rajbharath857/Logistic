@@ -116,7 +116,7 @@
                                         <div class="elementor-element elementor-element-4b6e2f2 elementor-widget elementor-widget-image" data-id="4b6e2f2" data-element_type="widget" data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <a href="https://demo.artureanec.com/themes/logico-rounded/">
-							<img width="305" height="58" src="/assets/images/logo2-light-x2.png" class="attachment-full size-full wp-image-5851" alt="" srcset="https:///assets/images/logo2-light-x2.png sizes="(max-width: 305px) 100vw, 305px" />								</a>
+							<img width="305" height="58" src="/logistic/assets/images/logo2-light-x2.png" class="attachment-full size-full wp-image-5851" alt="" srcset="https:///assets/images/logo2-light-x2.png sizes="(max-width: 305px) 100vw, 305px" />								</a>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-7eaa169 elementor-shape-square e-grid-align-mobile-center elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="7eaa169" data-element_type="widget" data-widget_type="social-icons.default">
