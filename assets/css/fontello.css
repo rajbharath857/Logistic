@@ -1,0 +1,523 @@
+[class^="icon-"]:before,[class*=" icon-"]:before {
+    font-family: 'fontello';
+    font-style: normal;
+    font-weight: 400;
+    speak: never;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-arrow-down:before {
+    content: '\e800'
+}
+
+.icon-arrow-right:before {
+    content: '\e801'
+}
+
+.icon-arrow-left:before {
+    content: '\e802'
+}
+
+.icon-arrow-top:before {
+    content: '\e803'
+}
+
+.icon-arrow-x-l-down:before {
+    content: '\e804'
+}
+
+.icon-arrow-x-r-down:before {
+    content: '\e805'
+}
+
+.icon-arrow-x-l-top:before {
+    content: '\e806'
+}
+
+.icon-button-arrow-x-l-down:before {
+    content: '\e807'
+}
+
+.icon-button-arrow-x-r-down:before {
+    content: '\e808'
+}
+
+.icon-button-arrow-x-l-top:before {
+    content: '\e809'
+}
+
+.icon-arrow-x-r-top:before {
+    content: '\e80a'
+}
+
+.icon-button-arrow-x-r-top:before {
+    content: '\e80b'
+}
+
+.icon-chevron-large-down:before {
+    content: '\e80c'
+}
+
+.icon-chevron-large-left:before {
+    content: '\e80d'
+}
+
+.icon-chevron-large-top:before {
+    content: '\e80e'
+}
+
+.icon-chevron-large-right:before {
+    content: '\e80f'
+}
+
+.icon-chevron-medium-down:before {
+    content: '\e810'
+}
+
+.icon-chevron-medium-left:before {
+    content: '\e811'
+}
+
+.icon-chevron-medium-right:before {
+    content: '\e812'
+}
+
+.icon-chevron-medium-top:before {
+    content: '\e813'
+}
+
+.icon-chevron-small-left:before {
+    content: '\e814'
+}
+
+.icon-chevron-small-top:before {
+    content: '\e815'
+}
+
+.icon-chevron-small-down:before {
+    content: '\e816'
+}
+
+.icon-chevron-small-right:before {
+    content: '\e817'
+}
+
+.icon-goods-export-1:before {
+    content: '\e819'
+}
+
+.icon-goods-export-2:before {
+    content: '\e81a'
+}
+
+.icon-goods-export-3:before {
+    content: '\e81b'
+}
+
+.icon-goods-export-4:before {
+    content: '\e81c'
+}
+
+.icon-goods-export-5:before {
+    content: '\e81d'
+}
+
+.icon-goods-export-6:before {
+    content: '\e81e'
+}
+
+.icon-goods-export-7:before {
+    content: '\e81f'
+}
+
+.icon-goods-export-8:before {
+    content: '\e820'
+}
+
+.icon-goods-export-9:before {
+    content: '\e821'
+}
+
+.icon-goods-export-10:before {
+    content: '\e822'
+}
+
+.icon-goods-export-11:before {
+    content: '\e823'
+}
+
+.icon-goods-export-12:before {
+    content: '\e824'
+}
+
+.icon-goods-export-13:before {
+    content: '\e825'
+}
+
+.icon-goods-export-14:before {
+    content: '\e826'
+}
+
+.icon-goods-export-15:before {
+    content: '\e827'
+}
+
+.icon-goods-export-16:before {
+    content: '\e828'
+}
+
+.icon-goods-export-17:before {
+    content: '\e829'
+}
+
+.icon-goods-export-18:before {
+    content: '\e82a'
+}
+
+.icon-goods-export-19:before {
+    content: '\e82b'
+}
+
+.icon-goods-export-20:before {
+    content: '\e82c'
+}
+
+.icon-goods-export-21:before {
+    content: '\e82d'
+}
+
+.icon-goods-export-22:before {
+    content: '\e82e'
+}
+
+.icon-goods-export-23:before {
+    content: '\e82f'
+}
+
+.icon-goods-export-24:before {
+    content: '\e830'
+}
+
+.icon-goods-export-25:before {
+    content: '\e831'
+}
+
+.icon-goods-export-26:before {
+    content: '\e832'
+}
+
+.icon-goods-export-27:before {
+    content: '\e833'
+}
+
+.icon-goods-export-28:before {
+    content: '\e834'
+}
+
+.icon-goods-export-29:before {
+    content: '\e835'
+}
+
+.icon-goods-export-30:before {
+    content: '\e836'
+}
+
+.icon-goods-export-31:before {
+    content: '\e837'
+}
+
+.icon-goods-export-32:before {
+    content: '\e838'
+}
+
+.icon-light-container:before {
+    content: '\e839'
+}
+
+.icon-light-delivery:before {
+    content: '\e83a'
+}
+
+.icon-light-directions:before {
+    content: '\e83b'
+}
+
+.icon-light-storage:before {
+    content: '\e83c'
+}
+
+.icon-triangle-arrow-down:before {
+    content: '\e83d'
+}
+
+.icon-triangle-arrow-left:before {
+    content: '\e83e'
+}
+
+.icon-triangle-arrow-right:before {
+    content: '\e83f'
+}
+
+.icon-triangle-arrow-top:before {
+    content: '\e840'
+}
+
+.icon-air-delivery:before {
+    content: '\e841'
+}
+
+.icon-call:before {
+    content: '\e842'
+}
+
+.icon-cart:before {
+    content: '\e843'
+}
+
+.icon-calendar:before {
+    content: '\e844'
+}
+
+.icon-close:before {
+    content: '\e845'
+}
+
+.icon-container:before {
+    content: '\e846'
+}
+
+.icon-coupon:before {
+    content: '\e847'
+}
+
+.icon-crop:before {
+    content: '\e848'
+}
+
+.icon-download:before {
+    content: '\e849'
+}
+
+.icon-download-alter:before {
+    content: '\e84a'
+}
+
+.icon-eye:before {
+    content: '\e84b'
+}
+
+.icon-file-doc:before {
+    content: '\e84c'
+}
+
+.icon-file-file:before {
+    content: '\e84d'
+}
+
+.icon-file-pdf:before {
+    content: '\e84e'
+}
+
+.icon-garland:before {
+    content: '\e84f'
+}
+
+.icon-font:before {
+    content: '\e850'
+}
+
+.icon-half-logo:before {
+    content: '\e851'
+}
+
+.icon-logo:before {
+    content: '\e852'
+}
+
+.icon-location:before {
+    content: '\e853'
+}
+
+.icon-hiring:before {
+    content: '\e854'
+}
+
+.icon-mail:before {
+    content: '\e855'
+}
+
+.icon-package-delivery:before {
+    content: '\e856'
+}
+
+.icon-paint:before {
+    content: '\e857'
+}
+
+.icon-print:before {
+    content: '\e858'
+}
+
+.icon-resize:before {
+    content: '\e85a'
+}
+
+.icon-sidebar:before {
+    content: '\e85b'
+}
+
+.icon-search:before {
+    content: '\e85c'
+}
+
+.icon-side-menu-black:before {
+    content: '\e85d'
+}
+
+.icon-side-menu-light:before {
+    content: '\e85e'
+}
+
+.icon-star-light:before {
+    content: '\e861'
+}
+
+.icon-star:before {
+    content: '\e862'
+}
+
+.icon-supply-chain:before {
+    content: '\e863'
+}
+
+.icon-tap:before {
+    content: '\e864'
+}
+
+.icon-terms:before {
+    content: '\e865'
+}
+
+.icon-translate:before {
+    content: '\e866'
+}
+
+.icon-trolley:before {
+    content: '\e867'
+}
+
+.icon-update:before {
+    content: '\e868'
+}
+
+.icon-user:before {
+    content: '\e869'
+}
+
+.icon-solid-warehousing-container:before {
+    content: '\e86a'
+}
+
+.icon-solid-warehousing-conveyor:before {
+    content: '\e86b'
+}
+
+.icon-solid-warehousing-delivery:before {
+    content: '\e86c'
+}
+
+.icon-solid-warehousing-hand-loader:before {
+    content: '\e86d'
+}
+
+.icon-solid-warehousing-loader:before {
+    content: '\e86e'
+}
+
+.icon-solid-warehousing-loader-in-work:before {
+    content: '\e86f'
+}
+
+.icon-solid-warehousing-manual-loader-box:before {
+    content: '\e870'
+}
+
+.icon-solid-warehousing-manual-transportation:before {
+    content: '\e871'
+}
+
+.icon-solid-warehousing-scales:before {
+    content: '\e872'
+}
+
+.icon-solid-warehousing-scanner:before {
+    content: '\e873'
+}
+
+.icon-solid-warehousing-palett:before {
+    content: '\e874'
+}
+
+.icon-solid-warehousing-security:before {
+    content: '\e875'
+}
+
+.icon-solid-warehousing-storage:before {
+    content: '\e876'
+}
+
+.icon-solid-warehousing-truck:before {
+    content: '\e877'
+}
+
+.icon-solid-warehousing-warehouse:before {
+    content: '\e878'
+}
+
+.icon-solid-warehousing-autoloader:before {
+    content: '\e879'
+}
+
+.icon-check:before {
+    content: '\e87a'
+}
+
+.icon-check-alter:before {
+    content: '\e87b'
+}
+
+.icon-quote-left:before {
+    content: '\e87c'
+}
+
+.icon-quote-right:before {
+    content: '\e87d'
+}
+
+.icon-quote-right-light:before {
+    content: '\e87e'
+}
+
+.icon-play:before {
+    content: '\e8a2'
+}
+
+.icon-play-active:before {
+    content: '\e8a3'
+}
+
+.icon-icon-rounded:before {
+    content: '\e8f9'
+}
+
+.icon-icon-angular:before {
+    content: '\e8fa'
+}
