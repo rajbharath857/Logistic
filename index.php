@@ -370,7 +370,7 @@ include 'header.php';
                                         </div>
                                         <div class="elementor-element elementor-element-3888a1e elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="3888a1e" data-element_type="widget" data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black</p>
+                                                <p>Doormile transport ensures fast, reliable delivery services connecting cities efficiently with safe handling and timely logistics solutions.</p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-c0a45e4 elementor-widget elementor-widget-logico_button" data-id="c0a45e4" data-element_type="widget" data-widget_type="logico_button.default">
