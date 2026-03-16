@@ -341,7 +341,7 @@ include 'header.php';
                                     <div class="elementor-element elementor-element-fdb2e58 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="fdb2e58" data-element_type="container">
                                         <div class="elementor-element elementor-element-0136e6e elementor-widget elementor-widget-logico_heading" data-id="0136e6e" data-element_type="widget" data-widget_type="logico_heading.default">
                                             <div class="elementor-widget-container">
-                                                <div class="logico-title">/ what we do /
+                                                <div class="logico-title">/ About /
                                                 </div>
                                             </div>
                                         </div>
