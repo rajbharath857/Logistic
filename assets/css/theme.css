@@ -24393,7 +24393,7 @@ ul.hfe-breadcrumbs li:before {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     border-radius: var(--logico-radius-large,0);
-    color: var(--logico-button-text-color);
+    color: #fff;
     background-color: var(--logico-accent-color)
 }
 

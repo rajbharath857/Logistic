@@ -1,12 +1,7 @@
 <?php
 // Header - included at the top of every page
 ?>
-<!DOCTYPE html>
-<html lang="en-US">
 
-
-
-<body class="wp-singular page-template-default page page-id-61 wp-theme-logico wp-child-theme-logico-child theme-logico woocommerce-no-js ehf-header ehf-footer ehf-template-logico ehf-stylesheet-logico-child logico-front-end logico-theme-style-rounded elementor-default elementor-kit-5 elementor-page elementor-page-61">
     <div class="body-overlay"></div>
     <!-- Page Pre Loader -->
     <div class="page-loader-container">

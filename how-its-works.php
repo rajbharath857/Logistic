@@ -5225,6 +5225,44 @@ include 'header.php';
     <div class="body-container">
         <div id="page" class="hfeed site">
             
+
+        <div class="elementor-element elementor-element-5591cd9 e-con-full e-flex cut-corner-no sticky-container-off e-con e-parent" data-id="5591cd9" data-element_type="container">
+                            <div class="elementor-element elementor-element-516dc96 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-child" data-id="516dc96" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-8635d50 elementor-absolute e-transform e-transform elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-widget elementor-widget-logico_heading" data-id="8635d50" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-90,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_laptop&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet_extra&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile_extra&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:100,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_laptop&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet_extra&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile_extra&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_laptop&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet_extra&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile_extra&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="logico_heading.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="logico-title">Logistic Services
+</div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-6b662d7 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="6b662d7" data-element_type="container">
+                                        <div class="elementor-element elementor-element-01bc31d elementor-widget elementor-widget-logico_page_title_line" data-id="01bc31d" data-element_type="widget" data-widget_type="logico_page_title_line.default">
+                                            <div class="elementor-widget-container">
+                                                <h1 class="page-title logico-title-h2">Air freight Service</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-cfcd394 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-logico_breadcrumbs" data-id="cfcd394" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="logico_breadcrumbs.default">
+                                        <div class="elementor-widget-container">
+                                            <nav class="breadcrumbs">
+                                                <a href="https://demo.artureanec.com/themes/logico-rounded/">Home</a>
+                                                <span class="delimiter">/</span>
+                                                <a href="https://demo.artureanec.com/themes/logico-rounded/services-page/">Services</a>
+                                                <span class="delimiter">/</span>
+                                                <span class="current">Air freight Service</span>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-48de810 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-logico_decorative_block" data-id="48de810" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="logico_decorative_block.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="block-decoration animation-enable block-decoration-style-1">
+                                                <div class="block-decoration-item"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             <div class="content-wrapper content-wrapper-may-contain-elementor-code content-wrapper-remove-top-margin content-wrapper-remove-bottom-margin content-wrapper-sidebar-position-left">
                 <!-- Content Container -->
                 <div class="content">

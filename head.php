@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="https://demo.artureanec.com/themes/logico-rounded/xmlrpc.php" />
-    <title>Door Mile</title>
+    <title><?php echo isset($page_title) ? $page_title : 'Door Mile'; ?></title>
     <link crossorigin data-rocket-preconnect href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin data-rocket-preconnect href="https://8ded8880.delivery.rocketcdn.me" rel="preconnect">
     <link data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Manrope%3Aitalic%2C300%2C400%2C500%2C600%2C700%26amp%3Bsubset%3Dlatin%7CSpace%20Grotesk%3A500%26amp%3Bsubset%3Dlatin%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CManrope%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSpace%20Grotesk%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap"
