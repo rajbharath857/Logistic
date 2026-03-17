@@ -174,7 +174,7 @@
                                                                 <li id="menu-item-10516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10516"><a href="https://demo.artureanec.com/themes/logico-rounded/404/">Page 404</a></li> -->
                                                             <!-- </ul> -->
                                                         </li>
-                                                        <li id="menu-item-10510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10510"><a href="/demo.artureanec.com/themes/logico-rounded/home-2/miletruth.html">MileTruth<superscript>™</superscript> AI</a>
+                                                        <li id="menu-item-10510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10510"><a href="miletruth.php">MileTruth<superscript>™</superscript> AI</a>
                                                             <!-- <ul class="sub-menu"> -->
                                                                 
                                                                 <!-- <li id="menu-item-10551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10551"><a href="https://demo.artureanec.com/themes/logico-rounded/services-page/">Services</a></li>
@@ -270,7 +270,7 @@
                                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10516"><a href="https://demo.artureanec.com/themes/logico-rounded/404/">Page 404</a></li>
                                                         </ul> -->
                                                     </li>
-                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-10510"><a href="/demo.artureanec.com/themes/logico-rounded/home-2/miletruth.html">MileTruth<superscript>™</superscript> AI</a>
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-10510"><a href="miletruth.php">MileTruth<superscript>™</superscript> AI</a>
                                                         <!-- <ul class="sub-menu">
                                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10551"><a href="https://demo.artureanec.com/themes/logico-rounded/services-page/">Services</a></li>
                                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10552"><a href="https://demo.artureanec.com/themes/logico-rounded/services-page/air-freight-service/">Single Service</a></li>
