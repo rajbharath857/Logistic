@@ -1125,25 +1125,7 @@ include 'header.php';
     <script type="text/javascript" src="/logistic/assets/javascript/jquery.marquee.min.js?ver=6.9.4" id="jquery-marquee-js"></script>
     <script type="text/javascript" src="/logistic/assets/javascript/owl.carousel.min.js?ver=6.9.4" id="owl-carousel-js"></script>
     <script type="text/javascript" src="/logistic/assets/javascript/isotope.pkgd.min.js?ver=6.9.4" id="isotope-js"></script>
-    <script type="text/javascript" id="logico-theme-js-extra">
-        /* <![CDATA[ */
-        var ajax_params = {
-            "ajax_url": "https://demo.artureanec.com/themes/logico-rounded/wp-admin/admin-ajax.php",
-            "ajax_nonce": "87b4a34677"
-        };
-        var theme = [];
-        //# sourceURL=logico-theme-js-extra
-        /* ]]> */
-    </script>
-    <script data-minify="1" type="text/javascript" src="/logistic/assets/javascript/theme.js?ver=1762595741" id="logico-theme-js"></script>
-    <script type="text/javascript" id="logico-theme-js-after">
-        /* <![CDATA[ */
-
-        //# sourceURL=logico-theme-js-after
-        /* ]]> */
-    </script>
-    <script type="text/javascript" src="/logistic/assets/javascript/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
-    <script data-minify="1" type="text/javascript" src="/logistic/assets/javascript/elementor-widgets.js?ver=1762595741" id="elementor_widgets-js"></script>
+    <!-- theme.js and elementor-widgets.js are already loaded by head.php - removed duplicates to prevent double execution -->
     <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?ver=1.21.0" id="wpforms-validation-js"></script>
     <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?ver=1.1.2" id="wpforms-mailcheck-js"></script>
     <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?ver=1.0.0" id="wpforms-punycode-js"></script>
