@@ -1254,7 +1254,9 @@ include 'header.php';
         }, !1)
     </script>
     <script data-no-minify="1" async src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
-</body>
+
+    </main>
+    </body>
 
 </html>
 <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1773646899 -->
