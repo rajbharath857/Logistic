@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php $page_title = 'Air freight Service &#8211;Logico'; include 'head.php'; ?>
+<?php $page_title = 'How Its works &#8211; Doormile'; include 'head.php'; ?>
 
 <body class="wp-singular page-template-default page page-id-3397 page-child parent-pageid-84 wp-theme-logico wp-child-theme-logico-child theme-logico woocommerce-no-js ehf-header ehf-footer ehf-template-logico ehf-stylesheet-logico-child logico-front-end logico-theme-style-rounded elementor-default elementor-kit-5 elementor-page elementor-page-3397">
 
 <?php
-$current_page = 'home';
+$current_page = 'how-its-works';
 include 'header.php';
 ?>
 
