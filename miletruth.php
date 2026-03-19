@@ -45,7 +45,7 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="content-slider-item-buttons logico-content-wrapper-3">
-                                                                            <a class="logico-alter-button" href="https://demo.artureanec.com/themes/logico-rounded/about-us/" target="_blank">Discover</a>
+                                                                            <a class="logico-alter-button" href="" target="_blank">Discover</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -147,12 +147,12 @@
                                         <div class="elementor-element elementor-element-c6e2860 elementor-widget__width-auto elementor-widget elementor-widget-logico_video_button" data-id="c6e2860" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/www.youtube.com\/watch?v=XHOmBV4js_E&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;lightbox&quot;:&quot;yes&quot;}" data-widget_type="logico_video_button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-wrapper elementor-open-lightbox logico-video-button video-button-animation-none">
-                                                    <div class="elementor-custom-embed-image-overlay video-button-wrapper" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;youtube&quot;,&quot;url&quot;:&quot;https:\/\/www.youtube.com\/embed\/XHOmBV4js_E?feature=oembed&amp;start&amp;end&amp;wmode=opaque&amp;loop=0&amp;controls=1&amp;mute=0&amp;rel=0&amp;cc_load_policy=0&quot;,&quot;autoplay&quot;:&quot;&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-c6e2860&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;}}" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJ0eXBlIjoidmlkZW8iLCJ2aWRlb1R5cGUiOiJ5b3V0dWJlIiwidXJsIjoiaHR0cHM6XC9cL3d3dy55b3V0dWJlLmNvbVwvZW1iZWRcL1hIT21CVjRqc19FP2ZlYXR1cmU9b2VtYmVkJnN0YXJ0JmVuZCZ3bW9kZT1vcGFxdWUmbG9vcD0wJmNvbnRyb2xzPTEmbXV0ZT0wJnJlbD0wJmNjX2xvYWRfcG9saWN5PTAiLCJhdXRvcGxheSI6IiIsIm1vZGFsT3B0aW9ucyI6eyJpZCI6ImVsZW1lbnRvci1saWdodGJveC1jNmUyODYwIiwiZW50cmFuY2VBbmltYXRpb24iOiIiLCJlbnRyYW5jZUFuaW1hdGlvbl90YWJsZXQiOiIiLCJlbnRyYW5jZUFuaW1hdGlvbl9tb2JpbGUiOiIiLCJ2aWRlb0FzcGVjdFJhdGlvIjoiMTY5In19">
+                                                    <!-- <div class="elementor-custom-embed-image-overlay video-button-wrapper" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;youtube&quot;,&quot;url&quot;:&quot;https:\/\/www.youtube.com\/embed\/XHOmBV4js_E?feature=oembed&amp;start&amp;end&amp;wmode=opaque&amp;loop=0&amp;controls=1&amp;mute=0&amp;rel=0&amp;cc_load_policy=0&quot;,&quot;autoplay&quot;:&quot;&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-c6e2860&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;}}" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJ0eXBlIjoidmlkZW8iLCJ2aWRlb1R5cGUiOiJ5b3V0dWJlIiwidXJsIjoiaHR0cHM6XC9cL3d3dy55b3V0dWJlLmNvbVwvZW1iZWRcL1hIT21CVjRqc19FP2ZlYXR1cmU9b2VtYmVkJnN0YXJ0JmVuZCZ3bW9kZT1vcGFxdWUmbG9vcD0wJmNvbnRyb2xzPTEmbXV0ZT0wJnJlbD0wJmNjX2xvYWRfcG9saWN5PTAiLCJhdXRvcGxheSI6IiIsIm1vZGFsT3B0aW9ucyI6eyJpZCI6ImVsZW1lbnRvci1saWdodGJveC1jNmUyODYwIiwiZW50cmFuY2VBbmltYXRpb24iOiIiLCJlbnRyYW5jZUFuaW1hdGlvbl90YWJsZXQiOiIiLCJlbnRyYW5jZUFuaW1hdGlvbl9tb2JpbGUiOiIiLCJ2aWRlb0FzcGVjdFJhdGlvIjoiMTY5In19">
                                                         <div class="elementor-custom-embed-play" role="button">
                                                             <div class="video-button-icon"></div>
                                                             <div class="video-button-label">Watch video</div>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -531,15 +531,15 @@
                                                     <div class="logico-tabs-widget">
                                                         <div class="logico-tabs-titles-container">
                                                             <div class="logico-tab-title-item" data-id="logico-tab-id-1">
-                                                                <a href="javascript:void(0)">Air freight</a>
+                                                                <a href="javascript:void(0)">FMCG</a>
                                                             </div>
                                                             <div class="logico-tab-title-item" data-id="logico-tab-id-2">
-                                                                <a href="javascript:void(0)">Rail freight</a>
+                                                                <a href="javascript:void(0)">Pharmaceutical</a>
                                                             </div>
                                                             <div class="logico-tab-title-item" data-id="logico-tab-id-3">
-                                                                <a href="javascript:void(0)">Ship freight</a>
+                                                                <a href="javascript:void(0)">E-commerce</a>
                                                             </div>
-                                                            <div class="logico-tab-title-item" data-id="logico-tab-id-4">
+                                                            <!-- <div class="logico-tab-title-item" data-id="logico-tab-id-4">
                                                                 <a href="javascript:void(0)">Plane freight</a>
                                                             </div>
                                                             <div class="logico-tab-title-item" data-id="logico-tab-id-5">
@@ -547,7 +547,7 @@
                                                             </div>
                                                             <div class="logico-tab-title-item" data-id="logico-tab-id-6">
                                                                 <a href="javascript:void(0)">Delivery</a>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                         <div class="logico-tabs-content-container">
                                                             <div class="logico-tab-content-item" id="logico-tab-id-1">
@@ -570,7 +570,7 @@
                                                             <div class="logico-tab-content-item" id="logico-tab-id-2">
                                                                 <div class="logico-tab-text-container">
                                                                     <div class="tab-image-container">
-                                                                        <img width="575" height="455" decoding="async" class="tab-image" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/10/tab-pic-2.jpg" alt=""/>
+                                                                        <img width="575" height="455" decoding="async" class="tab-image" src="/logistic/assets/images/tab-pic-2.jpeg" alt=""/>
                                                                     </div>
                                                                     <div class="tab-text-container">
                                                                         <h3>Rail freight features on this service</h3>
@@ -752,28 +752,28 @@
                                                     <div class="image-slider owl-carousel owl-theme nav-view-compact nav-h-position-right nav-v-position-bottom" data-slider-options="{&quot;autoHeight&quot;:false,&quot;items&quot;:1,&quot;itemsWidescreen&quot;:1,&quot;itemsLaptop&quot;:1,&quot;itemsTabletExtra&quot;:1,&quot;itemsTablet&quot;:1,&quot;itemsMobileExtra&quot;:1,&quot;itemsMobile&quot;:1,&quot;nav&quot;:true,&quot;navText&quot;:&quot;&quot;,&quot;dots&quot;:false,&quot;progress&quot;:false,&quot;autoplayHoverPause&quot;:false,&quot;autoplay&quot;:false,&quot;autoplaySpeed&quot;:300,&quot;autoplayTimeout&quot;:5000,&quot;loop&quot;:true,&quot;dragEndSpeed&quot;:500,&quot;navSpeed&quot;:500,&quot;dotsSpeed&quot;:500,&quot;dotsContainer&quot;:&quot;.owl-dots-e8ee5be&quot;,&quot;rtl&quot;:false}">
                                                         <div class="image-item slider-item">
                                                             <div class="image-item-card with-height">
-                                                                <img loading="lazy" decoding="async" width="1733" height="773" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/slide1.jpg" class="attachment-full size-full wp-image-5026" alt=""/>
+                                                                <img loading="lazy" decoding="async" width="1733" height="773" src="/logistic/assets/images/slide1.png" class="attachment-full size-full wp-image-5026" alt=""/>
                                                                 <div class="image-title">
-                                                                    <span>Ship freight in Pacific ocean</span>
+                                                                    <span>Truck freight in India</span>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="image-item slider-item">
+                                                        <!-- <div class="image-item slider-item">
                                                             <div class="image-item-card with-height">
-                                                                <img loading="lazy" decoding="async" width="1733" height="773" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/slide1.jpg" class="attachment-full size-full wp-image-5026" alt=""/>
+                                                                <img loading="lazy" decoding="async" width="1733" height="773" src="/logistic/assets/images/slide1.png" class="attachment-full size-full wp-image-5026" alt=""/>
                                                                 <div class="image-title">
                                                                     <span>Ship freight in Pacific ocean</span>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="image-item slider-item">
+                                                        </div> -->
+                                                        <!-- <div class="image-item slider-item">
                                                             <div class="image-item-card with-height">
-                                                                <img loading="lazy" decoding="async" width="1733" height="773" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/slide1.jpg" class="attachment-full size-full wp-image-5026" alt=""/>
+                                                                <img loading="lazy" decoding="async" width="1733" height="773" src="/logistic/assets/images/slide1.png" class="attachment-full size-full wp-image-5026" alt=""/>
                                                                 <div class="image-title">
                                                                     <span>Ship freight in Pacific ocean</span>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -1143,7 +1143,12 @@
                                             <div class="elementor-element elementor-element-c754696 elementor-widget elementor-widget-google_maps" data-id="c754696" data-element_type="widget" data-widget_type="google_maps.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-custom-embed">
-                                                        <iframe loading="lazy" src="about:blank" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&#038;t=m&#038;z=11&#038;output=embed&#038;iwloc=near"></iframe>
+                                                        <iframe 
+    loading="lazy"
+    src="https://maps.google.com/maps?q=Coimbatore%2C%20Tamil%20Nadu%2C%20India&t=m&z=10&output=embed&iwloc=near"
+    title="Coimbatore, Tamil Nadu, India"
+    aria-label="Coimbatore, Tamil Nadu, India">
+</iframe>
                                                         <noscript>
                                                             <iframe loading="lazy" src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&#038;t=m&#038;z=11&#038;output=embed&#038;iwloc=near" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe>
                                                         </noscript>

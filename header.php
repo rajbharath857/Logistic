@@ -4,11 +4,11 @@
 
     <div class="body-overlay"></div>
     <!-- Page Pre Loader -->
-    <div class="page-loader-container">
+    <!-- <div class="page-loader-container">
         <div class="page-loader">
             <div class="page-loader-inner"><img width="152" height="116" src="/logistic//assets/images/preloader.png" alt="Page Loader Image" class="page-loader-logo" /></div>
         </div>
-    </div>
+    </div> -->
     <div class="body-container">
         <div id="page" class="hfeed site">
 

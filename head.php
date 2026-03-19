@@ -27,7 +27,7 @@
 
             /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
         </style>
-        <link data-minify="1" rel='stylesheet' id='hfe-widgets-style-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1762595741'
+        <link data-minify="1" rel='stylesheet' id='hfe-widgets-style-css' href='/logistic/assets/css/frontend.css?ver=1762595741'
             type='text/css' media='all' />
         <style id='wp-emoji-styles-inline-css' type='text/css'>
             img.wp-smiley,
@@ -1221,7 +1221,7 @@
 
             /*# sourceURL=https://demo.artureanec.com/themes/logico-rounded/wp-includes/blocks/spacer/style.min.css */
         </style>
-        <link data-minify="1" rel='stylesheet' id='wc-blocks-style-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=1762595741'
+        <link data-minify="1" rel='stylesheet' id='wc-blocks-style-css' href='/logistic/assets/css/wc-blocks.css?ver=1762595741'
             type='text/css' media='all' />
         <style id='global-styles-inline-css' type='text/css'>
             :root {
@@ -1678,11 +1678,11 @@
             /*# sourceURL=global-styles-inline-css */
         </style>
 
-        <link data-minify="1" rel='stylesheet' id='woocommerce-layout-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=1762595741'
+        <link data-minify="1" rel='stylesheet' id='woocommerce-layout-css' href='/logistic/assets/css/woocommerce-layout.css?ver=1762595741'
             type='text/css' media='all' />
-        <link data-minify="1" rel='stylesheet' id='woocommerce-smallscreen-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=1762595741'
+        <link data-minify="1" rel='stylesheet' id='woocommerce-smallscreen-css' href='/logistic/assets/css/woocommerce-smallscreen.css?ver=1762595741'
             type='text/css' media='only screen and (max-width: 768px)' />
-        <link data-minify="1" rel='stylesheet' id='woocommerce-general-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=1762595741'
+        <link data-minify="1" rel='stylesheet' id='woocommerce-general-css' href='/logistic/assets/css/woocommerce.css?ver=1762595741'
             type='text/css' media='all' />
         <style id='woocommerce-inline-inline-css' type='text/css'>
             .woocommerce form .form-row .required {
@@ -1691,7 +1691,7 @@
 
             /*# sourceURL=woocommerce-inline-inline-css */
         </style>
-        <link data-minify="1" rel='stylesheet' id='hfe-style-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1762595741'
+        <link data-minify="1" rel='stylesheet' id='hfe-style-css' href='/logistic/assets/css/header-footer-elementor.css?ver=1762595741'
             type='text/css' media='all' />
                 <link rel='stylesheet' id='elementor-frontend-css' href='/logistic/assets/css/elementor-frontend-inline.css' type='text/css' media='all' />
 
@@ -1726,10 +1726,10 @@
                 margin-block-end: 1.7em;
             }
 
-            .elementor-kit-5 a {
-                color: #FAC12E;
+            /* .elementor-kit-5 a {
+                color: #c01227;
                 text-decoration: underline;
-            }
+            } */
 
             .elementor-kit-5 h1 {
                 color: #111111;
@@ -6315,10 +6315,10 @@
 
             /*# sourceURL=elementor-frontend-inline-css */
         </style>
-        <link rel='stylesheet' id='widget-divider-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.32.4' type='text/css' media='all' />
+        <link rel='stylesheet' id='widget-divider-css' href='/logistic/assets/css/widget-divider.min.css?ver=3.32.4' type='text/css' media='all' />
         <link rel='stylesheet' id='widget-icon-box-css' href='/logistic/assets/css/custom-widget-icon-box.min.css?ver=1770169872' type='text/css' media='all' />
-        <link rel='stylesheet' id='widget-image-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.32.4' type='text/css' media='all' />
-        <link data-minify="1" rel='stylesheet' id='brands-styles-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/plugins/woocommerce/assets/css/brands.css?ver=1762595741' type='text/css'
+        <link rel='stylesheet' id='widget-image-css' href='/logistic/assets/css/widget-image.min.css?ver=3.32.4' type='text/css' media='all' />
+        <link data-minify="1" rel='stylesheet' id='brands-styles-css' href='/logistic/assets/css/brands.css?ver=1762595741' type='text/css'
             media='all' />
         <link data-minify="1" rel='stylesheet' id='logico-theme-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/themes/logico/css/theme.css?ver=1762595741' type='text/css' media='all'
         />
@@ -6711,24 +6711,24 @@
 
             /*# sourceURL=logico-theme-inline-css */
         </style>
-        <link data-minify="1" rel='stylesheet' id='logico-woocommerce-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/themes/logico/css/woocommerce.css?ver=1762595741' type='text/css'
+        <link data-minify="1" rel='stylesheet' id='logico-woocommerce-css' href='/logistic/assets/css/woocommerce.css?ver=1762595741' type='text/css'
             media='all' />
         <link rel='stylesheet' id='logico-style-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/themes/logico/style.css?ver=1.0.0' type='text/css' media='all' />
         <link rel='stylesheet' id='child-style-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/themes/logico-child/style.css?ver=6.9.1' type='text/css' media='all' />
 
         <link data-minify="1" rel='stylesheet' id='hfe-elementor-icons-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1762595741'
             type='text/css' media='all' />
-        <link rel='stylesheet' id='hfe-icons-list-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3' type='text/css' media='all' />
-        <link rel='stylesheet' id='hfe-social-icons-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.0' type='text/css' media='all' />
+        <link rel='stylesheet' id='hfe-icons-list-css' href='/logistic/assets/css/widget-icon-list.min.css?ver=3.24.3' type='text/css' media='all' />
+        <link rel='stylesheet' id='hfe-social-icons-css' href='/logistic/assets/css/widget-social-icons.min.css?ver=3.24.0' type='text/css' media='all' />
         <link data-minify="1" rel='stylesheet' id='hfe-nav-menu-icons-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=1762595741'
             type='text/css' media='all' />
 
 
 
 
-        <link data-minify="1" rel='stylesheet' id='elementor-icons-shared-0-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/themes/logico/css/fontello-enqueue.css?ver=1762595741'
+        <link data-minify="1" rel='stylesheet' id='elementor-icons-shared-0-css' href='/logistic/assets/css/fontello-enqueue.css?ver=1762595741'
             type='text/css' media='all' />
-        <link data-minify="1" rel='stylesheet' id='elementor-icons-theme_icons-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/themes/logico/css/fontello.css?ver=1762595741' type='text/css'
+        <link data-minify="1" rel='stylesheet' id='elementor-icons-theme_icons-css' href='/logistic/assets/css/fontello.css?ver=1762595741' type='text/css'
             media='all' />
         <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
         <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
@@ -6820,7 +6820,7 @@
         <link rel="apple-touch-icon" href="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2025/06/cropped-image-2-180x180.png" />
         <meta name="msapplication-TileImage" content="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2025/06/cropped-image-2-270x270.png" />
         <noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-        <link rel='stylesheet' id='widget-social-icons-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.32.4'
+        <link rel='stylesheet' id='widget-social-icons-css' href='/logistic/assets/css/widget-social-icons.min.css?ver=3.32.4'
             type='text/css' media='all' />
         <link rel='stylesheet' id='e-apple-webkit-css' href='/logistic/assets/css/custom-apple-webkit.min.css?ver=1770169872' type='text/css' media='all' />
         <link rel='stylesheet' id='wpforms-modern-base-css' href='https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-base.min.css?ver=1.9.8.2' type='text/css' media='all' />
@@ -10119,10 +10119,10 @@
                 margin-block-end:1.7em;}
 
 
-            .elementor-kit-5 a {
-                color: #FAC12E;
+            /* .elementor-kit-5 a {
+                color: #c01227;
                 text-decoration: underline;
-            }
+            } */
 
 
             .elementor-kit-5 h1 {
@@ -10384,10 +10384,10 @@
             .elementor-kit-5 p {
                 margin-block-end:1.7em;}
 
-            .elementor-kit-5 a {
-                color: #FAC12E;
+            /* .elementor-kit-5 a {
+                color: #c01227;
                 text-decoration: underline;
-            }
+            } */
 
             .elementor-kit-5 h1 {
                 color: #111111;
@@ -10602,7 +10602,7 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-6867061 {
-                background-image: url("https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/home3-slide-1.jpg");
+                background-image: url("/logistic/assets/images/home3-slide-1.jpg");
                 background-position: bottom center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -10660,17 +10660,17 @@
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-6867061 .content-slider-item-buttons {
                 margin: 48px 0px 0px 0px;
                 --logico-button-text-color: #FFFFFF;
-                --logico-button-border-color: #E8734A;
-                --logico-button-background-color: #E8734A00;
+                --logico-button-border-color: #c01227;
+                --logico-button-background-color: #c0122700;
                 --logico-button-icon-color: #FFFFFF;
                 --logico-button-text-hover: #FFFFFF;
-                --logico-button-border-hover: #E8734A;
-                --logico-button-background-hover: #E8734A;
+                --logico-button-border-hover: #c01227;
+                --logico-button-background-hover: #c01227;
                 --logico-button-icon-hover: #FFFFFF;
             }
 
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-3264830 {
-                background-image: url("https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/home3-slide-2.jpg");
+                background-image: url("/logistic/assets/images/home3-slide-2.jpg");
                 background-position: bottom center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -10683,14 +10683,14 @@
 
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-3264830 .slide-content-inner {
                 max-width: 44%;
-                margin: 100px 0px 0px 0px;
+                margin: 30px 0px 0px 0px;
             }
 
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-3264830 .slide-content {
                 -webkit-align-items: flex-end;
                 -moz-align-items: flex-end;
                 -ms-align-items: flex-end;
-                align-items: flex-end;
+                align-items: flex-start;
                 -webkit-justify-content: center;
                 -moz-justify-content: center;
                 -ms-justify-content: center;
@@ -10725,12 +10725,12 @@
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-3264830 .content-slider-item-buttons {
                 margin: 48px 0px 0px 0px;
                 --logico-button-text-color: #FFFFFF;
-                --logico-button-border-color: #E8734A;
-                --logico-button-background-color: #FAC12E00;
+                --logico-button-border-color: #c01227;
+                --logico-button-background-color: #c0122700;
                 --logico-button-icon-color: #FFFFFF;
                 --logico-button-text-hover: #FFFFFF;
-                --logico-button-border-hover: #E8734A;
-                --logico-button-background-hover: #E8734A;
+                --logico-button-border-hover: #c01227;
+                --logico-button-background-hover: #c01227;
                 --logico-button-icon-hover: #FFFFFF;
             }
 
@@ -12262,7 +12262,7 @@
                 }
 
                 .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-3264830 .slide-content-inner {
-                    max-width: 44%;
+                    max-width: 44%; 
                     margin: 100px 60px 0px 60px;
                 }
 
@@ -14858,8 +14858,7 @@
         </style>
         <script src="assets/javascript/tabs-widget.js"></script>
         <script src="assets/javascript/accordion.28788e18d1d35c23f450.bundle.min.js"></script>
-            
-        </script>
+        <script src="assets/javascript/elemntor-widgets.js"></script>
 
 
         <meta name="generator" content="WP Rocket 3.20.0.1" data-wpr-features="wpr_minify_js wpr_lazyload_iframes wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_image_dimensions wpr_minify_css wpr_cdn wpr_desktop" />

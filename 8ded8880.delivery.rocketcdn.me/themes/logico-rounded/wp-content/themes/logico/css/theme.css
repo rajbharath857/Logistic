@@ -17710,7 +17710,7 @@ h3+.single-vacancy-short-description {
     box-sizing: content-box;
     color: var(--logico-default-text-color);
     background-color: var(--logico-accent-color);
-    border-radius: var(--logico-radius-medium,0)
+    border-radius: var(--logico-radius-medium,0);
 }
 
 .post-categories a.post-category-item:hover {

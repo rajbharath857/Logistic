@@ -20017,6 +20017,7 @@ h3+.single-vacancy-short-description {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     color: var(--logico-default-text-color);
+    color: #fff !important;
     background-color: var(--logico-accent-color);
     border-radius: var(--logico-radius-medium, 0)
 }

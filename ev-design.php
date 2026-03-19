@@ -3,13 +3,13 @@
 <!-- LEFT CONTENT -->
 <div>
 
-<span style="background:#dff4ea;color:#1ba56f;padding:8px 16px;border-radius:20px;font-size:14px;display:inline-block;margin-bottom:20px;">
+<span style="background:rgb(255, 235, 238);color:#c01227;padding:8px 16px;border-radius:20px;font-size:14px;display:inline-block;margin-bottom:20px;">
 EV-Native Design
 </span>
 
 <h1 style="font-size:56px;font-weight:700;color:#0f172a;line-height:1.1;margin-bottom:20px;">
 Built for Electric.<br>
-<span style="color:#19a463;">Not Adapted.</span>
+<span style="color:#c01227;">Not Adapted.</span>
 </h1>
 
 <p style="font-size:18px;color:#5c6b6b;max-width:520px;margin-bottom:40px;line-height:1.6;">
