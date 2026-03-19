@@ -6709,6 +6709,15 @@
                 background-image: url("https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/06/bg-404.png");
             }
 
+            .post-categories a.post-category-item {
+                color: #ffffff !important;
+                /* background-color: #000000 !important; */
+            }
+            .post-categories a.post-category-item:hover {
+                color: #000 !important;
+                
+            }
+
             /*# sourceURL=logico-theme-inline-css */
         </style>
         <link data-minify="1" rel='stylesheet' id='logico-woocommerce-css' href='/logistic/assets/css/woocommerce.css?ver=1762595741' type='text/css'
