@@ -23675,13 +23675,15 @@ a.post-quote .post-quote-content .post-quote-author,div.post-quote .post-quote-c
     left: 0;
     right: 0;
     top: var(--wp-admin--admin-bar--height,0)!important;
-    z-index: 10;
+    z-index: 9999;
     -webkit-transform: translateY(calc(-100% - 100px));
     -ms-transform: translateY(calc(-100% - 100px));
     transform: translateY(calc(-100% - 100px))
 }
 
 .sticky-container-on.sticky-container-ready.sticky-container-active {
+    background-color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
     -webkit-transition: transform linear 0.5s;
     transition: transform linear 0.5s;
     -webkit-transform: translateY(0);

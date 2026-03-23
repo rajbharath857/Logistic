@@ -12356,7 +12356,7 @@ body .owl-carousel {
     overflow: hidden;
     height: auto;
     color: var(--logico-button-text-color)!important;
-    border: solid 1px var(--logico-button-border-color)!important;
+    border: solid 1px #C01227!important;
     z-index: 2;
     background: -webkit-linear-gradient(90deg,var(--logico-button-background-color) 50%,var(--logico-button-background-hover) 50%);
     background: -moz-linear-gradient(90deg,var(--logico-button-background-color) 50%,var(--logico-button-background-hover) 50%);

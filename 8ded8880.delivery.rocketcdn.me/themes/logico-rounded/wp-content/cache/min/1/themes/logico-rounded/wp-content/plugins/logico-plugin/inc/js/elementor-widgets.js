@@ -1,25 +1,37 @@
 'use strict';
-
 function animate_heading($scope) {
     if ($scope.data('settings') && $scope.data('settings')._animation && $scope.data('settings')._animation == 'logico_heading_animation') {
-        $scope.find('.logico-title').html($scope.find('.logico-title').html().replace(/(^|<\/?[^>]+>|\s+)([^\s<]+)/g, '$1<span class="word">$2</span>'));
-        $scope.find('.logico-title .word').contents().each(function() {
-            if (this.nodeType === 3) {
-                jQuery(this).parent().html(jQuery(this).text().replace(/\S/g, '<span class="letter">$&</span>'))
+        const $title = $scope.find('.logico-title');
+        if ($title.hasClass('animated-ready')) return;
+        
+        $title.addClass('animated-ready');
+        
+        const text = $title.text().trim();
+        if (!text) return;
+        
+        $title.empty();
+        
+        let count = 0;
+        const words = text.split(/\s+/);
+        words.forEach(function(word) {
+            const $word = jQuery('<span class="word"></span>');
+            for (let i = 0; i < word.length; i++) {
+                const $letter = jQuery('<span class="letter"></span>').text(word[i]);
+                $letter.css('animation-delay', (count / 50) + 's');
+                $word.append($letter);
+                count++;
             }
+            $title.append($word).append(' ');
         });
-        $scope.find('.logico-title .letter').each(function(index) {
-            jQuery(this).css('animation-delay', index / 50 + 's')
-        })
+        $scope.removeClass('elementor-invisible');
     }
 }
-
 function sticky_element_activate(obj) {
     if (obj.hasClass('sticky-container-on')) {
-        let el_offset = obj.offset().top,
-            el_height = Math.round(obj.outerHeight()),
-            el_ready = Math.round(el_offset + el_height + 200),
-            el_start = Math.round(el_offset + el_height + 400);
+        let el_offset = obj.offset().top
+          , el_height = Math.round(obj.outerHeight())
+          , el_ready = Math.round(el_offset + el_height + 200)
+          , el_start = Math.round(el_offset + el_height + 400);
         if ((obj.css('position') === 'static' || obj.css('position') === 'relative') && obj.prev('.sticky-container-placeholder').length <= 0) {
             obj.before('<div class="sticky-container-placeholder"></div>')
         }
@@ -157,7 +169,6 @@ jQuery(window).on('elementor/frontend/init', function() {
         if (jQuery(window).width() >= 1021) {
             const $wrapper = $scope;
             const cursor = jQuery('.hovered-text', $scope);
-
             function showCustomCursor(event) {
                 if (jQuery('body').hasClass('rtl')) {
                     cursor.css('left', event.clientX - 20).css('top', event.clientY)

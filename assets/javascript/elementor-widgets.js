@@ -1,41 +1,68 @@
 'use strict';
 function animate_heading($scope) {
+    console.log('LOGICO HEADING ANIMATION V2 - RUNNING');
     if ($scope.data('settings') && $scope.data('settings')._animation && $scope.data('settings')._animation == 'logico_heading_animation') {
-        $scope.find('.logico-title').html($scope.find('.logico-title').html().replace(/(^|<\/?[^>]+>|\s+)([^\s<]+)/g, '$1<span class="word">$2</span>'));
-        $scope.find('.logico-title .word').contents().each(function() {
-            if (this.nodeType === 3) {
-                jQuery(this).parent().html(jQuery(this).text().replace(/\S/g, '<span class="letter">$&</span>'))
+        const $title = $scope.find('.logico-title');
+        if ($title.hasClass('animated-ready')) return;
+        
+        $title.addClass('animated-ready');
+        
+        const text = $title.text().trim();
+        if (!text) return;
+        
+        $title.empty();
+        
+        let count = 0;
+        const words = text.split(/\s+/);
+        words.forEach(function(word) {
+            const $word = jQuery('<span class="word"></span>');
+            for (let i = 0; i < word.length; i++) {
+                const $letter = jQuery('<span class="letter"></span>').text(word[i]);
+                $letter.css('animation-delay', (count / 50) + 's');
+                $word.append($letter);
+                count++;
             }
+            $title.append($word).append(' ');
         });
-        $scope.find('.logico-title .letter').each(function(index) {
-            jQuery(this).css('animation-delay', index / 50 + 's')
-        })
+        $scope.removeClass('elementor-invisible');
     }
 }
 function sticky_element_activate(obj) {
     if (obj.hasClass('sticky-container-on')) {
-        let el_offset = obj.offset().top
-          , el_height = Math.round(obj.outerHeight())
-          , el_ready = Math.round(el_offset + el_height + 200)
-          , el_start = Math.round(el_offset + el_height + 400);
-        if ((obj.css('position') === 'static' || obj.css('position') === 'relative') && obj.prev('.sticky-container-placeholder').length <= 0) {
-            obj.before('<div class="sticky-container-placeholder"></div>')
+        // Initialize once
+        if (!obj.data('sticky-initialized')) {
+            const el_offset = obj.offset().top;
+            const el_height = Math.round(obj.outerHeight());
+            obj.data('initial-offset', el_offset);
+            obj.data('initial-height', el_height);
+            obj.data('sticky-initialized', true);
+
+            if ((obj.css('position') === 'static' || obj.css('position') === 'relative') && obj.prev('.sticky-container-placeholder').length <= 0) {
+                obj.before('<div class="sticky-container-placeholder"></div>');
+            }
+
+            jQuery(window).on('scroll.sticky_container', function() {
+                const st = Math.round(jQuery(window).scrollTop());
+                const current_offset = obj.data('initial-offset');
+                const current_height = obj.data('initial-height');
+                const el_ready = current_offset + current_height + 200; // Trigger after passing the element
+                const el_start = current_offset + current_height + 800; // Trigger after hero
+
+                if (st <= el_ready) {
+                    obj.removeClass('sticky-container-ready');
+                    obj.prev('.sticky-container-placeholder').removeAttr('style');
+                } else {
+                    obj.addClass('sticky-container-ready');
+                    obj.prev('.sticky-container-placeholder').height(current_height);
+                }
+
+                if (st <= el_start) {
+                    obj.removeClass('sticky-container-active');
+                } else {
+                    obj.addClass('sticky-container-active');
+                }
+            });
         }
-        jQuery(window).on('scroll', function() {
-            let st = Math.round(jQuery(window).scrollTop());
-            if (st <= el_ready) {
-                obj.removeClass('sticky-container-ready');
-                obj.prev('.sticky-container-placeholder').removeAttr('style')
-            } else {
-                obj.addClass('sticky-container-ready');
-                obj.prev('.sticky-container-placeholder').height(el_height)
-            }
-            if (st <= el_start) {
-                obj.removeClass('sticky-container-active')
-            } else {
-                obj.addClass('sticky-container-active')
-            }
-        })
     }
 }
 jQuery(window).on('elementor/frontend/init', function() {
