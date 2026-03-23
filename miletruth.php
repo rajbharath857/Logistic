@@ -373,7 +373,7 @@
                                             <div class="elementor-element elementor-element-6991a59 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="6991a59" data-element_type="container">
                                                 <div class="elementor-element elementor-element-1a8e490 elementor-widget elementor-widget-image" data-id="1a8e490" data-element_type="widget" data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
-                                                        <img loading="lazy" decoding="async" width="744" height="640" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/home3-pic-1.png" class="attachment-full size-full wp-image-4731" alt=""/>
+                                                        <img loading="lazy" decoding="async" width="744" height="640" src="/logistic/assets/images/home3-pic-1.png" class="attachment-full size-full wp-image-4731" alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -553,7 +553,7 @@
                                                             <div class="logico-tab-content-item" id="logico-tab-id-1">
                                                                 <div class="logico-tab-text-container">
                                                                     <div class="tab-image-container">
-                                                                        <img width="575" height="455" decoding="async" class="tab-image" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/tab-pic-1.jpg" alt=""/>
+                                                                        <img width="575" height="455" decoding="async" class="tab-image" src="/logistic/assets/images/tab-pic-1.jpeg" alt=""/>
                                                                     </div>
                                                                     <div class="tab-text-container">
                                                                         <h3>Air freight features on this service</h3>
@@ -562,7 +562,7 @@
                                                                         </p>
                                                                         <p>Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, "cat shark; saw shark trout cod." Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black prickleback moss</p>
                                                                         <div class="tab-button-container">
-                                                                            <a class="logico-alter-button" href="https://demo.artureanec.com/themes/logico-rounded/services-page/air-freight-service/">Explore more</a>
+                                                                            <a class="logico-alter-button" href="#">Explore more</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -587,7 +587,7 @@
                                                             <div class="logico-tab-content-item" id="logico-tab-id-3">
                                                                 <div class="logico-tab-text-container">
                                                                     <div class="tab-image-container">
-                                                                        <img width="575" height="455" decoding="async" class="tab-image" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/10/tab-pic-3.jpg" alt=""/>
+                                                                        <img width="575" height="455" decoding="async" class="tab-image" src="/logistic/assets/images/tab-pic-3.png" alt=""/>
                                                                     </div>
                                                                     <div class="tab-text-container">
                                                                         <h3>Ship freight features on this service</h3>

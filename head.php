@@ -3347,7 +3347,7 @@
             .elementor-61 .elementor-element.elementor-element-f5cfe01:not(.elementor-motion-effects-element-type-background),
             .elementor-61 .elementor-element.elementor-element-f5cfe01>.elementor-motion-effects-container>.elementor-motion-effects-layer {
                 background-color: #1F1F1F;
-                background-image: url("https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2025/04/home2alt-bg-1.jpg");
+                background-image: url("/logistic/assets/images/home2alt-bg-1.jpeg");
                 background-position: top center;
                 background-repeat: no-repeat;
                 background-size: cover;

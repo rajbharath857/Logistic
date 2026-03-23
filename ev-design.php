@@ -1,4 +1,4 @@
-<section style="max-width:1200px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:60px;padding:80px 20px;">
+<section style="max-width:1400px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:60px;padding:80px 20px;">
 
 <!-- LEFT CONTENT -->
 <div>
@@ -43,7 +43,34 @@ Most logistics software treats EVs as diesel trucks with a battery. Doormile was
 </div>
 
 <!-- RIGHT CARD -->
-<div style="background:#fff;padding:30px;border-radius:20px;width:920px;box-shadow:0 20px 40px rgba(0,0,0,0.08);">
+<style>
+.right-card {
+    position: relative;
+    color: #111;
+    overflow: hidden;
+}
+
+.right-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to right,
+        rgba(255,255,255,0.9) 30%,
+        rgba(255,255,255,0.6) 55%,
+        rgba(255,255,255,0.2) 100%
+    );
+
+    z-index: 0;
+}
+
+.right-card > * {
+    position: relative;
+    z-index: 1;
+}
+</style>
+<div class="right-card" style="background:#fff;padding:30px;border-radius:20px;width:920px;box-shadow:0 20px 40px rgba(0,0,0,0.08);background-image: url('/logistic/assets/images/ev-design1.jpeg');">
 
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:25px;">
 <h4 style="margin:0;">Fleet Status</h4>
@@ -55,7 +82,7 @@ Most logistics software treats EVs as diesel trucks with a battery. Doormile was
 <strong>EV-001</strong>
 <p style="margin:0;color:#6b7280;font-size:14px;">Route A</p>
 </div>
-<div style="color:#19a463;font-size:14px;">85% <span style="margin-left:10px;color:#6b7280;">15 min</span></div>
+<div style="color:#19a463;font-size:1.2rem;font-weight:bold;">85% <span style="margin-left:10px;color:#6b7280;">15 min</span></div>
 </div>
 
 <div style="display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #eee;">
@@ -63,7 +90,7 @@ Most logistics software treats EVs as diesel trucks with a battery. Doormile was
 <strong>EV-002</strong>
 <p style="margin:0;color:#6b7280;font-size:14px;">Route B</p>
 </div>
-<div style="color:#19a463;font-size:14px;">62% <span style="margin-left:10px;color:#6b7280;">42 min</span></div>
+<div style="color:#19a463;font-size:1.2rem;font-weight:bold;">62% <span style="margin-left:10px;color:#6b7280;">42 min</span></div>
 </div>
 
 <div style="display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #eee;">
@@ -71,7 +98,7 @@ Most logistics software treats EVs as diesel trucks with a battery. Doormile was
 <strong>EV-003</strong>
 <p style="margin:0;color:#6b7280;font-size:14px;">Charging</p>
 </div>
-<div style="color:#f59e0b;font-size:14px;">28% <span style="margin-left:10px;color:#6b7280;">Charging</span></div>
+<div style="color:#f59e0b;font-size:1.2rem;font-weight:bold;">28% <span style="margin-left:10px;color:#6b7280;">Charging</span></div>
 </div>
 
 <div style="display:flex;justify-content:space-between;margin-top:30px;text-align:center;">
