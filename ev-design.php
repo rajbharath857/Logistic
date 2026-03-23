@@ -61,6 +61,7 @@ Most logistics software treats EVs as diesel trucks with a battery. Doormile was
         rgba(255,255,255,0.6) 55%,
         rgba(255,255,255,0.2) 100%
     );
+   
 
     z-index: 0;
 }
@@ -82,7 +83,7 @@ Most logistics software treats EVs as diesel trucks with a battery. Doormile was
 <strong>EV-001</strong>
 <p style="margin:0;color:#6b7280;font-size:14px;">Route A</p>
 </div>
-<div style="color:#19a463;font-size:1.2rem;font-weight:bold;">85% <span style="margin-left:10px;color:#6b7280;">15 min</span></div>
+<div style="color:#19a463;font: size 1.1em;font-weight:bold;">85% <span style="margin-left:10px;color:#221f1fff;">15 min</span></div>
 </div>
 
 <div style="display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #eee;">
@@ -90,7 +91,7 @@ Most logistics software treats EVs as diesel trucks with a battery. Doormile was
 <strong>EV-002</strong>
 <p style="margin:0;color:#6b7280;font-size:14px;">Route B</p>
 </div>
-<div style="color:#19a463;font-size:1.2rem;font-weight:bold;">62% <span style="margin-left:10px;color:#6b7280;">42 min</span></div>
+<div style="color:#19a463;font: size 1.1em;rem;font-weight:bold;">62% <span style="margin-left:10px;color: #221f1fff ;">42 min</span></div>
 </div>
 
 <div style="display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #eee;">
@@ -98,7 +99,7 @@ Most logistics software treats EVs as diesel trucks with a battery. Doormile was
 <strong>EV-003</strong>
 <p style="margin:0;color:#6b7280;font-size:14px;">Charging</p>
 </div>
-<div style="color:#f59e0b;font-size:1.2rem;font-weight:bold;">28% <span style="margin-left:10px;color:#6b7280;">Charging</span></div>
+<div style="color:#f59e0b;font-size:1.1rem;font-weight:bold;">28% <span style="margin-left:10px;color:#221f1fff;">Charging</span></div>
 </div>
 
 <div style="display:flex;justify-content:space-between;margin-top:30px;text-align:center;">
