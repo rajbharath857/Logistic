@@ -61,7 +61,6 @@ Most logistics software treats EVs as diesel trucks with a battery. Doormile was
         rgba(255,255,255,0.6) 55%,
         rgba(255,255,255,0.2) 100%
     );
-   
 
     z-index: 0;
 }
