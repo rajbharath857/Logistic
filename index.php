@@ -980,7 +980,7 @@ include 'header.php';
 
 
                         <?php include 'ev-design.php'; ?>
-                        <div class="elementor-element elementor-element-4c3d65c e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="4c3d65c" data-element_type="container">
+                        <!-- <div class="elementor-element elementor-element-4c3d65c e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="4c3d65c" data-element_type="container">
                             <div class="e-con-inner">
                                 <div class="elementor-element elementor-element-536e54b e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="536e54b" data-element_type="container">
                                     <div class="elementor-element elementor-element-e75ecdf elementor-widget elementor-widget-logico_heading" data-id="e75ecdf" data-element_type="widget" data-widget_type="logico_heading.default">
@@ -1078,7 +1078,7 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
