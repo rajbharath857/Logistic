@@ -228,7 +228,7 @@
                                                 <a class="elementor-element elementor-element-b891c78 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="b891c78" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://demo.artureanec.com/themes/logico-rounded/services-page/land-transport-service/">
                                                     <div class="elementor-element elementor-element-324d615 elementor-widget elementor-widget-image" data-id="324d615" data-element_type="widget" data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
-                                                            <img loading="lazy" decoding="async" width="218" height="222" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/home3-service-1.png" class="attachment-full size-full wp-image-4777" alt=""/>
+                                                            <img loading="lazy" decoding="async" width="218" height="222" src="/logistic/assets/images/home3-service-1.png" class="attachment-full size-full wp-image-4777" alt=""/>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-029d8db elementor-view-default elementor-widget elementor-widget-icon" data-id="029d8db" data-element_type="widget" data-widget_type="icon.default">
@@ -264,7 +264,7 @@
                                                 <a class="elementor-element elementor-element-9b933db e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="9b933db" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://demo.artureanec.com/themes/logico-rounded/services-page/sea-freight-service/">
                                                     <div class="elementor-element elementor-element-7d2d322 elementor-widget elementor-widget-image" data-id="7d2d322" data-element_type="widget" data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
-                                                            <img loading="lazy" decoding="async" width="218" height="215" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/home3-service-2.png" class="attachment-full size-full wp-image-4791" alt="" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/home3-service-2.png 218w, https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/home3-service-2-85x85.png 85w" sizes="(max-width: 218px) 100vw, 218px"/>
+                                                            <img loading="lazy" decoding="async" width="218" height="215" src="/logistic/assets/images/home3-service-2.png" class="attachment-full size-full wp-image-4791" alt="" srcset="" sizes="(max-width: 218px) 100vw, 218px"/>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-9c60642 elementor-view-default elementor-widget elementor-widget-icon" data-id="9c60642" data-element_type="widget" data-widget_type="icon.default">
@@ -300,7 +300,7 @@
                                                 <a class="elementor-element elementor-element-280b0dc e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="280b0dc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://demo.artureanec.com/themes/logico-rounded/services-page/rail-freight-service/">
                                                     <div class="elementor-element elementor-element-6421147 elementor-widget elementor-widget-image" data-id="6421147" data-element_type="widget" data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
-                                                            <img loading="lazy" decoding="async" width="239" height="218" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/home3-service-3.png" class="attachment-full size-full wp-image-4805" alt=""/>
+                                                            <img loading="lazy" decoding="async" width="239" height="218" src="/logistic/assets/images/home3-service-3.png" class="attachment-full size-full wp-image-4805" alt=""/>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-3d65852 elementor-view-default elementor-widget elementor-widget-icon" data-id="3d65852" data-element_type="widget" data-widget_type="icon.default">
