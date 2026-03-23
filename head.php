@@ -14583,6 +14583,10 @@
                 border-color: #1EAE98;
             }
 
+            .content-wrapper.content-wrapper-remove-top-margin{
+                margin-top: 200px !important;
+            }
+
             @media(min-width: 481px) {
                 .elementor-4889 .elementor-element.elementor-element-d50354f {
                     --width:70%;

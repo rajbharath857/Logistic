@@ -30,26 +30,26 @@ include 'header.php';
                                     <div class="elementor-element elementor-element-a1b58a4 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="a1b58a4" data-element_type="container">
                                         <div class="elementor-element elementor-element-c8e7c25 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-logico_heading" data-id="c8e7c25" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;logico_heading_animation&quot;}" data-widget_type="logico_heading.default">
                                             <div class="elementor-widget-container">
-                                                <h3 class="logico-title">Worldwide air freight service
+                                                <h3 class="logico-title">One Journey. Complete Control.
                                                 </h3>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-ea07fb0 elementor-widget elementor-widget-text-editor" data-id="ea07fb0" data-element_type="widget" data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <p>
-                                                    <strong>Halosaur duckbilled barracudina, goosefish gar pleco, chum salmon armoured catfish gudgeon sawfish whitefish orbicular batfish</strong>
+                                                    <strong>See how Doormile connects first, mid, and last mile into a seamless delivery experience powered by MileTruth™ AI.</strong>
                                                     <br />
-                                                    mummichog paradise fish! <br />
+                                                    <!-- mummichog paradise fish! <br /> -->
                                                     <br />
-                                                    Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, cat shark saw shark trout cod.&#8221;Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black prickleback moss Halosaur duckbilled barracudina, goosefish gar pleco, chum salmon armoured catfish gudgeon sawfish whitefish orbicular batfish <br />
+                                                    <!-- Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, cat shark saw shark trout cod.&#8221;Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black prickleback moss Halosaur duckbilled barracudina, goosefish gar pleco, chum salmon armoured catfish gudgeon sawfish whitefish orbicular batfish <br />
                                                     mummichog paradise fish! <br />
-                                                    <br />Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, &#8220;cat shark; saw shark trout cod.&#8221;Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black prickleback moss
+                                                    <br />Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, &#8220;cat shark; saw shark trout cod.&#8221;Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black prickleback moss -->
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-09db825 elementor-widget elementor-widget-image" data-id="09db825" data-element_type="widget" data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                <img fetchpriority="high" decoding="async" width="995" height="475" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/service-post-inner-1.jpg" class="attachment-full size-full wp-image-3390" alt="" />
+                                                <img fetchpriority="high" decoding="async" width="995" height="475" src="/logistic/assets/images/how-works.png" class="attachment-full size-full wp-image-3390" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -77,17 +77,18 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">01. Transparent pricing</a>
+                                                            <a class="elementor-accordion-title" tabindex="0">01. First Mile</a>
                                                         </div>
                                                         <div id="elementor-tab-content-2241" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-2241">
                                                             <p>
-                                                                Pacific hake false trevally queen parrotfish black prickleback moss Halosaur duckbilled barracudina, goosefish gar pleco, chum salmon armoured catfish gudgeon sawfish whitefish orbicular batfish <br />
-                                                                mummichog paradise fish! <br />
-                                                                <br />Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, &#8220;cat shark; saw shark trout cod.&#8221;Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black prickleback moss
+                                                                <span style="font-weight: 600;font-size: 20px;">Pickup & Collection</span><br />
+                                                                <br />Orders are collected from your warehouse or supplier locations with real-time confirmation and quality checks.
+                                    
                                                             </p>
                                                             <ul>
-                                                                <li>False trevally queen parrotfish black prickleback moss hake false trevally queen parrotfish black.</li>
-                                                                <li>Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen.</li>
+                                                                <li>Scheduled pickups</li>
+                                                                <li>Quality verification</li>
+                                                                <li>Instant documentation</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -101,17 +102,17 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">02. Warehouse storage</a>
+                                                            <a class="elementor-accordion-title" tabindex="0">02. Mid Mile</a>
                                                         </div>
                                                         <div id="elementor-tab-content-2242" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-2242">
                                                             <p>
-                                                                Pacific hake false trevally queen parrotfish black prickleback moss Halosaur duckbilled barracudina, goosefish gar pleco, chum salmon armoured catfish gudgeon sawfish whitefish orbicular batfish <br />
-                                                                mummichog paradise fish! <br />
-                                                                <br />Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, &#8220;cat shark; saw shark trout cod.&#8221;Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black prickleback moss
+                                                                <span style="font-weight: 600;font-size: 20px;">Hub-to-Hub Transfer</span><br />
+                                                                <br />Seamless inter-city movement through our network of strategically placed hubs with continuous tracking
                                                             </p>
                                                             <ul>
-                                                                <li>False trevally queen parrotfish black prickleback moss hake false trevally queen parrotfish black.</li>
-                                                                <li>Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen.</li>
+                                                                <li>Optimized routes</li>
+                                                                <li>Temperature control</li>
+                                                                <li>Multi-modal transport</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -125,21 +126,21 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">03. Real time tracking</a>
+                                                            <a class="elementor-accordion-title" tabindex="0">03. Last Mile</a>
                                                         </div>
                                                         <div id="elementor-tab-content-2243" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-2243">
                                                             <p>
-                                                                Pacific hake false trevally queen parrotfish black prickleback moss Halosaur duckbilled barracudina, goosefish gar pleco, chum salmon armoured catfish gudgeon sawfish whitefish orbicular batfish <br />
-                                                                mummichog paradise fish! <br />
-                                                                <br />Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, &#8220;cat shark; saw shark trout cod.&#8221;Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black prickleback moss
+                                                                <span style="font-weight: 600;font-size: 20px;">Final Delivery</span><br />
+                                                                <br />The package reaches your customer's doorstep with proof of delivery and real-time customer notifications.
                                                             </p>
                                                             <ul>
-                                                                <li>False trevally queen parrotfish black prickleback moss hake false trevally queen parrotfish black.</li>
-                                                                <li>Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen.</li>
+                                                                <li>Live tracking</li>
+                                                                <li>Delivery slots</li>
+                                                                <li>POD capture</li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <div class="elementor-accordion-item">
+                                                    <!-- <div class="elementor-accordion-item">
                                                         <div id="elementor-tab-title-2244" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-2244" aria-expanded="false">
                                                             <span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
                                                                 <span class="elementor-accordion-icon-closed">
@@ -186,7 +187,7 @@ include 'header.php';
                                                                 <li>Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen.</li>
                                                             </ul>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -287,7 +288,7 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-element elementor-element-718da1a e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="718da1a" data-element_type="container">
+                            <!-- <div class="elementor-element elementor-element-718da1a e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="718da1a" data-element_type="container">
                                 <div class="e-con-inner">
                                     <div class="elementor-element elementor-element-3a0c14b e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="3a0c14b" data-element_type="container">
                                         <div class="elementor-element elementor-element-784ad73 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-logico_heading" data-id="784ad73" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;logico_heading_animation&quot;}" data-widget_type="logico_heading.default">
@@ -387,7 +388,7 @@ include 'header.php';
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
