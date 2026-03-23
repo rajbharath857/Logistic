@@ -341,38 +341,60 @@ include 'header.php';
                                     <div class="elementor-element elementor-element-fdb2e58 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="fdb2e58" data-element_type="container">
                                         <div class="elementor-element elementor-element-0136e6e elementor-widget elementor-widget-logico_heading" data-id="0136e6e" data-element_type="widget" data-widget_type="logico_heading.default">
                                             <div class="elementor-widget-container">
-                                                <div class="logico-title">/ About /
+                                                <div class="logico-title">/ Execution Intelligence /
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-7500280 elementor-invisible elementor-widget elementor-widget-logico_heading" data-id="7500280" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;logico_heading_animation&quot;}" data-widget_type="logico_heading.default">
                                             <div class="elementor-widget-container">
-                                                <h3 class="logico-title">Special things which we do for our clients
+                                                <h3 class="logico-title">Meet MileTruth™ AI
                                                 </h3>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4cc07a7 elementor-widget elementor-widget-logico_heading" data-id="4cc07a7" data-element_type="widget" data-widget_type="logico_heading.default">
                                             <div class="elementor-widget-container">
-                                                <div class="logico-title">Logistic solutions
+                                                <div class="logico-title">Real-Time Visibility
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-165dfa5 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="165dfa5" data-element_type="widget" data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Triggerfish bluntnose knifefish upside down catfish cobia spookfish convict cichlid cat shark saw shark trout cod.</p>
-                                                <p>We're not just another logistics company. We're building the counter-model to fragmented delivery services—connecting first, mid, and last miles into one seamless, accountable journey.</p>
+                                                <p>See every shipment, every vehicle, every handoff—live. No blind spots.</p>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-da9d310 elementor-widget elementor-widget-logico_heading" data-id="da9d310" data-element_type="widget" data-widget_type="logico_heading.default">
+                                        
+                                        <div class="elementor-element elementor-element-4cc07a7 elementor-widget elementor-widget-logico_heading" data-id="4cc07a7" data-element_type="widget" data-widget_type="logico_heading.default">
                                             <div class="elementor-widget-container">
-                                                <div class="logico-title">Transportation
+                                                <div class="logico-title">Dynamic Route Adjustment
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-3888a1e elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="3888a1e" data-element_type="widget" data-widget_type="text-editor.default">
+                                        <div class="elementor-element elementor-element-165dfa5 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="165dfa5" data-element_type="widget" data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black</p>
-                                                <p>Doormile transport ensures fast, reliable delivery services connecting cities efficiently with safe handling and timely logistics solutions.</p>
+                                                <p>AI continuously optimizes routes based on traffic, weather, and real-world conditions.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="elementor-element elementor-element-4cc07a7 elementor-widget elementor-widget-logico_heading" data-id="4cc07a7" data-element_type="widget" data-widget_type="logico_heading.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="logico-title">Proactive Delay Prevention
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-165dfa5 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="165dfa5" data-element_type="widget" data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>Detect SLA risks hours before they become problems. Act, don't react.</p>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-4cc07a7 elementor-widget elementor-widget-logico_heading" data-id="4cc07a7" data-element_type="widget" data-widget_type="logico_heading.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="logico-title">Execution Intelligence
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-165dfa5 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="165dfa5" data-element_type="widget" data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>Learn from every delivery. Get smarter with every mile traveled.</p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-c0a45e4 elementor-widget elementor-widget-logico_button" data-id="c0a45e4" data-element_type="widget" data-widget_type="logico_button.default">
@@ -380,7 +402,7 @@ include 'header.php';
 
                                                 <div class="button-widget">
                                                     <div class="button-container">
-                                                        <a href="https://demo.artureanec.com/themes/logico-rounded/about-us/" target="_blank" class="logico-alter-button">
+                                                        <a href="miletruth.php" target="_blank" class="logico-alter-button">
                     Explore more                </a>
                                                     </div>
                                                 </div>
