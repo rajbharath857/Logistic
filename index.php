@@ -34,13 +34,13 @@ include 'header.php';
                                                     <div class="content-item slider-item elementor-repeater-item-3264830 slide-style-standard">
                                                         <div class="slide-content">
                                                             <div class="slide-content-inner">
-                                                                <h1 class="content-slider-item-heading logico-content-wrapper-1"><span class="heading-content">Proper logistic is success  for your company</span></h1>
+                                                                <h1 class="content-slider-item-heading logico-content-wrapper-1"><span class="heading-content">One Connected System.<br>One Promise Kept.</span></h1>
                                                                 <div class="content-slider-item-text logico-content-wrapper-2">
                                                                     <div class="text-content">
                                                                         <p>Stop managing three separate logistics services. Doormile unifies first, mid and last mile into a single intelligent delivery system powered by MileTruth™ AI.</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="content-slider-item-buttons logico-content-wrapper-3"><a class="logico-alter-button" href="https://demo.artureanec.com/themes/logico-rounded/about-us/" target="_blank">Explore more</a></div>
+                                                                <div class="content-slider-item-buttons logico-content-wrapper-3"><a class="logico-alter-button" href="" target="_blank">Explore more</a></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -421,6 +421,67 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
+
+
+                        
+                        <?php include 'ev-design.php'; ?>
+
+
+                       
+
+
+
+
+
+
+
+<div class="container">
+    <div class="section">
+
+        <!-- IMAGE -->
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200" alt="logistics">
+        </div>
+
+        <!-- COMPARISON -->
+        <div class="compare-box">
+
+            <div class="header1">Traditional vs Doormile</div>
+
+            <div class="labels">
+                <div>Traditional Approach</div>
+                <div style="text-align:right;">The Doormile Way</div>
+            </div>
+
+            <div class="row">
+                <div class="left"><span class="icon">✖</span><span class="text">Reactive problem discovery</span></div>
+                <div class="right" style="justify-content:flex-end;"><span class="text">Proactive delay prevention</span><span class="icon">✔</span></div>
+            </div>
+
+            <div class="row">
+                <div class="left"><span class="icon">✖</span><span class="text">Multiple vendors</span></div>
+                <div class="right" style="justify-content:flex-end;"><span class="text">Single owner</span><span class="icon">✔</span></div>
+            </div>
+
+            <div class="row">
+                <div class="left"><span class="icon">✖</span><span class="text">Static planning</span></div>
+                <div class="right" style="justify-content:flex-end;"><span class="text">AI-driven adjustments</span><span class="icon">✔</span></div>
+            </div>
+
+            <div class="row">
+                <div class="left"><span class="icon">✖</span><span class="text">No accountability</span></div>
+                <div class="right" style="justify-content:flex-end;"><span class="text">End-to-end ownership</span><span class="icon">✔</span></div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
                         <div class="elementor-element elementor-element-53b1f07 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="53b1f07" data-element_type="container">
                             <div class="e-con-inner">
                                 <div class="elementor-element elementor-element-e9b547c e-con-full e-grid cut-corner-no sticky-container-off e-con e-child" data-id="e9b547c" data-element_type="container">
@@ -462,7 +523,7 @@ include 'header.php';
                                     </div>
                                     <div class="elementor-element elementor-element-1cc335a elementor-widget elementor-widget-logico_heading" data-id="1cc335a" data-element_type="widget" data-widget_type="logico_heading.default">
                                         <div class="elementor-widget-container">
-                                            <div class="logico-title">Since 2024
+                                            <div class="logico-title">Since 2025
                                             </div>
                                         </div>
                                     </div>
@@ -470,7 +531,7 @@ include 'header.php';
                                         <div class="elementor-element elementor-element-5ba6bbf e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="5ba6bbf" data-element_type="container">
                                             <div class="elementor-element elementor-element-9363070 elementor-invisible elementor-widget elementor-widget-logico_heading" data-id="9363070" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;logico_heading_animation&quot;}" data-widget_type="logico_heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h3 class="logico-title">Door Mile is the best Transportation company in our state
+                                                    <h3 class="logico-title">Redefining Logistics for Modern India
                                                     </h3>
                                                 </div>
                                             </div>
@@ -478,9 +539,8 @@ include 'header.php';
                                         <div class="elementor-element elementor-element-e7609a5 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="e7609a5" data-element_type="container">
                                             <div class="elementor-element elementor-element-c134b96 elementor-widget elementor-widget-text-editor" data-id="c134b96" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p><strong>Halosaur duckbilled barracudina, goosefish gar pleco, chum salmon armoured catfish gudgeon sawfish whitefish orbicular batfish </strong><br /><strong>mummichog paradise fish!</strong></p>
-                                                    <p>Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, &#8220;cat shark; saw shark trout cod.&#8221; Pacific hake false trevally queen parrotfish black prickleback moss.
-                                                        Pacific hake false trevally queen parrotfish black prickleback moss</p>
+                                                    <p><strong>We're not just another logistics company. We're building the counter-model to fragmented delivery services—connecting first, mid, and last miles into one seamless, accountable journey. </strong><br />
+                                                    <p>To eliminate the chaos of fragmented logistics by unifying first, mid, and last miles with MileTruth™ AI—delivering accountability, sustainability, and opportunity at every step.</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3ef6f03 elementor-widget elementor-widget-logico_button" data-id="3ef6f03" data-element_type="widget" data-widget_type="logico_button.default">
@@ -488,7 +548,7 @@ include 'header.php';
 
                                                     <div class="button-widget">
                                                         <div class="button-container">
-                                                            <a href="https://demo.artureanec.com/themes/logico-rounded/about-us/" target="_blank" class="logico-alter-button">
+                                                            <a href="about.php" target="_blank" class="logico-alter-button">
                     More about                </a>
                                                         </div>
                                                     </div>
@@ -798,6 +858,7 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="elementor-element elementor-element-de254c2 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-child" data-id="de254c2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                 <div class="e-con-inner">
                                     <div class="elementor-element elementor-element-d5b30d0 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="d5b30d0" data-element_type="container">
@@ -870,14 +931,14 @@ include 'header.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-ab691ea elementor-absolute elementor-widget elementor-widget-logico_decorative_block" data-id="ab691ea" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="logico_decorative_block.default">
+                                    <!-- <div class="elementor-element elementor-element-ab691ea elementor-absolute elementor-widget elementor-widget-logico_decorative_block" data-id="ab691ea" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="logico_decorative_block.default">
                                         <div class="elementor-widget-container">
                                             <div class="block-decoration animation-enable block-decoration-style-1">
                                                 <div class="block-decoration-item">
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -1001,7 +1062,7 @@ include 'header.php';
                         </div> -->
 
 
-                        <?php include 'ev-design.php'; ?>
+                        
                         <!-- <div class="elementor-element elementor-element-4c3d65c e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="4c3d65c" data-element_type="container">
                             <div class="e-con-inner">
                                 <div class="elementor-element elementor-element-536e54b e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="536e54b" data-element_type="container">

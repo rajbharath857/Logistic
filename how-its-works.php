@@ -265,7 +265,7 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-element elementor-element-b02f163 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="b02f163" data-element_type="container">
+                            <!-- <div class="elementor-element elementor-element-b02f163 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="b02f163" data-element_type="container">
                                 <div class="e-con-inner">
                                     <div class="elementor-element elementor-element-aa4b83e e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="aa4b83e" data-element_type="container">
                                         <div class="elementor-element elementor-element-e322317 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-logico_heading" data-id="e322317" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;logico_heading_animation&quot;}" data-widget_type="logico_heading.default">
@@ -287,7 +287,7 @@ include 'header.php';
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- <div class="elementor-element elementor-element-718da1a e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="718da1a" data-element_type="container">
                                 <div class="e-con-inner">
                                     <div class="elementor-element elementor-element-3a0c14b e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="3a0c14b" data-element_type="container">
@@ -849,10 +849,10 @@ include 'header.php';
                                                 <div class="elementor-widget-container">
                                                     <ul class="logico-custom-menu-widget">
                                                         <li>
-                                                            <a href="https://demo.artureanec.com/themes/logico-rounded/" target="_blank">Home pages</a>
+                                                            <a href="index.php" target="_blank">Home pages</a>
                                                         </li>
                                                         <li>
-                                                            <a href="https://demo.artureanec.com/themes/logico-rounded/about/" target="_blank">Pages</a>
+                                                            <a href="about.php" target="_blank">Pages</a>
                                                         </li>
                                                         <li>
                                                             <a href="https://demo.artureanec.com/themes/logico-rounded/shop/" target="_blank">Shop</a>

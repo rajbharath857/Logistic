@@ -6937,7 +6937,7 @@
                 --container-widget-align-self: initial;
                 --flex-wrap-mobile: wrap;
                 --margin-top: 150px;
-                --margin-bottom: 0px;
+                --margin-bottom: 150px;
                 --margin-left: 0px;
                 --margin-right: 0px;
             }
@@ -6995,7 +6995,7 @@
 
 
             .elementor-3397 .elementor-element.elementor-element-7651a22 {
-                --icon-box-icon-margin: 125px;
+                --icon-box-icon-margin: 105px;
             }
 
 
@@ -14866,7 +14866,117 @@
                 }
             }
 
-            /*# sourceURL=elementor-frontend-inline-css */
+
+
+            <style>
+
+
+/* Container */
+.container {
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+/* Section layout */
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Image */
+.image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+}
+
+/* Comparison box */
+.compare-box {
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+/* Header */
+.header1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* Row */
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 14px 0;
+    border-top: 1px solid #eee;
+    align-items: center;
+}
+
+.row:first-child {
+    border-top: none;
+}
+
+/* Left & Right styles */
+.left {
+    color: #ef4444;
+    display: flex;
+    gap: 8px;
+}
+
+.right {
+    color: #22c55e;
+    display: flex;
+    gap: 8px;
+}
+
+/* Icons */
+.icon {
+    font-weight: bold;
+}
+
+/* Text */
+.text {
+    color: #374151;
+    font-size: 15px;
+}
+
+/* Labels */
+.labels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.labels div:last-child {
+    text-align: right;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .section {
+        grid-template-columns: 1fr;
+    }
+
+    .labels div:last-child {
+        text-align: left;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+}
+</style>
+
+            <!-- /*# sourceURL=elementor-frontend-inline-css */ -->
             
         </style>
         <script src="assets/javascript/tabs-widget.js"></script>
