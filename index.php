@@ -177,6 +177,161 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
+<?php include 'problem.php'; ?>
+<?php include 'comparision.php'; ?>
+
+<!-- ─── SERVICES SECTION SCALING ─── -->
+<style>
+  /* ─── Button alignment fix ─── */
+  .elementor-element-5a5c397 {
+    align-items: flex-start !important;
+  }
+
+  /* ─── LARGE DESKTOP (1440px+) ─── */
+  @media (min-width: 1440px) {
+    .elementor-element-30fd9d1 > .e-con-inner {
+      max-width: 1560px;
+      padding: 60px 52px;
+    }
+
+    .elementor-element-30fd9d1 .logico-title {
+      font-size: 17px;
+    }
+
+    .elementor-element-30fd9d1 h3.logico-title {
+      font-size: clamp(40px, 4.5vw, 56px);
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-wrapper {
+      padding: 28px 22px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-icon .elementor-icon {
+      font-size: 52px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-icon svg {
+      width: 86px;
+      height: 86px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-title span {
+      font-size: 17px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-element-5a5c397 p {
+      font-size: 16px;
+      line-height: 1.72;
+    }
+
+    .elementor-element-30fd9d1 .logico-alter-button,
+    .elementor-element-30fd9d1 .logico-small-button {
+      font-size: 14px;
+      padding: 14px 28px;
+    }
+
+    .elementor-element-30fd9d1 .e-grid {
+      gap: 20px;
+    }
+  }
+
+  /* ─── EXTRA-LARGE DESKTOP (1920px+) ─── */
+  @media (min-width: 1920px) {
+    .elementor-element-30fd9d1 > .e-con-inner {
+      max-width: 1780px;
+      padding: 72px 64px;
+    }
+
+    .elementor-element-30fd9d1 .logico-title {
+      font-size: 18px;
+    }
+
+    .elementor-element-30fd9d1 h3.logico-title {
+      font-size: clamp(46px, 4.5vw, 64px);
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-wrapper {
+      padding: 32px 26px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-icon .elementor-icon {
+      font-size: 58px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-icon svg {
+      width: 94px;
+      height: 94px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-title span {
+      font-size: 18px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-element-5a5c397 p {
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    .elementor-element-30fd9d1 .logico-alter-button,
+    .elementor-element-30fd9d1 .logico-small-button {
+      font-size: 15px;
+      padding: 16px 32px;
+    }
+
+    .elementor-element-30fd9d1 .e-grid {
+      gap: 24px;
+    }
+  }
+
+  /* ─── ULTRA-WIDE (2560px+) ─── */
+  @media (min-width: 2560px) {
+    .elementor-element-30fd9d1 > .e-con-inner {
+      max-width: 2060px;
+      padding: 84px 80px;
+    }
+
+    .elementor-element-30fd9d1 .logico-title {
+      font-size: 20px;
+    }
+
+    .elementor-element-30fd9d1 h3.logico-title {
+      font-size: clamp(52px, 4.5vw, 72px);
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-wrapper {
+      padding: 38px 30px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-icon .elementor-icon {
+      font-size: 66px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-icon svg {
+      width: 104px;
+      height: 104px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-icon-box-title span {
+      font-size: 20px;
+    }
+
+    .elementor-element-30fd9d1 .elementor-element-5a5c397 p {
+      font-size: 18.5px;
+      line-height: 1.78;
+    }
+
+    .elementor-element-30fd9d1 .logico-alter-button,
+    .elementor-element-30fd9d1 .logico-small-button {
+      font-size: 16px;
+      padding: 18px 36px;
+    }
+
+    .elementor-element-30fd9d1 .e-grid {
+      gap: 28px;
+    }
+  }
+</style>
+
                         <div class="elementor-element elementor-element-30fd9d1 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="30fd9d1" data-element_type="container">
                             <div class="e-con-inner">
                                 <div class="elementor-element elementor-element-03db5d7 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="03db5d7" data-element_type="container">
@@ -292,12 +447,12 @@ include 'header.php';
                                         <div class="elementor-element elementor-element-1808c14 elementor-widget__width-initial elementor-widget elementor-widget-logico_button" data-id="1808c14" data-element_type="widget" data-widget_type="logico_button.default">
                                             <div class="elementor-widget-container">
 
-                                                <div class="button-widget">
+                                                <!-- <div class="button-widget">
                                                     <div class="button-container">
                                                         <a href="https://demo.artureanec.com/themes/logico-rounded/services-page/" target="_blank" class="logico-alter-button">
                     All services                </a>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -315,6 +470,106 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
+
+<!-- ─── EXECUTION INTELLIGENCE SECTION SCALING ─── -->
+<style>
+  /* ─── LARGE DESKTOP (1440px+) ─── */
+  @media (min-width: 1440px) {
+    .elementor-element-9ffed33 {
+      padding: 72px 52px;
+      gap: 48px;
+    }
+    .elementor-element-96343ba { max-width: 44%; }
+    .elementor-element-71c3e1d { max-width: 56%; }
+
+    .elementor-element-0136e6e .logico-title {
+      font-size: 13px !important;
+      letter-spacing: 2.5px;
+    }
+    .elementor-element-7500280 h3.logico-title {
+      font-size: clamp(42px, 5vw, 64px) !important;
+      line-height: 1.05;
+      letter-spacing: -0.5px;
+    }
+    .elementor-element-fdb2e58 .elementor-element-4cc07a7 .logico-title {
+      font-size: 15.5px !important;
+    }
+    .elementor-element-fdb2e58 .elementor-element-165dfa5 p {
+      font-size: 14.5px;
+      line-height: 1.68;
+    }
+    .elementor-element-c0a45e4 .logico-alter-button {
+      font-size: 14px;
+      /* padding: 14px 28px; */
+    }
+  }
+
+  /* ─── EXTRA-LARGE DESKTOP (1920px+) ─── */
+  @media (min-width: 1920px) {
+    .elementor-element-9ffed33 {
+      padding: 88px 64px;
+      gap: 64px;
+    }
+    .elementor-element-96343ba { max-width: 44%; }
+    .elementor-element-71c3e1d { max-width: 56%; }
+
+    .elementor-element-0136e6e .logico-title {
+      font-size: 14px !important;
+      letter-spacing: 2.8px;
+    }
+    .elementor-element-7500280 h3.logico-title {
+      font-size: clamp(50px, 5vw, 74px) !important;
+      letter-spacing: -0.8px;
+    }
+    .elementor-element-fdb2e58 .elementor-element-4cc07a7 .logico-title {
+      font-size: 17px !important;
+    }
+    .elementor-element-fdb2e58 .elementor-element-165dfa5 p {
+      font-size: 15.5px;
+      line-height: 1.72;
+    }
+    .elementor-element-c0a45e4 .logico-alter-button {
+      font-size: 15px;
+      padding: 16px 32px;
+    }
+  }
+
+  /* ─── ULTRA-WIDE (2560px+) ─── */
+  @media (min-width: 2560px) {
+    .elementor-element-9ffed33 {
+      padding: 136px 120px;
+      gap: 120px;
+    }
+    .elementor-element-96343ba { max-width: 44%; }
+    .elementor-element-71c3e1d { max-width: 56%; }
+
+    .elementor-element-0136e6e .logico-title {
+      font-size: 20px !important;
+      letter-spacing: 4px;
+      margin-bottom: 24px;
+    }
+    .elementor-element-7500280 h3.logico-title {
+      font-size: clamp(72px, 6vw, 110px) !important;
+      letter-spacing: -2px;
+      line-height: 1;
+      margin-bottom: 50px;
+    }
+    .elementor-element-fdb2e58 .elementor-element-4cc07a7 .logico-title {
+      font-size: 28px !important;
+      margin-bottom: 16px;
+    }
+    .elementor-element-fdb2e58 .elementor-element-165dfa5 p {
+      font-size: 22px;
+      line-height: 1.8;
+      margin-bottom: 40px;
+    }
+    .elementor-element-c0a45e4 .logico-alter-button {
+      font-size: 20px;
+      padding: 24px 48px;
+    }
+  }
+</style>
+
                         <div class="elementor-element elementor-element-89a0ca1 e-con-full e-flex cut-corner-no sticky-container-off e-con e-parent" data-id="89a0ca1" data-element_type="container">
                             <div class="elementor-element elementor-element-9ffed33 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="9ffed33" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                 <div class="elementor-element elementor-element-96343ba e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="96343ba" data-element_type="container">
@@ -423,64 +678,60 @@ include 'header.php';
                         </div>
 
 
-                        
+                        <?php include 'connected-log.php'; ?>
                         <?php include 'ev-design.php'; ?>
 
 
-                       
+<!-- ─── ABOUT US SECTION SCALING ─── -->
+<style>
+  /* ─── LARGE DESKTOP (1440px+) ─── */
+  @media (min-width: 1440px) {
+    /* Logos Section */
+    .elementor-element-53b1f07 > .e-con-inner { max-width: 1560px; padding: 0px 52px; }
+    
+    /* About Us Main Section */
+    .elementor-element-88745f4 > .e-con-inner { max-width: 1560px; padding: 60px 52px; }
+    .elementor-element-343b363 { gap: 24px; }
+    .elementor-element-7afb238 .logico-title { font-size: 14px !important; letter-spacing: 2px; }
+    .elementor-element-1cc335a .logico-title { font-size: clamp(80px, 8vw, 120px) !important; line-height: 1; }
+    .elementor-element-4c3e632 { gap: 40px; }
+    .elementor-element-9363070 h3.logico-title { font-size: clamp(38px, 4vw, 52px) !important; line-height: 1.1; }
+    .elementor-element-c134b96 p { font-size: 16px; line-height: 1.6; }
+    .elementor-element-3ef6f03 .logico-alter-button { font-size: 14px; padding-right: 80px; }
 
+    /* Stats Section */
+    .elementor-element-5041fcc > .e-con-inner { max-width: 1560px; padding: 40px 52px 60px; }
+    .elementor-element-2d7c3ee.e-grid { gap: 32px; }
+    .elementor-element-5041fcc .elementor-widget-icon .elementor-icon i { font-size: 40px; }
+    .elementor-element-40417f4 .logico-title, .elementor-element-a89fe8e .logico-title, .elementor-element-61b17c1 .logico-title, .elementor-element-28b9fc7 .logico-title { font-size: clamp(40px, 4vw, 56px) !important; margin-bottom: 8px; }
+    .elementor-element-1025248 .logico-title, .elementor-element-c682633 .logico-title, .elementor-element-aa49275 .logico-title, .elementor-element-b317d31 .logico-title { font-size: 17px !important; margin-bottom: 12px; }
+    .elementor-element-c7c19bd p, .elementor-element-74d14e3 p, .elementor-element-74cfdf7 p, .elementor-element-8fe5662 p { font-size: 14px; line-height: 1.6; }
+  }
 
+  /* ─── EXTRA-LARGE DESKTOP (1920px+) ─── */
+  @media (min-width: 1920px) {
+    /* Logos Section */
+    .elementor-element-53b1f07 > .e-con-inner { max-width: 1780px; padding: 50px 64px; }
+    
+    /* About Us Main Section */
+    .elementor-element-88745f4 > .e-con-inner { max-width: 1780px; padding: 80px 64px; }
+    .elementor-element-343b363 { gap: 32px; }
+    .elementor-element-7afb238 .logico-title { font-size: 15px !important; letter-spacing: 2.5px; }
+    .elementor-element-1cc335a .logico-title { font-size: clamp(100px, 8vw, 150px) !important; }
+    .elementor-element-4c3e632 { gap: 60px; }
+    .elementor-element-9363070 h3.logico-title { font-size: clamp(48px, 4vw, 64px) !important; }
+    .elementor-element-c134b96 p { font-size: 18px; line-height: 1.65; }
+    .elementor-element-3ef6f03 .logico-alter-button { font-size: 15px; padding-right: 80px; }
 
-
-
-
-
-<div class="container">
-    <div class="section">
-
-        <!-- IMAGE -->
-        <div class="image">
-            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200" alt="logistics">
-        </div>
-
-        <!-- COMPARISON -->
-        <div class="compare-box">
-
-            <div class="header1">Traditional vs Doormile</div>
-
-            <div class="labels">
-                <div>Traditional Approach</div>
-                <div style="text-align:right;">The Doormile Way</div>
-            </div>
-
-            <div class="row">
-                <div class="left"><span class="icon">✖</span><span class="text">Reactive problem discovery</span></div>
-                <div class="right" style="justify-content:flex-end;"><span class="text">Proactive delay prevention</span><span class="icon">✔</span></div>
-            </div>
-
-            <div class="row">
-                <div class="left"><span class="icon">✖</span><span class="text">Multiple vendors</span></div>
-                <div class="right" style="justify-content:flex-end;"><span class="text">Single owner</span><span class="icon">✔</span></div>
-            </div>
-
-            <div class="row">
-                <div class="left"><span class="icon">✖</span><span class="text">Static planning</span></div>
-                <div class="right" style="justify-content:flex-end;"><span class="text">AI-driven adjustments</span><span class="icon">✔</span></div>
-            </div>
-
-            <div class="row">
-                <div class="left"><span class="icon">✖</span><span class="text">No accountability</span></div>
-                <div class="right" style="justify-content:flex-end;"><span class="text">End-to-end ownership</span><span class="icon">✔</span></div>
-            </div>
-
-        </div>
-
-    </div>
-</div>
-
-
-
-
+    /* Stats Section */
+    .elementor-element-5041fcc > .e-con-inner { max-width: 1780px; padding: 50px 64px 80px; }
+    .elementor-element-2d7c3ee.e-grid { gap: 48px; }
+    .elementor-element-5041fcc .elementor-widget-icon .elementor-icon i { font-size: 48px; }
+    .elementor-element-40417f4 .logico-title, .elementor-element-a89fe8e .logico-title, .elementor-element-61b17c1 .logico-title, .elementor-element-28b9fc7 .logico-title { font-size: clamp(52px, 4vw, 72px) !important; margin-bottom: 12px; }
+    .elementor-element-1025248 .logico-title, .elementor-element-c682633 .logico-title, .elementor-element-aa49275 .logico-title, .elementor-element-b317d31 .logico-title { font-size: 19px !important; margin-bottom: 16px; }
+    .elementor-element-c7c19bd p, .elementor-element-74d14e3 p, .elementor-element-74cfdf7 p, .elementor-element-8fe5662 p { font-size: 15.5px; line-height: 1.65; }
+  }
+</style>
 
                         <div class="elementor-element elementor-element-53b1f07 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="53b1f07" data-element_type="container">
                             <div class="e-con-inner">

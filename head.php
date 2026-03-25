@@ -4973,13 +4973,12 @@
 
                 top: 20px;
                 --z-index: 99;
-                background-color: rgba(237, 237, 237, 0.5);
-                backdrop-filter: blur(5px);
+                background-color: #ededed;
             }
 
             .elementor .elementor-element.elementor-element-466de1b.sticky-container-active,
             .elementor .sticky-container-active .elementor-element.elementor-element-466de1b {
-                background-color: #ffffff52;
+                background-color: #ffffff;
             }
 
             body:not(.rtl) .elementor-5180 .elementor-element.elementor-element-466de1b {
@@ -14975,6 +14974,12 @@
     }
 }
 </style>
+
+
+
+
+
+
 
             <!-- /*# sourceURL=elementor-frontend-inline-css */ -->
             

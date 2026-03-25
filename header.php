@@ -113,10 +113,10 @@
                                         data-widget_type="site-logo.default">
                                         <div class="elementor-widget-container">
                                             <div class="hfe-site-logo">
-                                                <a data-elementor-open-lightbox="" class='elementor-clickable' href="https://demo.artureanec.com/themes/logico-rounded">
+                                                <a data-elementor-open-lightbox="" class='elementor-clickable' href="/logistic/index.php">
                                                     <div class="hfe-site-logo-set">
                                                         <div class="hfe-site-logo-container">
-                                                            <img width="305" height="58" class="hfe-site-logo-img elementor-animation-" src="/logistic//assets/images/logo2-light-x2.png" alt="logo2-light-x2" />
+                                                            <img width="305" height="58" class="hfe-site-logo-img elementor-animation-" src="/logistic/assets/images/logo2-light-x2.png" alt="logo2-light-x2" />
                                                         </div>
                                                     </div>
                                                 </a>
@@ -130,7 +130,7 @@
                                             <div class="header-menu-container">
                                                 <nav>
                                                     <ul id="menu-main-menu" class="main-menu">
-                                                        <li id="menu-item-10508" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-10508"><a href="#">Home</a>
+                                                        <li id="menu-item-10508" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10508<?php if(isset($current_page) && $current_page === 'home') echo ' active'; ?>"><a href="/logistic/index.php">Home</a>
                                                             <!-- <ul class="sub-menu">
                                                                 <li id="menu-item-10528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-10528"><a href="https://demo.artureanec.com/themes/logico-rounded/">Transportation</a></li>
                                                                 <li id="menu-item-10531" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-61 current_page_item menu-item-10531"><a href="https://demo.artureanec.com/themes/logico-rounded/home-2/" aria-current="page">Logistic</a></li>
@@ -142,7 +142,7 @@
                                                                 <li id="menu-item-10523" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10523"><a href="https://demo.artureanec.com/themes/logico/intro/">Angular Version</a></li>
                                                             </ul> -->
                                                         </li>
-                                                        <li id="menu-item-10509" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-10509"><a href="how-its-works.php">How It Works</a>
+                                                        <li id="menu-item-10509" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10509<?php if(isset($current_page) && $current_page === 'how-its-works') echo ' active'; ?>"><a href="how-its-works.php">How It Works</a>
                                                             <!-- <ul class="sub-menu"> -->
                                                                 <!-- <li id="menu-item-10536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10536"><a href="https://demo.artureanec.com/themes/logico-rounded/about-us/">About Us</a></li>
                                                                 <li id="menu-item-10513" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10513"><a href="#">Team</a>
@@ -174,14 +174,14 @@
                                                                 <li id="menu-item-10516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10516"><a href="https://demo.artureanec.com/themes/logico-rounded/404/">Page 404</a></li> -->
                                                             <!-- </ul> -->
                                                         </li>
-                                                        <li id="menu-item-10510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10510"><a href="miletruth.php">MileTruth<superscript>™</superscript> AI</a>
+                                                        <li id="menu-item-10510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10510<?php if(isset($current_page) && $current_page === 'miletruth') echo ' active'; ?>"><a href="miletruth.php">MileTruth<superscript>™</superscript> AI</a>
                                                             <!-- <ul class="sub-menu"> -->
                                                                 
                                                                 <!-- <li id="menu-item-10551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10551"><a href="https://demo.artureanec.com/themes/logico-rounded/services-page/">Services</a></li>
                                                                 <li id="menu-item-10552" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10552"><a href="https://demo.artureanec.com/themes/logico-rounded/services-page/air-freight-service/">Single Service</a></li> -->
                                                             <!-- </ul> -->
                                                         </li>
-                                                        <li id="menu-item-10511" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10511"><a href="#">Solutions</a>
+                                                        <li id="menu-item-10511" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10511<?php if(isset($current_page) && $current_page === 'solutions') echo ' active'; ?>"><a href="#">Solutions</a>
                                                             <ul class="sub-menu">
                                                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10556"><a href="">Use Cases</a></li>
                                                             <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-10557"><a href="">Connected Logistics</a></li>
@@ -190,14 +190,14 @@
                                                                 <li id="menu-item-10555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10555"><a href="https://demo.artureanec.com/themes/logico-rounded/my-account/">My account</a></li> -->
                                                             </ul>
                                                         </li>
-                                                        <li id="menu-item-10512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10512"><a href="#">About</a>
+                                                        <li id="menu-item-10512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10512<?php if(isset($current_page) && $current_page === 'about') echo ' active'; ?>"><a href="">About</a>
                                                             <ul class="sub-menu">
-                                                                <li id="menu-item-10558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10558"><a href="/demo.artureanec.com/themes/logico-rounded/home-2/about.html">About Us</a></li>
+                                                                <li id="menu-item-10558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10558"><a href="/logistic/about.php">About Us</a></li>
                                                                 <li id="menu-item-10559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10559"><a href="">Women Entrepreneurship</a></li>
                                                                 <!-- <li id="menu-item-10560" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-10560"><a href="https://demo.artureanec.com/themes/logico-rounded/transportation-services-in-los-angeles-region/">Single Post</a></li> -->
                                                             </ul>
                                                         </li>
-                                                        <li id="menu-item-10535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10535"><a href="/demo.artureanec.com/themes/logico-rounded/home-2/blogs.html">Blogs</a></li>
+                                                        <li id="menu-item-10535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10535<?php if(isset($current_page) && $current_page === 'blogs') echo ' active'; ?>"><a href="">Blogs</a></li>
                                                     </ul>
                                                 </nav>
                                             </div>

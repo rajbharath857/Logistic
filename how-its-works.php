@@ -12,6 +12,8 @@ include 'header.php';
 
 <main>
 
+<link rel="stylesheet" href="/logistic/assets/css/custom-widget-accordion.min.css" type="text/css" media="all" />
+
 
 
     
@@ -77,12 +79,11 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">01. First Mile</a>
+                                                            <a class="elementor-accordion-title" tabindex="0">01. First Mile - <span style="font-weight: 600;font-size: 20px;color:#c01227">Pickup & Collection</span></a>
                                                         </div>
                                                         <div id="elementor-tab-content-2241" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-2241">
                                                             <p>
-                                                                <span style="font-weight: 600;font-size: 20px;">Pickup & Collection</span><br />
-                                                                <br />Orders are collected from your warehouse or supplier locations with real-time confirmation and quality checks.
+                                                                Orders are collected from your warehouse or supplier locations with real-time confirmation and quality checks.
                                     
                                                             </p>
                                                             <ul>
@@ -102,12 +103,11 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">02. Mid Mile</a>
+                                                            <a class="elementor-accordion-title" tabindex="0">02. Mid Mile - <span style="font-weight: 600;font-size: 20px;color:#c01227">Hub-to-Hub Transfer</span></a>
                                                         </div>
                                                         <div id="elementor-tab-content-2242" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-2242">
                                                             <p>
-                                                                <span style="font-weight: 600;font-size: 20px;">Hub-to-Hub Transfer</span><br />
-                                                                <br />Seamless inter-city movement through our network of strategically placed hubs with continuous tracking
+                                                                Seamless inter-city movement through our network of strategically placed hubs with continuous tracking
                                                             </p>
                                                             <ul>
                                                                 <li>Optimized routes</li>
@@ -126,12 +126,11 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">03. Last Mile</a>
+                                                            <a class="elementor-accordion-title" tabindex="0">03. Last Mile - <span style="font-weight: 600;font-size: 20px;color:#c01227">Final Delivery</span></a>
                                                         </div>
                                                         <div id="elementor-tab-content-2243" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-2243">
                                                             <p>
-                                                                <span style="font-weight: 600;font-size: 20px;">Final Delivery</span><br />
-                                                                <br />The package reaches your customer's doorstep with proof of delivery and real-time customer notifications.
+                                                                The package reaches your customer's doorstep with proof of delivery and real-time customer notifications.
                                                             </p>
                                                             <ul>
                                                                 <li>Live tracking</li>
@@ -1255,6 +1254,118 @@ include 'header.php';
         }, !1)
     </script>
     <script data-no-minify="1" async src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+
+    <!-- Accordion icon styling -->
+    <style>
+    .elementor-element-155d377 .elementor-accordion-icon-closed i {
+        color: #000000 !important;
+    }
+    .elementor-element-155d377 .elementor-tab-title.elementor-active .elementor-accordion-icon-opened i {
+        color: #c01227 !important;
+    }
+    </style>
+
+    <!-- Accordion single-open mode -->
+    <script>
+    (function() {
+        var accordion = document.querySelector('.elementor-element-155d377 .elementor-accordion');
+        if (!accordion) return;
+
+        var items = accordion.querySelectorAll('.elementor-accordion-item');
+        var ACTIVE_CLASS = 'elementor-active';
+
+        function collapseItem(item) {
+            var title = item.querySelector('.elementor-tab-title');
+            var content = item.querySelector('.elementor-tab-content');
+            if (!title || !content) return;
+            title.classList.remove(ACTIVE_CLASS);
+            title.setAttribute('aria-expanded', 'false');
+            content.classList.remove(ACTIVE_CLASS);
+            content.style.overflow = 'hidden';
+            // Slide up animation
+            var h = content.scrollHeight;
+            content.style.height = h + 'px';
+            content.offsetHeight; // force reflow
+            content.style.transition = 'height 0.35s ease';
+            content.style.height = '0px';
+            setTimeout(function() {
+                content.style.display = 'none';
+                content.style.height = '';
+                content.style.transition = '';
+                content.style.overflow = '';
+            }, 350);
+        }
+
+        function expandItem(item) {
+            var title = item.querySelector('.elementor-tab-title');
+            var content = item.querySelector('.elementor-tab-content');
+            if (!title || !content) return;
+            title.classList.add(ACTIVE_CLASS);
+            title.setAttribute('aria-expanded', 'true');
+            content.classList.add(ACTIVE_CLASS);
+            content.style.display = 'block';
+            content.style.overflow = 'hidden';
+            var h = content.scrollHeight;
+            content.style.height = '0px';
+            content.offsetHeight; // force reflow
+            content.style.transition = 'height 0.35s ease';
+            content.style.height = h + 'px';
+            setTimeout(function() {
+                content.style.height = '';
+                content.style.transition = '';
+                content.style.overflow = '';
+            }, 350);
+        }
+
+        // Initialize: collapse all, then expand first
+        items.forEach(function(item) {
+            var content = item.querySelector('.elementor-tab-content');
+            var title = item.querySelector('.elementor-tab-title');
+            if (content) {
+                content.style.display = 'none';
+                content.classList.remove(ACTIVE_CLASS);
+            }
+            if (title) {
+                title.classList.remove(ACTIVE_CLASS);
+                title.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Expand first item immediately (no animation)
+        if (items.length > 0) {
+            var firstTitle = items[0].querySelector('.elementor-tab-title');
+            var firstContent = items[0].querySelector('.elementor-tab-content');
+            if (firstTitle && firstContent) {
+                firstTitle.classList.add(ACTIVE_CLASS);
+                firstTitle.setAttribute('aria-expanded', 'true');
+                firstContent.classList.add(ACTIVE_CLASS);
+                firstContent.style.display = 'block';
+            }
+        }
+
+        // Click handler — single-open mode
+        items.forEach(function(item) {
+            var title = item.querySelector('.elementor-tab-title');
+            if (!title) return;
+            title.addEventListener('click', function(e) {
+                e.preventDefault();
+                var isOpen = title.classList.contains(ACTIVE_CLASS);
+
+                // Collapse all open items
+                items.forEach(function(other) {
+                    if (other.querySelector('.elementor-tab-title.'+ACTIVE_CLASS)) {
+                        collapseItem(other);
+                    }
+                });
+
+                // If the clicked item wasn't open, expand it
+                if (!isOpen) {
+                    expandItem(item);
+                }
+            });
+        });
+    })();
+    </script>
 
     </main>
     </body>

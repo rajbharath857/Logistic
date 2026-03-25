@@ -297,7 +297,7 @@
                                                         </div>
                                                     </div>
                                                 </a>
-                                                <a class="elementor-element elementor-element-280b0dc e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="280b0dc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="https://demo.artureanec.com/themes/logico-rounded/services-page/rail-freight-service/">
+                                                <a class="elementor-element elementor-element-280b0dc e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="280b0dc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="">
                                                     <div class="elementor-element elementor-element-6421147 elementor-widget elementor-widget-image" data-id="6421147" data-element_type="widget" data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <img loading="lazy" decoding="async" width="239" height="218" src="/logistic/assets/images/home3-service-3.png" class="attachment-full size-full wp-image-4805" alt=""/>

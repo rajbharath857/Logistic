@@ -14,7 +14,10 @@
         <div class="body-container">
             <div id="page" class="hfeed site">
                 
-<?php include 'header.php'; ?>
+<?php 
+$current_page = 'about';
+include 'header.php'; 
+?>
 
                 <div class="content-wrapper content-wrapper-may-contain-elementor-code content-wrapper-sidebar-position-none">
                     <!-- Content Container -->
