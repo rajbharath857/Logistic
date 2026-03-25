@@ -19,7 +19,6 @@
                 $current_page = 'miletruth';
                 include 'header.php';
                 ?>
-
                 
                 <div class="content-wrapper content-wrapper-may-contain-elementor-code content-wrapper-sidebar-position-none">
                     <!-- Content Container -->
