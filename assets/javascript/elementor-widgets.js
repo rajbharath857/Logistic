@@ -203,5 +203,44 @@ jQuery(window).on('elementor/frontend/init', function() {
                 })
             }
         }
-    })
-})
+    });
+
+    elementorFrontend.hooks.addAction('frontend/element_ready/accordion.default', function($scope) {
+        if (!jQuery('body').hasClass('elementor-editor-active')) {
+            $scope.find('.elementor-tab-title').each(function() {
+                var $title = jQuery(this);
+                var $item = $title.closest('.elementor-accordion-item');
+                var $content = $item.find('.elementor-tab-content');
+                var $accordion = $scope.find('.elementor-accordion');
+
+                // Remove native click and apply custom logic
+                // Timeout ensures we run after elementor natively binds its own events
+                setTimeout(function() {
+                    $title.off('click').on('click', function(e) {
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+
+                        if ($title.hasClass('elementor-active')) {
+                            return; // Do not collapse if already open
+                        }
+
+                        // Close others
+                        $accordion.find('.elementor-tab-title').removeClass('elementor-active active');
+                        $accordion.find('.elementor-accordion-item').removeClass('active');
+                        $accordion.find('.elementor-tab-content').slideUp(400).removeClass('elementor-active active');
+
+                        // Open this one
+                        $title.addClass('elementor-active active');
+                        $item.addClass('active');
+                        $content.hide().addClass('elementor-active active').slideDown(400);
+                    });
+                }, 100);
+                
+                // Keep everything collapsed on init (as requested in earlier session)
+                $title.removeClass('elementor-active active');
+                $item.removeClass('active');
+                $content.hide().removeClass('elementor-active active');
+            });
+        }
+    });
+});

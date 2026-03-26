@@ -14988,7 +14988,7 @@
         </style>
         <script src="assets/javascript/tabs-widget.js"></script>
         <script src="assets/javascript/accordion.28788e18d1d35c23f450.bundle.min.js"></script>
-        <script src="assets/javascript/elemntor-widgets.js"></script>
+        <script src="assets/javascript/elementor-widgets.js"></script>
 
 
         <meta name="generator" content="WP Rocket 3.20.0.1" data-wpr-features="wpr_minify_js wpr_lazyload_iframes wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_image_dimensions wpr_minify_css wpr_cdn wpr_desktop" />
