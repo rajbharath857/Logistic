@@ -588,7 +588,7 @@
 
   <div class="dm-section-header">
     <div class="dm-eyebrow">Why It Matters</div>
-    <h2 class="dm-section-title">Two Approaches.<br><em>One Clear Winner.</em></h2>
+    <h2 class="dm-section-title">Traditional Approach<br><em>The Doormile Way</em></h2>
     <p class="dm-section-sub">See how the Doormile way eliminates the friction that traditional logistics creates at every step.</p>
   </div>
 
@@ -613,44 +613,44 @@
       <div class="dm-compare-row">
         <div class="dm-cell dm-left">
           <div class="dm-cell-icon dm-bad"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></div>
-          <span class="dm-cell-text">First mile ignores last mile SLA</span>
+          <span class="dm-cell-text">3+ vendors to manage</span>
         </div>
         <div class="dm-cell dm-right">
           <div class="dm-cell-icon dm-good"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-          <span class="dm-cell-text">Every mile protects the final delivery</span>
+          <span class="dm-cell-text">Single integrated partner</span>
         </div>
       </div>
 
       <div class="dm-compare-row">
         <div class="dm-cell dm-left">
           <div class="dm-cell-icon dm-bad"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></div>
-          <span class="dm-cell-text">Reactive problem discovery</span>
+          <span class="dm-cell-text">Fragmented tracking</span>
         </div>
         <div class="dm-cell dm-right">
           <div class="dm-cell-icon dm-good"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-          <span class="dm-cell-text">Proactive delay prevention</span>
+          <span class="dm-cell-text">Unified timeline view</span>
         </div>
       </div>
 
       <div class="dm-compare-row">
         <div class="dm-cell dm-left">
           <div class="dm-cell-icon dm-bad"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></div>
-          <span class="dm-cell-text">Multiple vendors, no accountability</span>
+          <span class="dm-cell-text">Blame games on delays</span>
         </div>
         <div class="dm-cell dm-right">
           <div class="dm-cell-icon dm-good"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-          <span class="dm-cell-text">Single owner, single promise</span>
+          <span class="dm-cell-text">Clear accountability</span>
         </div>
       </div>
 
       <div class="dm-compare-row">
         <div class="dm-cell dm-left">
           <div class="dm-cell-icon dm-bad"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></div>
-          <span class="dm-cell-text">Static plans break at first variance</span>
+          <span class="dm-cell-text">Reactive problem solving</span>
         </div>
         <div class="dm-cell dm-right">
           <div class="dm-cell-icon dm-good"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-          <span class="dm-cell-text">Dynamic AI-driven adjustments</span>
+          <span class="dm-cell-text">AI-powered predictions</span>
         </div>
       </div>
     </div>

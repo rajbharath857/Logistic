@@ -759,7 +759,7 @@ body .woocommerce-page .woocommerce-order table.woocommerce-table--order-details
 .woocommerce .woocommerce-cart-form table.shop_table .product-subtotal .amount ins {
     text-decoration: none;
     font-weight: inherit;
-    color: #EF644C
+    color: #c01227
 }
 
 .woocommerce .woocommerce-cart-form table.shop_table .product-remove .remove {
@@ -768,7 +768,7 @@ body .woocommerce-page .woocommerce-order table.woocommerce-table--order-details
     font: 400 normal 0/14px 'fontello';
     background: none;
     margin: 0;
-    color: #EF644C !important
+    color: #c01227 !important
 }
 
 .woocommerce .woocommerce-cart-form table.shop_table .product-remove .remove:before {
@@ -1459,7 +1459,7 @@ body .woocommerce-page .woocommerce-order table.woocommerce-table--order-details
     content: '\e845';
     font-size: 14px;
     line-height: 24px;
-    color: #EF644C
+    color: #c01227
 }
 
 .woocommerce-checkout-review-total {
@@ -2338,12 +2338,12 @@ body .content-wrapper .woocommerce-form-coupon-toggle .woocommerce-info:before {
 }
 
 body .content-wrapper .woocommerce-error {
-    border-color: #EF644C
+    border-color: #c01227
 }
 
 body .content-wrapper .woocommerce-error:before {
     color: #FFF;
-    background-color: #EF644C
+    background-color: #c01227
 }
 
 body .content-wrapper .woocommerce-message {
@@ -2380,21 +2380,21 @@ body .content-wrapper .woocommerce-message:before {
 .woocommerce form .form-row.woocommerce-invalid input,
 .woocommerce form .form-row.woocommerce-invalid textarea,
 .woocommerce form .form-row.woocommerce-invalid select {
-    border-color: #EF644C !important
+    border-color: #c01227 !important
 }
 
 .woocommerce form .form-row.woocommerce-invalid .woocommerce-input-wrapper input {
-    border-color: #EF644C !important
+    border-color: #c01227 !important
 }
 
 .woocommerce form .form-row.woocommerce-invalid .logico-label-placeholder .logico-label-placeholder-text:before,
 .woocommerce form .form-row.woocommerce-invalid .logico-label-placeholder .logico-label-placeholder-text:after {
-    border-color: #EF644C !important
+    border-color: #c01227 !important
 }
 
 .woocommerce form .form-row.woocommerce-invalid .logico-form-field:before,
 .woocommerce form .form-row.woocommerce-invalid .logico-form-field:after {
-    border-color: #EF644C !important
+    border-color: #c01227 !important
 }
 
 ul.products li:before {
@@ -2403,7 +2403,7 @@ ul.products li:before {
 }
 
 .woocommerce a.remove:hover {
-    color: #EF644C !important
+    color: #c01227 !important
 }
 
 .body-container .wc-block-grid__product-rating .star-rating,
@@ -2720,7 +2720,7 @@ ul.products li:before {
 .woocommerce-store-notice.demo_store .woocommerce-store-notice__dismiss-link:before {
     content: '\e845';
     font: 400 normal 14px/1 'fontello';
-    color: #EF644C
+    color: #c01227
 }
 
 #add_payment_method .cart-collaterals .shipping-calculator-button,
@@ -3112,7 +3112,7 @@ ul.products li:before {
 .woocommerce-page .shop_mode_grid .products ul li.product .woocommerce-loop-product__wrapper .attachment-woocommerce_flash .flash-item.sale,
 .woocommerce-page .shop_mode_grid .woocommerce ul.products li.product .woocommerce-loop-product__wrapper .attachment-woocommerce_flash .flash-item.sale,
 .woocommerce-page .shop_mode_grid ul.products li.product .woocommerce-loop-product__wrapper .attachment-woocommerce_flash .flash-item.sale {
-    background-color: #EF644C;
+    background-color: #c01227;
     color: #fff
 }
 
@@ -3455,7 +3455,7 @@ ul.products li:before {
 .woocommerce-page .shop_mode_grid ul.products li.product .woocommerce-loop-product__wrapper .content-woocommerce-wrapper .price ins {
     text-decoration: none;
     font-weight: inherit;
-    color: #EF644C
+    color: #c01227
 }
 
 .woocommerce .shop_mode_grid .products ul li.product:hover .attachment-woocommerce_buttons,
@@ -3683,7 +3683,7 @@ ul.products li:before {
 .single-product.woocommerce div.product .price del {
     opacity: 1;
     margin: 0 4px 0 0;
-    color: #EF644C
+    color: #c01227
 }
 
 .single-product.woocommerce div.product .price ins {
@@ -4158,7 +4158,7 @@ ul.products li:before {
 .woocommerce div.product form.cart .group_table .price_wrapper ins {
     text-decoration: none;
     font-weight: inherit;
-    color: #EF644C
+    color: #c01227
 }
 
 .woocommerce div.product p.stock {
@@ -4316,7 +4316,7 @@ ul.products li:before {
 .woocommerce.widget_layered_nav_filters ul .chosen a:before,
 .woocommerce-page .widget_layered_nav_filters ul .chosen a:before {
     content: '\e845';
-    color: #EF644C;
+    color: #c01227;
     font: 700 normal 9px/1 'fontello';
     background: none;
     width: auto;
@@ -4413,7 +4413,7 @@ ul.products li:before {
 
 .wp-block-woocommerce-active-filters .wc-block-active-filters__list.wc-block-active-filters__list--chips .wc-block-active-filters__list-item .wc-block-components-chip:before {
     content: '\e845';
-    color: #EF644C;
+    color: #c01227;
     font: 700 normal 9px/1 'fontello';
     background: none;
     width: auto;
@@ -4612,7 +4612,7 @@ ul.products li:before {
     font: normal 14px/1em 'fontello';
     width: 14px;
     height: 14px;
-    color: #EF644C
+    color: #c01227
 }
 
 .woocommerce .widget_shopping_cart .cart_list li a.remove_from_cart_button:before,
@@ -5611,7 +5611,7 @@ body:not(.block-editor-page) .wc-block-product-categories button.wc-block-produc
 .woocommerce-page ul.product_list_widget li .price_wrapper ins {
     text-decoration: none;
     font-weight: inherit;
-    color: #EF644C
+    color: #c01227
 }
 
 .woocommerce ul.product_list_widget li .product-rating-wrapper:not(:first-child),
@@ -5779,7 +5779,7 @@ body:not(.block-editor-page) .wc-block-product-categories button.wc-block-produc
 .slide-sidebar-content .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-price ins {
     text-decoration: none;
     font-weight: inherit;
-    color: #EF644C
+    color: #c01227
 }
 
 .sidebar .wc-block-grid__products .wc-block-grid__product .wp-block-button,
@@ -6138,7 +6138,7 @@ body:not(.block-editor-page) .wc-block-product-categories button.wc-block-produc
 }
 
 .single-product.woocommerce div.product .woocommerce-product-gallery .attachment-woocommerce_flash .flash-item.sale {
-    background-color: #EF644C;
+    background-color: #c01227;
     color: #fff
 }
 
@@ -6344,7 +6344,7 @@ body:not(.block-editor-page) .wc-block-product-categories button.wc-block-produc
 }
 
 .woocommerce #reviews #comments ol.commentlist li.review .comment_container .woocommerce-review__awaiting-approval {
-    color: #EF644C;
+    color: #c01227;
     margin-top: -1px
 }
 

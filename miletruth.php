@@ -353,7 +353,7 @@
                                                     <div class="ticker">
                                                         <span class="ticker-text">
                                                             <p>
-                                                                <span style="color: #1eae98">345 679 345</span>
+                                                                <span style="color: #c01227">345 679 345</span>
                                                                 tons of productions were delivered
                                                             </p>
                                                         </span>
@@ -1166,7 +1166,7 @@
                                                 <div class="elementor-element elementor-element-3624aab elementor-widget elementor-widget-logico_heading" data-id="3624aab" data-element_type="widget" data-widget_type="logico_heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h3 class="logico-title">
-                                                            Call us <span style="color: #1eae98">+1 800 65 78 963</span>
+                                                            Call us <span style="color: #c01227">+1 800 65 78 963</span>
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -1196,8 +1196,8 @@
                                             <div class="elementor-element elementor-element-e4b4b72 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="e4b4b72" data-element_type="container">
                                                 <div class="elementor-element elementor-element-ccece80 elementor-widget elementor-widget-image" data-id="ccece80" data-element_type="widget" data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
-                                                        <a href="https://demo.artureanec.com/themes/logico-rounded/">
-                                                            <img width="305" height="58" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/logo2-light-x2.png" class="attachment-full size-full wp-image-5851" alt="" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/logo2-light-x2.png 305w, https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/09/logo2-light-x2-300x58.png 300w" sizes="(max-width: 305px) 100vw, 305px"/>
+                                                        <a href="index.php">
+                                                            <img width="305" height="58" src="/logistic/assets/images/logo2-light-x2.png" class="attachment-full size-full wp-image-5851" alt="" srcset="/logistic/assets/images/logo2-light-x2.png 305w, 300w" sizes="(max-width: 305px) 100vw, 305px"/>
                                                         </a>
                                                     </div>
                                                 </div>

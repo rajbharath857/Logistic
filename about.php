@@ -57,12 +57,14 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
+                            <?php include 'vision.php'; ?>
+                            <?php include 'our_values.php'; ?>
                             <div class="elementor-element elementor-element-b8da0f5 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="b8da0f5" data-element_type="container">
                                 <div class="e-con-inner">
                                     <div class="elementor-element elementor-element-89d7623 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="89d7623" data-element_type="container">
                                         <div class="elementor-element elementor-element-54d05ac elementor-invisible elementor-widget elementor-widget-logico_heading" data-id="54d05ac" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;logico_heading_animation&quot;}" data-widget_type="logico_heading.default">
                                             <div class="elementor-widget-container">
-                                                <h3 class="logico-title">How this works
+                                                <h3 class="logico-title">Logistics Built for Electric Vehicles
                                                 </h3>
                                             </div>
                                         </div>
@@ -79,18 +81,14 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">01. First Mile - <span style="font-weight: 600;font-size: 20px;color:#c01227">Pickup & Collection</span></a>
+                                                            <a class="elementor-accordion-title" tabindex="0">01. Battery-First Planning </span></a>
                                                         </div>
                                                         <div id="elementor-tab-content-2241" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-2241">
                                                             <p>
-                                                                Orders are collected from your warehouse or supplier locations with real-time confirmation and quality checks.
+                                                                Routes are optimized around battery levels and charging windows, not retrofitted as an afterthought.
                                     
                                                             </p>
-                                                            <ul>
-                                                                <li>Scheduled pickups</li>
-                                                                <li>Quality verification</li>
-                                                                <li>Instant documentation</li>
-                                                            </ul>
+                                                           
                                                         </div>
                                                     </div>
                                                     <div class="elementor-accordion-item">
@@ -103,17 +101,12 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">02. Mid Mile - <span style="font-weight: 600;font-size: 20px;color:#c01227">Hub-to-Hub Transfer</span></a>
+                                                            <a class="elementor-accordion-title" tabindex="0">02. Energy-Aware Routing</span></a>
                                                         </div>
                                                         <div id="elementor-tab-content-2242" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-2242">
                                                             <p>
-                                                                Seamless inter-city movement through our network of strategically placed hubs with continuous tracking
+                                                               Our algorithms factor in terrain, traffic, and payload weight to maximize range efficiency
                                                             </p>
-                                                            <ul>
-                                                                <li>Optimized routes</li>
-                                                                <li>Temperature control</li>
-                                                                <li>Multi-modal transport</li>
-                                                            </ul>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-accordion-item">
@@ -126,20 +119,15 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">03. Last Mile - <span style="font-weight: 600;font-size: 20px;color:#c01227">Final Delivery</span></a>
+                                                            <a class="elementor-accordion-title" tabindex="0">03. Smart Charging Integration</span></a>
                                                         </div>
                                                         <div id="elementor-tab-content-2243" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-2243">
                                                             <p>
-                                                                The package reaches your customer's doorstep with proof of delivery and real-time customer notifications.
+                                                                Seamless coordination with charging infrastructure to eliminate range anxiety for drivers.
                                                             </p>
-                                                            <ul>
-                                                                <li>Live tracking</li>
-                                                                <li>Delivery slots</li>
-                                                                <li>POD capture</li>
-                                                            </ul>
                                                         </div>
                                                     </div>
-                                                    <!-- <div class="elementor-accordion-item">
+                                                     <div class="elementor-accordion-item">
                                                         <div id="elementor-tab-title-2244" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-2244" aria-expanded="false">
                                                             <span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
                                                                 <span class="elementor-accordion-icon-closed">
@@ -149,21 +137,16 @@ include 'header.php';
                                                                     <i class="fontello icon-arrow-x-r-top"></i>
                                                                 </span>
                                                             </span>
-                                                            <a class="elementor-accordion-title" tabindex="0">04. Security for cargo</a>
+                                                            <a class="elementor-accordion-title" tabindex="0">04. Carbon Footprint Tracking</a>
                                                         </div>
                                                         <div id="elementor-tab-content-2244" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-2244">
                                                             <p>
-                                                                Pacific hake false trevally queen parrotfish black prickleback moss Halosaur duckbilled barracudina, goosefish gar pleco, chum salmon armoured catfish gudgeon sawfish whitefish orbicular batfish <br />
-                                                                mummichog paradise fish! <br />
-                                                                <br />Triggerfish bluntnose knifefish upside-down catfish cobia spookfish convict cichlid, &#8220;cat shark; saw shark trout cod.&#8221;Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen parrotfish black prickleback moss
+                                                                Real-time emissions monitoring and sustainability reports for every delivery.<br />
                                                             </p>
-                                                            <ul>
-                                                                <li>False trevally queen parrotfish black prickleback moss hake false trevally queen parrotfish black.</li>
-                                                                <li>Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen.</li>
-                                                            </ul>
+                                                            
                                                         </div>
-                                                    </div>
-                                                    <div class="elementor-accordion-item">
+                                                    </div> 
+                                                    <!-- <div class="elementor-accordion-item">
                                                         <div id="elementor-tab-title-2245" class="elementor-tab-title" data-tab="5" role="button" aria-controls="elementor-tab-content-2245" aria-expanded="false">
                                                             <span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
                                                                 <span class="elementor-accordion-icon-closed">
@@ -186,7 +169,7 @@ include 'header.php';
                                                                 <li>Pacific hake false trevally queen parrotfish black prickleback moss. Pacific hake false trevally queen.</li>
                                                             </ul>
                                                         </div>
-                                                    </div> -->
+                                                    </div> --> 
                                                 </div>
                                             </div>
                                         </div>

@@ -13109,7 +13109,7 @@ iframe {
 .wpforms-required-label,
 .logico-required-label,
 .required {
-    color: #EF644C !important
+    color: #c01227 !important
 }
 
 .wpforms-container .logico-form-field,
@@ -16002,7 +16002,7 @@ body .select2-container--default .select2-results__group,
 
 .wpforms-container .wpforms-field.wpforms-has-error em.wpforms-error {
     font-style: normal;
-    color: #EF644C;
+    color: #c01227;
     border: solid 1px;
     border-radius: 3px;
     font-size: 12px;
@@ -28478,7 +28478,7 @@ body[data-elementor-device-mode="widescreen"] .elementor-widget-logico_navigatio
     font: normal 15px/1em 'fontello';
     width: 15px;
     height: 15px;
-    color: #EF644C
+    color: #c01227
 }
 
 .mini-cart .mini-cart-panel .cart_list li a.remove_from_cart_button:before {

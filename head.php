@@ -2740,7 +2740,7 @@
                 --logico-button-icon-color: #333333;
                 --logico-button-background-color: #FFFFFF;
                 --logico-button-text-hover: #FFFFFF;
-                --logico-button-icon-hover: #EF644C;
+                --logico-button-icon-hover: #c01227;
             }
 
             .elementor-61 .elementor-element.elementor-element-0031d81 .video-button-wrapper {
@@ -5096,10 +5096,10 @@
                 --logico-button-border-color: #C01227;
                 --logico-button-background-color: rgba(255, 255, 255, 0);
                 --logico-button-icon-color: #1f1f1f;
-                --logico-button-text-hover: #1f1f1f;
+                --logico-button-text-hover: #FFFFFF;
                 --logico-button-border-hover: #C01227;
                 --logico-button-background-hover: #C01227;
-                --logico-button-icon-hover: #1f1f1f;
+                --logico-button-icon-hover: #FFFFFF;
             }
 
             .elementor-5180 .elementor-element.elementor-element-846e53d .hfe-site-logo-container,
@@ -5212,7 +5212,7 @@
             .elementor-5180 .elementor-element.elementor-element-0b7bf6f .header-menu-container .main-menu>li ul.sub-menu>li.active>a,
             .elementor-5180 .elementor-element.elementor-element-0b7bf6f .header-menu-container .main-menu>li ul.sub-menu>li:hover>a,
             .elementor-5180 .elementor-element.elementor-element-0b7bf6f .header-menu-container .main-menu>li ul.sub-menu>li>a:before {
-                color: #EF644C;
+                color: #c01227;
             }
 
             .elementor-5180 .elementor-element.elementor-element-0b7bf6f .menu-trigger .hamburger span {
@@ -5227,10 +5227,10 @@
                 --logico-border-color: #D9D9D9;
                 --logico-button-border-color: #c01227;
                 --logico-button-icon-color: #333333;
-                --logico-button-text-hover: #333333;
+                --logico-button-text-hover: #FFFFFF;
                 --logico-button-border-hover: #C01227;
                 --logico-button-background-hover: #C01227;
-                --logico-button-icon-hover: #333333;
+                --logico-button-icon-hover: #FFFFFF;
             }
 
             .elementor-5180 .elementor-element.elementor-element-9984ace {
@@ -5809,11 +5809,11 @@
             }
 
             .elementor-4656 .elementor-element.elementor-element-7eaa169 .elementor-social-icon:hover i {
-                color: #EF644C;
+                color: #c01227;
             }
 
             .elementor-4656 .elementor-element.elementor-element-7eaa169 .elementor-social-icon:hover svg {
-                fill: #EF644C;
+                fill: #c01227;
             }
 
             .elementor-4656 .elementor-element.elementor-element-974f0d4>.elementor-widget-container {
@@ -5904,8 +5904,8 @@
             }
 
             .elementor-4656 .elementor-element.elementor-element-ef3b579 .logico-custom-menu-widget li a:hover {
-                color: #EF644C;
-                border-color: #EF644C;
+                color: #c01227;
+                border-color: #c01227;
             }
 
             .elementor-4656 .elementor-element.elementor-element-e6b41e8 {
@@ -5933,8 +5933,8 @@
             }
 
             .elementor-4656 .elementor-element.elementor-element-c6646ab .logico-custom-menu-widget li a:hover {
-                color: #EF644C;
-                border-color: #EF644C;
+                color: #c01227;
+                border-color: #c01227;
             }
 
             .elementor-4656 .elementor-element.elementor-element-b2496e1 {
@@ -10617,7 +10617,7 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-6867061:before {
-                background-color: #1EAE981A;
+                background-color: #c012271A;
             }
 
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-6867061 .slide-content-inner {
@@ -10686,7 +10686,7 @@
 
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-3264830:before {
                 background-color: transparent;
-                background-image: linear-gradient(166deg, #1EAE9800 0%, #1EAE9833 100%);
+                background-image: linear-gradient(166deg, #c0122700 0%, #c0122733 100%);
             }
 
             .elementor-63 .elementor-element.elementor-element-791327c .elementor-repeater-item-3264830 .slide-content-inner {
@@ -10860,7 +10860,7 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-c6e2860 .video-button-wrapper {
-                --logico-button-background-hover: #1EAE98;
+                --logico-button-background-hover: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-9ebb5d1 {
@@ -11158,16 +11158,16 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-9c60642.elementor-view-stacked .elementor-icon {
-                background-color: #1EAE98;
+                background-color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-9c60642.elementor-view-framed .elementor-icon, .elementor-63 .elementor-element.elementor-element-9c60642.elementor-view-default .elementor-icon {
-                color: #1EAE98;
-                border-color: #1EAE98;
+                color: #c01227;
+                border-color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-9c60642.elementor-view-framed .elementor-icon, .elementor-63 .elementor-element.elementor-element-9c60642.elementor-view-default .elementor-icon svg {
-                fill: #1EAE98;
+                fill: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-9c60642 .elementor-icon {
@@ -11222,7 +11222,7 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-280b0dc:not(.elementor-motion-effects-element-type-background), .elementor-63 .elementor-element.elementor-element-280b0dc > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-                background-color: #1EAE98;
+                background-color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-6421147 > .elementor-widget-container {
@@ -11332,7 +11332,7 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-459fc06 .ticker .separator {
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-aba1f4b {
@@ -11654,7 +11654,7 @@
                 ;--counter-prefix-grow: 0;
                 --counter-suffix-grow: 1;
                 --counter-number-grow: 0;
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-d6bdc87 .elementor-counter-number {
@@ -11687,7 +11687,7 @@
                 ;--counter-prefix-grow: 0;
                 --counter-suffix-grow: 1;
                 --counter-number-grow: 0;
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-1da88b5 .elementor-counter-number {
@@ -11735,7 +11735,7 @@
                 ;--counter-prefix-grow: 0;
                 --counter-suffix-grow: 1;
                 --counter-number-grow: 0;
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-18333ba .elementor-counter-number {
@@ -11774,7 +11774,7 @@
                 ;--counter-prefix-grow: 0;
                 --counter-suffix-grow: 1;
                 --counter-number-grow: 0;
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-a1cf3d4 .elementor-counter-number {
@@ -11858,8 +11858,8 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-7d422b5 .step-item .step-number {
-                -webkit-text-stroke-color: #1EAE98;
-                stroke: #1EAE98;
+                -webkit-text-stroke-color: #c01227;
+                stroke: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-7d422b5 .slider-footer {
@@ -11939,7 +11939,7 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-e8ee5be .image-title a:hover {
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-e8ee5be .image-slider.nav-view-compact .owl-nav, .elementor-63 .elementor-element.elementor-element-e8ee5be .image-slider.nav-view-vertical .owl-nav {
@@ -12024,7 +12024,7 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-0a76e77 .testimonial-carousel-wrapper.witch-icon:before {
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-0a76e77 .slider-footer {
@@ -12044,7 +12044,7 @@
             }
 
             .elementor-63 .elementor-element.elementor-element-0a76e77 .owl-dots .owl-dot.active span {
-                border-color: #1EAE98;
+                border-color: #c01227;
             }
 
             .elementor-63 .elementor-element.elementor-element-bf5fff2 {
@@ -13698,11 +13698,11 @@
             }
 
             .elementor-5167 .elementor-element.elementor-element-45e0a41 .elementor-social-icon:hover i {
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-5167 .elementor-element.elementor-element-45e0a41 .elementor-social-icon:hover svg {
-                fill: #1EAE98;
+                fill: #c01227;
             }
 
             .elementor-5167 .elementor-element.elementor-element-d14e518 {
@@ -13748,7 +13748,7 @@
             }
 
             .elementor-5167 .elementor-element.elementor-element-d14e518 .elementor-icon-box-description a:hover {
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-5167 .elementor-element.elementor-element-9311920 {
@@ -13794,7 +13794,7 @@
             }
 
             .elementor-5167 .elementor-element.elementor-element-9311920 .elementor-icon-box-description a:hover {
-                color: #1EAE98;
+                color: #c01227;
             }
 
             .elementor-5167 .elementor-element.elementor-element-aabe8e9 {
@@ -13900,20 +13900,20 @@
                 --logico-default-text-color: #ffffff;
                 --logico-dark-text-color: #ffffff;
                 --logico-light-text-color: #bebebe;
-                --logico-accent-color: #1EAE98;
-                --logico-accent-alter-color: #1EAE98;
+                --logico-accent-color: #c01227;
+                --logico-accent-alter-color: #c01227;
                 --logico-border-color: #cbcbcb;
                 --logico-border-hover-color: #ffffff;
                 --logico-background-color: #1f1f1f;
                 --logico-background-alter-color: #1f1f1f;
                 --logico-button-text-color: #ffffff;
-                --logico-button-border-color: #1EAE98;
+                --logico-button-border-color: #c01227;
                 --logico-button-background-color: rgba(255, 255, 255, 0);
                 --logico-button-icon-color: #1f1f1f;
-                --logico-button-text-hover: #1f1f1f;
-                --logico-button-border-hover: #1EAE98;
-                --logico-button-background-hover: #1EAE98;
-                --logico-button-icon-hover: #1f1f1f;
+                --logico-button-text-hover: #ffffff;
+                --logico-button-border-hover: #c01227;
+                --logico-button-background-hover: #c01227;
+                --logico-button-icon-hover: #ffffff;
             }
 
             .elementor-5167 .elementor-element.elementor-element-013561b .hfe-site-logo-container, .elementor-5167 .elementor-element.elementor-element-013561b .hfe-caption-width figcaption {
@@ -13991,17 +13991,17 @@
             }
 
             .elementor-5167 .elementor-element.elementor-element-7ef506a .header-menu-container .main-menu > li ul.sub-menu > li.current-menu-ancestor > a, .elementor-5167 .elementor-element.elementor-element-7ef506a .header-menu-container .main-menu > li ul.sub-menu > li.current-menu-parent > a, .elementor-5167 .elementor-element.elementor-element-7ef506a .header-menu-container .main-menu > li ul.sub-menu > li.current-menu-item > a:not([href *= "/#"]), .elementor-5167 .elementor-element.elementor-element-7ef506a .header-menu-container .main-menu > li ul.sub-menu > li.active > a, .elementor-5167 .elementor-element.elementor-element-7ef506a .header-menu-container .main-menu > li ul.sub-menu > li:hover > a, .elementor-5167 .elementor-element.elementor-element-7ef506a .header-menu-container .main-menu > li ul.sub-menu > li > a:before {
-                color: #1EAE98;
+                color: #c01227;
             }
 
             #mobile-header-7ef506a.mobile-header-menu-container {
                 --logico-border-color: #D9D9D9;
-                --logico-button-border-color: #1EAE98;
+                --logico-button-border-color: #c01227;
                 --logico-button-icon-color: #333333;
-                --logico-button-text-hover: #333333;
-                --logico-button-border-hover: #1EAE98;
-                --logico-button-background-hover: #1EAE98;
-                --logico-button-icon-hover: #333333;
+                --logico-button-text-hover: #ffffff;
+                --logico-button-border-hover: #c01227;
+                --logico-button-background-hover: #c01227;
+                --logico-button-icon-hover: #ffffff;
             }
 
             .elementor-5167 .elementor-element.elementor-element-63ed906 {
@@ -14051,8 +14051,8 @@
 
             .elementor-5167 .elementor-element.elementor-element-b6fc848 a.header-button {
                 min-width: 193px;
-                color: #333333;
-                background-color: #1EAE98;
+                color: #ffffff;
+                background-color: #c01227;
             }
 
             .elementor-5167 .elementor-element.elementor-element-b6fc848 a.header-button.header-button-animation-jump {
@@ -14068,7 +14068,7 @@
             }
 
             .elementor-5167 .elementor-element.elementor-element-b6fc848 a.header-button:hover {
-                background-color: #1EAE98C7;
+                background-color: #c01227C7;
             }
 
             @media(max-width: 1200px) {
@@ -14265,7 +14265,7 @@
             }
 
             .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-1 .block-decoration-item:before, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-2 .block-decoration-item:before, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-3 .block-decoration-item:before, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-3 .block-decoration-item .decoration-accent, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-4 .block-decoration-item:before, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-4 .block-decoration-item .decoration-accent {
-                background-color: #1EAE98;
+                background-color: #c01227;
             }
 
             .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-1 .block-decoration-item:after, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-2 .block-decoration-item .decoration-accent, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-3 .block-decoration-item, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-3 .block-decoration-item .decoration-accent:before, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-4 .block-decoration-item, .elementor-4889 .elementor-element.elementor-element-2d5c641 .block-decoration.block-decoration-style-4 .block-decoration-item .decoration-accent:before {
@@ -14349,12 +14349,12 @@
 
             .elementor-4889 .elementor-element.elementor-element-61db210 {
                 --logico-button-text-color: #FFFFFF;
-                --logico-button-border-color: #EF644C;
+                --logico-button-border-color: #c01227;
                 --logico-button-background-color: #FFFFFF00;
                 --logico-button-icon-color: #FFFFFF;
                 --logico-button-text-hover: #FFFFFF;
-                --logico-button-border-hover: #EF644C;
-                --logico-button-background-hover: #EF644C;
+                --logico-button-border-hover: #c01227;
+                --logico-button-background-hover: #c01227;
                 --logico-button-icon-hover: #FFFFFF;
             }
 
@@ -14436,8 +14436,8 @@
                 color: #FFFFFF00;
                 -webkit-text-stroke-width: 1px;
                 stroke-width: 1px;
-                -webkit-text-stroke-color: #1EAE98;
-                stroke: #1EAE98;
+                -webkit-text-stroke-color: #c01227;
+                stroke: #c01227;
             }
 
             .elementor-4889 .elementor-element.elementor-element-325005b > .elementor-widget-container {
@@ -14578,8 +14578,8 @@
             }
 
             .elementor-4889 .elementor-element.elementor-element-492fff2 .logico-custom-menu-widget li a:hover {
-                color: #1EAE98;
-                border-color: #1EAE98;
+                color: #c01227;
+                border-color: #c01227;
             }
 
             .content-wrapper.content-wrapper-remove-top-margin{
