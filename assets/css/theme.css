@@ -25096,6 +25096,7 @@ a.logo-link .logo-site-name {
     top: 1px;
     color: var(--logico-default-text-color);
     font-size: 16px;
+    font-family: 'Manrope', sans-serif;
     line-height: 1.5em;
     font-weight: 600;
     letter-spacing: -.03em
