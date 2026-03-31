@@ -366,6 +366,9 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+                                <?php include 'ev-logistics.php'; ?>
                                 <div class="elementor-element elementor-element-aba1f4b e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="aba1f4b" data-element_type="container">
                                     <div class="e-con-inner">
                                         <div class="elementor-element elementor-element-8eb78a7 e-con-full e-grid cut-corner-no sticky-container-off e-con e-child" data-id="8eb78a7" data-element_type="container">
@@ -522,8 +525,9 @@
                                         </div>
                                     </div>
                                 </div>
+                                <?php include 'ev-logistics.php'; ?>
 
-                                <?php include 'accordion_widget_2.php' ?>
+                                
                                 <div class="elementor-element elementor-element-42672a9 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="42672a9" data-element_type="container">
                                     <div class="e-con-inner">
                                         <div class="elementor-element elementor-element-43ac813 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="43ac813" data-element_type="container">
