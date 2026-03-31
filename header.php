@@ -190,10 +190,10 @@
                                                                 <li id="menu-item-10555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10555"><a href="https://demo.artureanec.com/themes/logico-rounded/my-account/">My account</a></li> -->
                                                             </ul>
                                                         </li>
-                                                        <li id="menu-item-10512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10512<?php if(isset($current_page) && $current_page === 'about') echo ' active'; ?>"><a href="">About</a>
+                                                        <li id="menu-item-10512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10512<?php if(isset($current_page) && ($current_page === 'about' || $current_page === 'women')) echo ' active'; ?>"><a href="">About</a>
                                                             <ul class="sub-menu">
                                                                 <li id="menu-item-10558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10558"><a href="/logistic/about.php">About Us</a></li>
-                                                                <li id="menu-item-10559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10559"><a href="">Women Entrepreneurship</a></li>
+                                                                <li id="menu-item-10559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10559"><a href="/logistic/women.php">Women Entrepreneurship</a></li>
                                                                 <!-- <li id="menu-item-10560" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-10560"><a href="https://demo.artureanec.com/themes/logico-rounded/transportation-services-in-los-angeles-region/">Single Post</a></li> -->
                                                             </ul>
                                                         </li>

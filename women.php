@@ -1,639 +1,861 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<?php $page_title = 'Miletruth &#8211; Doormile'; include 'head.php'; ?>
-    <body class="wp-singular page-template-default page page-id-63 wp-theme-logico wp-child-theme-logico-child theme-logico woocommerce-no-js ehf-header ehf-footer ehf-template-logico ehf-stylesheet-logico-child logico-front-end logico-theme-style-rounded elementor-default elementor-kit-5 elementor-page elementor-page-63">
-        <div class="body-overlay"></div>
-        <!-- Page Pre Loader
-        <div class="page-loader-container">
-            <div class="page-loader">
-                <div class="page-loader-inner">
-                    <img width="152" height="116" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/themes/logico/img/preloader.png" alt="Page Loader Image" class="page-loader-logo"/>
-                </div>
-            </div>
-        </div> -->
-        <div class="body-container">
-            <div id="page" class="hfeed site">
+<html lang="en">
+<?php include 'head.php'; ?>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Empowering Women in Logistics – Doormile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@300;400;500&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    :root {
+      --red:        #C0202A;
+      --red-deep:   #a01820;
+      --red-mid:    #d63c45;
+      --red-pale:   rgba(192,32,42,0.08);
+      --red-pale2:  rgba(192,32,42,0.05);
+      --dark:       #111419;
+      --dark2:      #1d2130;
+      --mid:        #4d5261;
+      --light:      #8a90a2;
+      --pale:       #f3f4f7;
+      --white:      #ffffff;
+      --card:       rgba(255,255,255,0.75);
+    }
 
-                <?php
-                $current_page = 'miletruth';
-                include 'header.php';
-                ?>
+    html { scroll-behavior: smooth; }
 
-                
+    body {
+      font-family: 'Manrope', sans-serif;
+      background: var(--pale);
+      color: var(--dark);
+      overflow-x: hidden;
+    }
+    .hero {
+      position: relative;
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 100px 32px 80px;
+      overflow: hidden;
+    }
 
+    /* layered gradient bg */
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 100% 80% at 50% -5%, rgba(192,32,42,0.13) 0%, transparent 55%),
+        radial-gradient(ellipse 60% 60% at 10% 80%, rgba(192,32,42,0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 55% 55% at 90% 90%, rgba(192,32,42,0.06) 0%, transparent 55%),
+        linear-gradient(165deg, #ecedf2 0%, #f8f9fb 45%, #edf0f5 100%);
+      opacity: 1;
+    }
 
-<div class="elementor-element elementor-element-bf5fff2 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="bf5fff2" data-element_type="container">
-                                    <div class="e-con-inner">
-                                        <div class="elementor-element elementor-element-5a54148 e-con-full e-flex cut-corner-no sticky-container-off e-con e-child" data-id="5a54148" data-element_type="container">
-                                            <div class="elementor-element elementor-element-94ebf2e elementor-widget elementor-widget-logico_heading" data-id="94ebf2e" data-element_type="widget" data-widget_type="logico_heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="logico-title">/ team /
+    /* Fix the error of the header menu container and nav bar visibility */
+    .header-menu-container, .elementor-element-e44ee7e {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    #masthead {
+        z-index: 9999 !important;
+    }
+
+    /* decorative arcs */
+    .hero-arc {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(192,32,42,0.08);
+      pointer-events: none;
+    }
+    .hero-arc-1 { width: 700px; height: 700px; top: 50%; left: 50%; transform: translate(-50%,-50%); }
+    .hero-arc-2 { width: 500px; height: 500px; top: 50%; left: 50%; transform: translate(-50%,-50%); }
+    .hero-arc-3 { width: 300px; height: 300px; top: 50%; left: 50%; transform: translate(-50%,-50%); }
+
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 820px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(192,32,42,0.07);
+      border: 1px solid rgba(192,32,42,0.15);
+      border-radius: 100px;
+      padding: 7px 18px 7px 14px;
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 32px;
+      animation: fadeDown 0.7s cubic-bezier(0.22,1,0.36,1) both;
+    }
+    .hero-badge svg { width: 13px; height: 13px; }
+
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.8rem, 7vw, 5rem);
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      color: var(--dark);
+      margin-bottom: 24px;
+      animation: fadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.1s both;
+    }
+    .hero-title em {
+      font-style: italic;
+      color: var(--red);
+    }
+
+    .hero-sub {
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: var(--mid);
+      line-height: 1.82;
+      max-width: 580px;
+      margin: 0 auto 40px;
+      animation: fadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.2s both;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--red);
+      color: var(--white);
+      font-family: 'Manrope', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      padding: 15px 32px;
+      border-radius: 100px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 8px 28px rgba(192,32,42,0.35);
+      transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.3s ease, background 0.2s;
+      animation: fadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.3s both;
+    }
+    .hero-cta:hover {
+      transform: translateY(-3px) scale(1.04);
+      box-shadow: 0 14px 38px rgba(192,32,42,0.45);
+      background: var(--red-deep);
+    }
+    .hero-cta svg { width: 16px; height: 16px; transition: transform 0.3s ease; }
+    .hero-cta:hover svg { transform: translateX(4px); }
+
+    /* scroll indicator */
+    .hero-scroll {
+      position: absolute;
+      bottom: 36px; left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: var(--light);
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      animation: fadeUp 1s cubic-bezier(0.22,1,0.36,1) 0.6s both;
+    }
+    .scroll-line {
+      width: 1px; height: 44px;
+      background: linear-gradient(to bottom, var(--red), transparent);
+      animation: scrollPulse 2s ease-in-out infinite;
+    }
+    @keyframes scrollPulse {
+      0%,100% { opacity: 0.4; transform: scaleY(0.6) translateY(0); }
+      50%      { opacity: 1;   transform: scaleY(1)   translateY(4px); }
+    }
+
+    /* ═══════════════════════════════════════
+       STATS BAR
+    ═══════════════════════════════════════ */
+    .stats-bar {
+      background: var(--dark2);
+      padding: 52px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    .stats-bar::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 60% 100% at 50% 50%, rgba(192,32,42,0.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .stats-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .stat-item {
+      text-align: center;
+      padding: 16px 24px;
+      position: relative;
+    }
+    .stat-item:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      right: 0; top: 20%; bottom: 20%;
+      width: 1px;
+      background: rgba(255,255,255,0.08);
+    }
+
+    .stat-num {
+      font-family: 'Manrope', sans-serif;
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .stat-num span { color: var(--red-mid); }
+
+    .stat-lbl {
+      font-size: 0.78rem;
+      font-weight: 400;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ═══════════════════════════════════════
+       INITIATIVES
+    ═══════════════════════════════════════ */
+    .initiatives {
+      padding: 100px 36px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+    .section-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.80rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 16px;
+    }
+    .section-eyebrow::before, .section-eyebrow::after {
+      content: ''; width: 26px; height: 1px;
+      background: var(--red); opacity: 0.45;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      color: var(--dark);
+      letter-spacing: -0.025em;
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+    .section-sub {
+      font-size: 1rem;
+      font-weight: 300;
+      color: var(--mid);
+      max-width: 520px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+
+    .init-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .init-card {
+      background: var(--card);
+      backdrop-filter: blur(18px) saturate(160%);
+      -webkit-backdrop-filter: blur(18px) saturate(160%);
+      border: 1px solid rgba(255,255,255,0.88);
+      border-radius: 24px;
+      padding: 44px 40px;
+      display: flex;
+      gap: 28px;
+      align-items: flex-start;
+      box-shadow: 0 4px 18px rgba(17,20,25,0.06);
+      overflow: hidden;
+      position: relative;
+      transition: transform 0.42s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.42s ease, border-color 0.3s;
+    }
+    .init-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, transparent, var(--red), transparent);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.45s cubic-bezier(0.34,1.2,0.64,1);
+    }
+    .init-card:hover {
+      transform: translateY(-8px) scale(1.012);
+      box-shadow: 0 26px 56px rgba(192,32,42,0.13);
+      border-color: rgba(192,32,42,0.2);
+    }
+    .init-card:hover::before { transform: scaleX(1); }
+
+    .init-icon {
+      flex-shrink: 0;
+      width: 58px; height: 58px;
+      background: var(--red-pale);
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem;
+      transition: transform 0.45s cubic-bezier(0.34,1.56,0.64,1), background 0.3s;
+    }
+    .init-card:hover .init-icon {
+      transform: scale(1.15) rotate(-6deg);
+      background: rgba(192,32,42,0.13);
+    }
+
+    .init-content {}
+    .init-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 10px;
+    }
+    .init-desc {
+      font-size: 0.92rem;
+      font-weight: 300;
+      color: var(--mid);
+      line-height: 1.78;
+    }
+
+    /* ═══════════════════════════════════════
+       SUCCESS STORIES
+    ═══════════════════════════════════════ */
+    .stories-section {
+      background: var(--dark2);
+      padding: 100px 36px;
+      position: relative;
+      overflow: hidden;
+    }
+    .stories-section::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 0%, rgba(192,32,42,0.1) 0%, transparent 55%);
+      pointer-events: none;
+    }
+
+    .stories-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .stories-inner .section-eyebrow { color: rgba(192,32,42,0.9); }
+    .stories-inner .section-eyebrow::before,
+    .stories-inner .section-eyebrow::after { background: var(--red); opacity: 0.35; }
+    .stories-inner .section-title { color: var(--white); }
+    .stories-inner .section-sub   { color: rgba(255,255,255,0.5); }
+
+    .stories-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 60px;
+    }
+
+    .story-card {
+      background: var(--dark2);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px;
+      height: 420px; /* Consistent height for overlay */
+      overflow: hidden;
+      transition: transform 0.42s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.42s ease, border-color 0.3s;
+      position: relative;
+    }
+    .story-card:hover {
+      transform: translateY(-10px) scale(1.015);
+      box-shadow: 0 28px 60px rgba(0,0,0,0.4);
+      border-color: rgba(192,32,42,0.3);
+    }
+
+    /* image area */
+    .story-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+      filter: grayscale(15%) contrast(1.05);
+      transition: filter 0.5s ease, transform 0.5s ease;
+    }
+    .story-card:hover .story-img {
+      filter: grayscale(0%) contrast(1.08);
+      transform: scale(1.04);
+    }
+
+    .story-img-wrap {
+      overflow: hidden;
+      position: relative;
+    }
+    /* gradient over image bottom */
+    .story-img-wrap::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 80px;
+      background: linear-gradient(to top, var(--dark2), transparent);
+      pointer-events: none;
+    }
+
+    .story-body {
+      position: absolute;
+      inset: auto 0 0 0;
+      padding: 40px 30px;
+      background: linear-gradient(to top, rgba(17,20,25,0.95) 0%, rgba(17,20,25,0.7) 60%,transparent 100%);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+      pointer-events: none;
+      z-index: 10;
+    }
+    .story-card:hover .story-body {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: all;
+    }
+
+    .story-role {
+      font-size: 0.80rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 8px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .story-role::before {
+      content: ''; width: 14px; height: 1px;
+      background: var(--red-mid); opacity: 0.6;
+    }
+
+    .story-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.45rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 6px;
+    }
+
+    .story-location {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 16px;
+      display: flex; align-items: center; gap: 5px;
+    }
+    .story-location svg { width: 11px; height: 11px; opacity: 0.5; }
+
+    .story-divider {
+      width: 30px; height: 2px;
+      background: linear-gradient(90deg, var(--red), transparent);
+      border-radius: 2px; margin-bottom: 14px;
+      transition: width 0.4s ease;
+    }
+    .story-card:hover .story-divider { width: 52px; }
+
+    .story-quote {
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.78;
+    }
+
+    /* ═══════════════════════════════════════
+       CTA BANNER
+    ═══════════════════════════════════════ */
+    .cta-section {
+      position: relative;
+      background: var(--red);
+      padding: 90px 36px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .cta-section::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 80% 100% at 50% 50%, rgba(255,255,255,0.08) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    /* decorative circles */
+    .cta-circle {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.1);
+      pointer-events: none;
+    }
+    .cta-circle-1 { width: 600px; height: 600px; top:50%; left:50%; transform:translate(-50%,-50%); }
+    .cta-circle-2 { width: 400px; height: 400px; top:50%; left:50%; transform:translate(-50%,-50%); }
+
+    .cta-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .cta-eyebrow {
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 20px;
+    }
+
+    .cta-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.1;
+      letter-spacing: -0.025em;
+      margin-bottom: 18px;
+    }
+    .cta-title em { font-style: italic; color: rgba(255,255,255,0.75); }
+
+    .cta-sub {
+      font-size: 1rem;
+      font-weight: 300;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.8;
+      margin-bottom: 44px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: var(--white);
+      color: var(--red);
+      font-family: 'Manrope', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      padding: 14px 30px;
+      border-radius: 100px;
+      border: none; cursor: pointer; text-decoration: none;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.2);
+      transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.3s ease;
+    }
+    .btn-primary:hover {
+      transform: translateY(-3px) scale(1.04);
+      box-shadow: 0 14px 38px rgba(0,0,0,0.28);
+    }
+
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: transparent;
+      color: var(--white);
+      font-family: 'Manrope', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      padding: 14px 30px;
+      border-radius: 100px;
+      border: 1px solid rgba(255,255,255,0.4);
+      cursor: pointer; text-decoration: none;
+      transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1), background 0.25s, border-color 0.25s;
+    }
+    .btn-outline:hover {
+      transform: translateY(-3px) scale(1.04);
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(255,255,255,0.7);
+    }
+
+    /* ═══════════════════════════════════════
+       GLOBAL ANIMATIONS
+    ═══════════════════════════════════════ */
+    @keyframes fadeUp   { from { opacity:0; transform:translateY(22px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes fadeDown { from { opacity:0; transform:translateY(-14px); } to { opacity:1; transform:translateY(0); } }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.7s cubic-bezier(0.22,1,0.36,1), transform 0.7s cubic-bezier(0.22,1,0.36,1);
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-d1 { transition-delay: 0.08s; }
+    .reveal-d2 { transition-delay: 0.18s; }
+    .reveal-d3 { transition-delay: 0.28s; }
+    .reveal-d4 { transition-delay: 0.38s; }
+
+    /* ═══════════════════════════════════════
+       RESPONSIVE
+    ═══════════════════════════════════════ */
+    @media (max-width: 900px) {
+      .stats-inner  { grid-template-columns: repeat(2,1fr); }
+      .stat-item:nth-child(2)::after { display: none; }
+      .init-grid    { grid-template-columns: 1fr; }
+      .stories-grid { grid-template-columns: 1fr; max-width: 460px; margin-left: auto; margin-right: auto; }
+    }
+    @media (max-width: 560px) {
+      .stats-inner  { grid-template-columns: 1fr 1fr; gap: 0; }
+      .hero { min-height: 80vh; padding: 80px 20px 60px; }
+      .initiatives, .stories-section { padding: 70px 20px; }
+      .cta-section { padding: 70px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<?php
+$current_page = 'women';
+include 'header.php';
+?>      
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div class="hero-arc hero-arc-1"></div>
+  <div class="hero-arc hero-arc-2"></div>
+  <div class="hero-arc hero-arc-3"></div>
+
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+      </svg>
+      ESG Initiative
+    </div>
+
+    <h1 class="hero-title">
+      Empowering <em>Women</em><br>in Logistics
+    </h1>
+
+    <p class="hero-sub">
+      At Doormile, we believe in creating equal opportunities. Our Women Entrepreneurship program is dedicated to training, supporting, and celebrating women who are transforming the last-mile delivery ecosystem.
+    </p>
+
+    <a href="#" class="hero-cta">
+      Join Our Program
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div> -->
+</section>
+
+<!-- ═══ STATS BAR ═══ -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item reveal reveal-d1">
+      <div class="stat-num">500 <span>+</span></div>
+      <div class="stat-lbl">Women Entrepreneurs Trained</div>
+    </div>
+    <div class="stat-item reveal reveal-d2">
+      <div class="stat-num">35 <span>%</span></div>
+      <div class="stat-lbl">Of Our Fleet Partners</div>
+    </div>
+    <div class="stat-item reveal reveal-d3">
+      <div class="stat-num">₹2 <span>Cr+</span></div>
+      <div class="stat-lbl">Earnings Generated</div>
+    </div>
+    <div class="stat-item reveal reveal-d4">
+      <div class="stat-num">15 </div>
+      <div class="stat-lbl">Cities Covered</div>
+    </div>
+  </div>
 </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-57c7653 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-logico_heading" data-id="57c7653" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;logico_heading_animation&quot;}" data-widget_type="logico_heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h3 class="logico-title">Meet our the best crew
-</h3>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-138c81a elementor-widget elementor-widget-logico_team_listing" data-id="138c81a" data-element_type="widget" data-widget_type="logico_team_listing.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="logico-team-listing-widget">
-                                                        <div class="archive-listing" data-ajax='{&quot;post_type&quot;:&quot;team&quot;,&quot;post_status&quot;:&quot;publish&quot;,&quot;ignore_sticky_posts&quot;:true,&quot;suppress_filters&quot;:true,&quot;orderby&quot;:&quot;post__in&quot;,&quot;order&quot;:&quot;desc&quot;,&quot;link_base&quot;:&quot;https:\/\/demo.artureanec.com\/themes\/logico-rounded\/home-3&quot;,&quot;post__in&quot;:[&quot;2807&quot;,&quot;2850&quot;,&quot;2855&quot;],&quot;posts_per_page&quot;:3,&quot;columns_number&quot;:3,&quot;paged&quot;:1}' data-widget='{&quot;item_class&quot;:&quot;team-item-wrapper&quot;,&quot;columns_number&quot;:3,&quot;listing_type&quot;:&quot;grid&quot;,&quot;show_media&quot;:&quot;yes&quot;,&quot;show_title&quot;:&quot;yes&quot;,&quot;show_position&quot;:&quot;yes&quot;,&quot;show_socials&quot;:&quot;yes&quot;,&quot;show_pagination&quot;:&quot;&quot;}'>
-                                                            <div class="archive-listing-wrapper team-listing-wrapper team-grid-listing columns-3">
-                                                                <div class="team-item-wrapper post-2807 team type-team status-publish has-post-thumbnail hentry">
-                                                                    <div class="team-item">
-                                                                        <div class="team-item-media">
-                                                                            <div class="post-media">
-                                                                                <a href="https://demo.artureanec.com/themes/logico-rounded/team/samuel-peterson/">
-                                                                                    <picture>
-                                                                                        <source media="(max-width: 480px)" sizes="(max-width: 480px) 480px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-1-480x480.jpg 480w">
-                                                                                        <source media="(max-width: 660px)" sizes="(max-width: 660px) 660px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-1-480x480.jpg 660w">
-                                                                                        <source media="(max-width: 840px)" sizes="(max-width: 840px) 840px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-1-480x480.jpg 840w">
-                                                                                        <img decoding="async" alt="team-pic-1" title="team-pic-1" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-1-680x680.jpg" class="attachment-medium size-medium wp-post-image"/>
-                                                                                    </picture>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="team-item-content">
-                                                                            <div class="post-title">
-                                                                                <a href="https://demo.artureanec.com/themes/logico-rounded/team/samuel-peterson/">Samuel Peterson</a>
-                                                                            </div>
-                                                                            <div class="team-item-position">CEO Logico</div>
-                                                                            <div class="team-item-socials">
-                                                                                <ul class="team-socials wrapper-socials">
-                                                                                    <li>
-                                                                                        <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f" title="Facebook"></a>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <a href="https://x.com/" target="_blank" class="fab fa-x-twitter" title="X"></a>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <a href="https://www.linkedin.com/" target="_blank" class="fab fa-linkedin-in" title="LinkedIn"></a>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <a href="https://www.youtube.com/" target="_blank" class="fab fa-youtube" title="YouTube"></a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="team-item-wrapper post-2850 team type-team status-publish has-post-thumbnail hentry">
-                                                                    <div class="team-item">
-                                                                        <div class="team-item-media">
-                                                                            <div class="post-media">
-                                                                                <a href="https://demo.artureanec.com/themes/logico-rounded/team/andrew-mcdickens/">
-                                                                                    <picture>
-                                                                                        <source media="(max-width: 480px)" sizes="(max-width: 480px) 480px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-2-480x480.jpg 480w">
-                                                                                        <source media="(max-width: 660px)" sizes="(max-width: 660px) 660px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-2-480x480.jpg 660w">
-                                                                                        <source media="(max-width: 840px)" sizes="(max-width: 840px) 840px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-2-480x480.jpg 840w">
-                                                                                        <img decoding="async" alt="team-pic-2" title="team-pic-2" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-2-680x680.jpg" class="attachment-medium size-medium wp-post-image"/>
-                                                                                    </picture>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="team-item-content">
-                                                                            <div class="post-title">
-                                                                                <a href="https://demo.artureanec.com/themes/logico-rounded/team/andrew-mcdickens/">Andrew McDickens</a>
-                                                                            </div>
-                                                                            <div class="team-item-position">Manager</div>
-                                                                            <div class="team-item-socials">
-                                                                                <ul class="team-socials wrapper-socials">
-                                                                                    <li>
-                                                                                        <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f" title="Facebook"></a>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <a href="https://x.com/" target="_blank" class="fab fa-x-twitter" title="X"></a>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <a href="https://www.linkedin.com/" target="_blank" class="fab fa-linkedin-in" title="LinkedIn"></a>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <a href="https://www.youtube.com/" target="_blank" class="fab fa-youtube" title="YouTube"></a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="team-item-wrapper post-2855 team type-team status-publish has-post-thumbnail hentry">
-                                                                    <div class="team-item">
-                                                                        <div class="team-item-media">
-                                                                            <div class="post-media">
-                                                                                <a href="https://demo.artureanec.com/themes/logico-rounded/team/samantha-powers/">
-                                                                                    <picture>
-                                                                                        <source media="(max-width: 480px)" sizes="(max-width: 480px) 480px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-3-354x480.jpg 480w">
-                                                                                        <source media="(max-width: 660px)" sizes="(max-width: 660px) 660px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-3-354x480.jpg 660w">
-                                                                                        <source media="(max-width: 840px)" sizes="(max-width: 840px) 840px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-3-354x480.jpg 840w">
-                                                                                        <img decoding="async" alt="team-pic-3" title="team-pic-3" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/08/team-pic-3.jpg" class="attachment-medium size-medium wp-post-image"/>
-                                                                                    </picture>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="team-item-content">
-                                                                            <div class="post-title">
-                                                                                <a href="https://demo.artureanec.com/themes/logico-rounded/team/samantha-powers/">Samantha Powers</a>
-                                                                            </div>
-                                                                            <div class="team-item-position">HR Specialist</div>
-                                                                            <div class="team-item-socials">
-                                                                                <ul class="team-socials wrapper-socials">
-                                                                                    <li>
-                                                                                        <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f" title="Facebook"></a>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <a href="https://x.com/" target="_blank" class="fab fa-x-twitter" title="X"></a>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <a href="https://www.linkedin.com/" target="_blank" class="fab fa-linkedin-in" title="LinkedIn"></a>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <a href="https://www.youtube.com/" target="_blank" class="fab fa-youtube" title="YouTube"></a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <script type="speculationrules">
-                {
-                    "prefetch": [
-                        {
-                            "source": "document",
-                            "where": {
-                                "and": [
-                                    {
-                                        "href_matches": "/themes/logico-rounded/*"
-                                    },
-                                    {
-                                        "not": {
-                                            "href_matches": [
-                                                "/themes/logico-rounded/wp-*.php",
-                                                "/themes/logico-rounded/wp-admin/*",
-                                                "/themes/logico-rounded/wp-content/uploads/*",
-                                                "/themes/logico-rounded/wp-content/*",
-                                                "/themes/logico-rounded/wp-content/plugins/*",
-                                                "/themes/logico-rounded/wp-content/themes/logico-child/*",
-                                                "/themes/logico-rounded/wp-content/themes/logico/*",
-                                                "/themes/logico-rounded/*\\?(.+)"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "not": {
-                                            "selector_matches": "a[rel~=\"nofollow\"]"
-                                        }
-                                    },
-                                    {
-                                        "not": {
-                                            "selector_matches": ".no-prefetch, .no-prefetch a"
-                                        }
-                                    }
-                                ]
-                            },
-                            "eagerness": "conservative"
-                        }
-                    ]
-                }</script>
+<!-- ═══ INITIATIVES ═══ -->
+<div class="initiatives">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">What We Offer</div>
+    <h2 class="section-title">Our Initiatives</h2>
+    <p class="section-sub">Comprehensive programs designed to support women at every stage of their entrepreneurship journey.</p>
+  </div>
+
+  <div class="init-grid">
+    <article class="init-card reveal reveal-d1">
+      <div class="init-icon">📚</div>
+      <div class="init-content">
+        <h3 class="init-title">Training & Development</h3>
+        <p class="init-desc">Comprehensive training programs designed to equip women with logistics management skills, from route planning to customer service excellence.</p>
+      </div>
+    </article>
+    <article class="init-card reveal reveal-d2">
+      <div class="init-icon">💼</div>
+      <div class="init-content">
+        <h3 class="init-title">Business Support</h3>
+        <p class="init-desc">Access to micro-financing, business mentorship, and operational support to help women entrepreneurs build sustainable delivery businesses.</p>
+      </div>
+    </article>
+    <article class="init-card reveal reveal-d3">
+      <div class="init-icon">🏆</div>
+      <div class="init-content">
+        <h3 class="init-title">Recognition Programs</h3>
+        <p class="init-desc">Annual awards and recognition for top-performing women entrepreneurs, celebrating their achievements and inspiring others across the network.</p>
+      </div>
+    </article>
+    <article class="init-card reveal reveal-d4">
+      <div class="init-icon">🎯</div>
+      <div class="init-content">
+        <h3 class="init-title">Goal Setting & Metrics</h3>
+        <p class="init-desc">Data-driven approach to track progress, set ambitious targets, and measure the real impact of our women empowerment initiatives.</p>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ═══ SUCCESS STORIES ═══ -->
+<section class="stories-section">
+  <div class="stories-inner">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Success Stories</div>
+      <h2 class="section-title">Women Leading the Way</h2>
+      <p class="section-sub">Meet the inspiring women who are redefining logistics in India.</p>
+    </div>
+
+    <div class="stories-grid">
+
+      <!-- Story 1 -->
+      <article class="story-card reveal reveal-d1">
+        <div class="story-img-wrap">
+          <img
+            class="story-img"
+            src="/logistic/assets/images/women_story_1.png"
+            alt="Lakshmi Devi"
+            loading="lazy"
+          />
         </div>
-        <!-- /.body-container -->
-        <div class="footer-scroll-top"></div>
-        <script type='text/javascript'>
-            (function() {
-                var c = document.body.className;
-                c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-                document.body.className = c;
-            }
-            )();
-        </script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.32.4" id="elementor-webpack-runtime-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.32.4" id="elementor-frontend-modules-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
-        <script type="text/javascript" id="elementor-frontend-js-before">
-            /* <![CDATA[ */
-            var elementorFrontendConfig = {
-                "environmentMode": {
-                    "edit": false,
-                    "wpPreview": false,
-                    "isScriptDebug": false
-                },
-                "i18n": {
-                    "shareOnFacebook": "Share on Facebook",
-                    "shareOnTwitter": "Share on Twitter",
-                    "pinIt": "Pin it",
-                    "download": "Download",
-                    "downloadImage": "Download image",
-                    "fullscreen": "Fullscreen",
-                    "zoom": "Zoom",
-                    "share": "Share",
-                    "playVideo": "Play Video",
-                    "previous": "Previous",
-                    "next": "Next",
-                    "close": "Close",
-                    "a11yCarouselPrevSlideMessage": "Previous slide",
-                    "a11yCarouselNextSlideMessage": "Next slide",
-                    "a11yCarouselFirstSlideMessage": "This is the first slide",
-                    "a11yCarouselLastSlideMessage": "This is the last slide",
-                    "a11yCarouselPaginationBulletMessage": "Go to slide"
-                },
-                "is_rtl": false,
-                "breakpoints": {
-                    "xs": 0,
-                    "sm": 480,
-                    "md": 481,
-                    "lg": 841,
-                    "xl": 1440,
-                    "xxl": 1600
-                },
-                "responsive": {
-                    "breakpoints": {
-                        "mobile": {
-                            "label": "Mobile Portrait",
-                            "value": 480,
-                            "default_value": 767,
-                            "direction": "max",
-                            "is_enabled": true
-                        },
-                        "mobile_extra": {
-                            "label": "Mobile Landscape",
-                            "value": 660,
-                            "default_value": 880,
-                            "direction": "max",
-                            "is_enabled": true
-                        },
-                        "tablet": {
-                            "label": "Tablet Portrait",
-                            "value": 840,
-                            "default_value": 1024,
-                            "direction": "max",
-                            "is_enabled": true
-                        },
-                        "tablet_extra": {
-                            "label": "Tablet Landscape",
-                            "value": 1020,
-                            "default_value": 1200,
-                            "direction": "max",
-                            "is_enabled": true
-                        },
-                        "laptop": {
-                            "label": "Laptop",
-                            "value": 1200,
-                            "default_value": 1366,
-                            "direction": "max",
-                            "is_enabled": true
-                        },
-                        "widescreen": {
-                            "label": "Widescreen",
-                            "value": 2400,
-                            "default_value": 2400,
-                            "direction": "min",
-                            "is_enabled": false
-                        }
-                    },
-                    "hasCustomBreakpoints": true
-                },
-                "version": "3.32.4",
-                "is_static": false,
-                "experimentalFeatures": {
-                    "e_font_icon_svg": true,
-                    "additional_custom_breakpoints": true,
-                    "container": true,
-                    "nested-elements": true,
-                    "home_screen": true,
-                    "global_classes_should_enforce_capabilities": true,
-                    "e_variables": true,
-                    "cloud-library": true,
-                    "e_opt_in_v4_page": true,
-                    "import-export-customization": true
-                },
-                "urls": {
-                    "assets": "https:\/\/demo.artureanec.com\/themes\/logico-rounded\/wp-content\/plugins\/elementor\/assets\/",
-                    "ajaxurl": "https:\/\/demo.artureanec.com\/themes\/logico-rounded\/wp-admin\/admin-ajax.php",
-                    "uploadUrl": "https:\/\/demo.artureanec.com\/themes\/logico-rounded\/wp-content\/uploads"
-                },
-                "nonces": {
-                    "floatingButtonsClickTracking": "a35e0dac9f"
-                },
-                "swiperClass": "swiper",
-                "settings": {
-                    "page": [],
-                    "editorPreferences": []
-                },
-                "kit": {
-                    "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"],
-                    "viewport_mobile": 480,
-                    "viewport_mobile_extra": 660,
-                    "viewport_tablet": 840,
-                    "viewport_tablet_extra": 1020,
-                    "viewport_laptop": 1200,
-                    "lightbox_enable_counter": "yes",
-                    "lightbox_enable_fullscreen": "yes",
-                    "lightbox_enable_zoom": "yes",
-                    "lightbox_enable_share": "yes",
-                    "lightbox_title_src": "title",
-                    "lightbox_description_src": "description"
-                },
-                "post": {
-                    "id": 63,
-                    "title": "Ship%20freight%20%E2%80%93%20Logico",
-                    "excerpt": "",
-                    "featuredImage": false
-                }
-            };
-            //# sourceURL=elementor-frontend-js-before
-            /* ]]> */
-        </script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.32.4" id="elementor-frontend-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1" id="jquery-numerator-js"></script>
-        <script type="text/javascript" id="mediaelement-core-js-before">
-            /* <![CDATA[ */
-            var mejsL10n = {
-                "language": "en",
-                "strings": {
-                    "mejs.download-file": "Download File",
-                    "mejs.install-flash": "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https://get.adobe.com/flashplayer/",
-                    "mejs.fullscreen": "Fullscreen",
-                    "mejs.play": "Play",
-                    "mejs.pause": "Pause",
-                    "mejs.time-slider": "Time Slider",
-                    "mejs.time-help-text": "Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.",
-                    "mejs.live-broadcast": "Live Broadcast",
-                    "mejs.volume-help-text": "Use Up/Down Arrow keys to increase or decrease volume.",
-                    "mejs.unmute": "Unmute",
-                    "mejs.mute": "Mute",
-                    "mejs.volume-slider": "Volume Slider",
-                    "mejs.video-player": "Video Player",
-                    "mejs.audio-player": "Audio Player",
-                    "mejs.captions-subtitles": "Captions/Subtitles",
-                    "mejs.captions-chapters": "Chapters",
-                    "mejs.none": "None",
-                    "mejs.afrikaans": "Afrikaans",
-                    "mejs.albanian": "Albanian",
-                    "mejs.arabic": "Arabic",
-                    "mejs.belarusian": "Belarusian",
-                    "mejs.bulgarian": "Bulgarian",
-                    "mejs.catalan": "Catalan",
-                    "mejs.chinese": "Chinese",
-                    "mejs.chinese-simplified": "Chinese (Simplified)",
-                    "mejs.chinese-traditional": "Chinese (Traditional)",
-                    "mejs.croatian": "Croatian",
-                    "mejs.czech": "Czech",
-                    "mejs.danish": "Danish",
-                    "mejs.dutch": "Dutch",
-                    "mejs.english": "English",
-                    "mejs.estonian": "Estonian",
-                    "mejs.filipino": "Filipino",
-                    "mejs.finnish": "Finnish",
-                    "mejs.french": "French",
-                    "mejs.galician": "Galician",
-                    "mejs.german": "German",
-                    "mejs.greek": "Greek",
-                    "mejs.haitian-creole": "Haitian Creole",
-                    "mejs.hebrew": "Hebrew",
-                    "mejs.hindi": "Hindi",
-                    "mejs.hungarian": "Hungarian",
-                    "mejs.icelandic": "Icelandic",
-                    "mejs.indonesian": "Indonesian",
-                    "mejs.irish": "Irish",
-                    "mejs.italian": "Italian",
-                    "mejs.japanese": "Japanese",
-                    "mejs.korean": "Korean",
-                    "mejs.latvian": "Latvian",
-                    "mejs.lithuanian": "Lithuanian",
-                    "mejs.macedonian": "Macedonian",
-                    "mejs.malay": "Malay",
-                    "mejs.maltese": "Maltese",
-                    "mejs.norwegian": "Norwegian",
-                    "mejs.persian": "Persian",
-                    "mejs.polish": "Polish",
-                    "mejs.portuguese": "Portuguese",
-                    "mejs.romanian": "Romanian",
-                    "mejs.russian": "Russian",
-                    "mejs.serbian": "Serbian",
-                    "mejs.slovak": "Slovak",
-                    "mejs.slovenian": "Slovenian",
-                    "mejs.spanish": "Spanish",
-                    "mejs.swahili": "Swahili",
-                    "mejs.swedish": "Swedish",
-                    "mejs.tagalog": "Tagalog",
-                    "mejs.thai": "Thai",
-                    "mejs.turkish": "Turkish",
-                    "mejs.ukrainian": "Ukrainian",
-                    "mejs.vietnamese": "Vietnamese",
-                    "mejs.welsh": "Welsh",
-                    "mejs.yiddish": "Yiddish"
-                }
-            };
-            //# sourceURL=mediaelement-core-js-before
-            /* ]]> */
-        </script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.9.4" id="mediaelement-migrate-js"></script>
-        <script type="text/javascript" id="mediaelement-js-extra">
-            /* <![CDATA[ */
-            var _wpmejsSettings = {
-                "pluginPath": "/themes/logico-rounded/wp-includes/js/mediaelement/",
-                "classPrefix": "mejs-",
-                "stretching": "responsive",
-                "audioShortcodeLibrary": "mediaelement",
-                "videoShortcodeLibrary": "mediaelement"
-            };
-            //# sourceURL=mediaelement-js-extra
-            /* ]]> */
-        </script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.9.4" id="wp-mediaelement-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-includes/js/mediaelement/renderers/vimeo.min.js?ver=4.2.17" id="mediaelement-vimeo-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/logico-plugin/inc/js/lib/slick.min.js?ver=6.9.4" id="slick-slider-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1-wc.10.2.4" id="jquery-cookie-js" data-wp-strategy="defer"></script>
-        <script data-minify="1" type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/cache/min/1/themes/logico-rounded/wp-content/themes/logico/js/woo.js?ver=1762595741" id="logico-woocommerce-scripts-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.2.4" id="sourcebuster-js-js"></script>
-        <script type="text/javascript" id="wc-order-attribution-js-extra">
-            /* <![CDATA[ */
-            var wc_order_attribution = {
-                "params": {
-                    "lifetime": 1.0000000000000000818030539140313095458623138256371021270751953125e-5,
-                    "session": 30,
-                    "base64": false,
-                    "ajaxurl": "https://demo.artureanec.com/themes/logico-rounded/wp-admin/admin-ajax.php",
-                    "prefix": "wc_order_attribution_",
-                    "allowTracking": true
-                },
-                "fields": {
-                    "source_type": "current.typ",
-                    "referrer": "current_add.rf",
-                    "utm_campaign": "current.cmp",
-                    "utm_source": "current.src",
-                    "utm_medium": "current.mdm",
-                    "utm_content": "current.cnt",
-                    "utm_id": "current.id",
-                    "utm_term": "current.trm",
-                    "utm_source_platform": "current.plt",
-                    "utm_creative_format": "current.fmt",
-                    "utm_marketing_tactic": "current.tct",
-                    "session_entry": "current_add.ep",
-                    "session_start_time": "current_add.fd",
-                    "session_pages": "session.pgs",
-                    "session_count": "udata.vst",
-                    "user_agent": "udata.uag"
-                }
-            };
-            //# sourceURL=wc-order-attribution-js-extra
-            /* ]]> */
-        </script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.2.4" id="wc-order-attribution-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?ver=1.21.0" id="wpforms-validation-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/lib/jquery.inputmask.min.js?ver=5.0.9" id="wpforms-maskedinput-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js?ver=1.9.8.2" id="wpforms-generic-utils-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js?ver=1.9.8.2" id="wpforms-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js?ver=1.9.8.2" id="wpforms-modern-js"></script>
-        <script type="text/javascript" src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wpforms-lite/assets/js/frontend/fields/address.min.js?ver=1.9.8.2" id="wpforms-address-field-js"></script>
-        <script type='text/javascript'>
-            /* <![CDATA[ */
-            var wpforms_settings = {
-                "val_required": "This field is required.",
-                "val_email": "Please enter a valid email address.",
-                "val_email_suggestion": "Did you mean {suggestion}?",
-                "val_email_suggestion_title": "Click to accept this suggestion.",
-                "val_email_restricted": "This email address is not allowed.",
-                "val_number": "Please enter a valid number.",
-                "val_number_positive": "Please enter a valid positive number.",
-                "val_minimum_price": "Amount entered is less than the required minimum.",
-                "val_confirm": "Field values do not match.",
-                "val_checklimit": "You have exceeded the number of allowed selections: {#}.",
-                "val_limit_characters": "Limit is {limit} characters. Characters remaining: {remaining}.",
-                "val_limit_words": "Limit is {limit} words. Words remaining: {remaining}.",
-                "val_min": "Please enter a value greater than or equal to {0}.",
-                "val_max": "Please enter a value less than or equal to {0}.",
-                "val_recaptcha_fail_msg": "Google reCAPTCHA verification failed, please try again later.",
-                "val_turnstile_fail_msg": "Cloudflare Turnstile verification failed, please try again later.",
-                "val_inputmask_incomplete": "Please fill out the field in required format.",
-                "uuid_cookie": "",
-                "locale": "en",
-                "country": "",
-                "country_list_label": "Country list",
-                "wpforms_plugin_url": "https:\/\/demo.artureanec.com\/themes\/logico-rounded\/wp-content\/plugins\/wpforms-lite\/",
-                "gdpr": "",
-                "ajaxurl": "https:\/\/demo.artureanec.com\/themes\/logico-rounded\/wp-admin\/admin-ajax.php",
-                "mailcheck_enabled": "1",
-                "mailcheck_domains": [],
-                "mailcheck_toplevel_domains": ["dev"],
-                "is_ssl": "1",
-                "currency_code": "USD",
-                "currency_thousands": ",",
-                "currency_decimals": "2",
-                "currency_decimal": ".",
-                "currency_symbol": "$",
-                "currency_symbol_pos": "left",
-                "val_requiredpayment": "Payment is required.",
-                "val_creditcard": "Please enter a valid credit card number.",
-                "css_vars": ["field-border-radius", "field-border-style", "field-border-size", "field-background-color", "field-border-color", "field-text-color", "field-menu-color", "label-color", "label-sublabel-color", "label-error-color", "button-border-radius", "button-border-style", "button-border-size", "button-background-color", "button-border-color", "button-text-color", "page-break-color", "background-image", "background-position", "background-repeat", "background-size", "background-width", "background-height", "background-color", "background-url", "container-padding", "container-border-style", "container-border-width", "container-border-color", "container-border-radius", "field-size-input-height", "field-size-input-spacing", "field-size-font-size", "field-size-line-height", "field-size-padding-h", "field-size-checkbox-size", "field-size-sublabel-spacing", "field-size-icon-size", "label-size-font-size", "label-size-line-height", "label-size-sublabel-font-size", "label-size-sublabel-line-height", "button-size-font-size", "button-size-height", "button-size-padding-h", "button-size-margin-top", "container-shadow-size-box-shadow"],
-                "isModernMarkupEnabled": "1",
-                "formErrorMessagePrefix": "Form error message",
-                "errorMessagePrefix": "Error message",
-                "submitBtnDisabled": "Submit button is disabled during form submission.",
-                "readOnlyDisallowedFields": ["captcha", "content", "divider", "hidden", "html", "entry-preview", "pagebreak", "payment-total"],
-                "error_updating_token": "Error updating token. Please try again or contact support if the issue persists.",
-                "network_error": "Network error or server is unreachable. Check your connection or try again later.",
-                "token_cache_lifetime": "86400",
-                "hn_data": {
-                    "5719": 1
-                },
-                "address_field": {
-                    "list_countries_without_states": ["GB", "DE", "CH", "NL"]
-                }
-            }
-            /* ]]> */
-        </script>
-        <script>
-            window.lazyLoadOptions = {
-                elements_selector: "iframe[data-lazy-src]",
-                data_src: "lazy-src",
-                data_srcset: "lazy-srcset",
-                data_sizes: "lazy-sizes",
-                class_loading: "lazyloading",
-                class_loaded: "lazyloaded",
-                threshold: 300,
-                callback_loaded: function(element) {
-                    if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") {
-                        if (element.classList.contains("lazyloaded")) {
-                            if (typeof window.jQuery != "undefined") {
-                                if (jQuery.fn.fitVids) {
-                                    jQuery(element).parent().fitVids()
-                                }
-                            }
-                        }
-                    }
-                }
-            };
-            window.addEventListener('LazyLoad::Initialized', function(e) {
-                var lazyLoadInstance = e.detail.instance;
-                if (window.MutationObserver) {
-                    var observer = new MutationObserver(function(mutations) {
-                        var image_count = 0;
-                        var iframe_count = 0;
-                        var rocketlazy_count = 0;
-                        mutations.forEach(function(mutation) {
-                            for (var i = 0; i < mutation.addedNodes.length; i++) {
-                                if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
-                                    continue
-                                }
-                                if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
-                                    continue
-                                }
-                                images = mutation.addedNodes[i].getElementsByTagName('img');
-                                is_image = mutation.addedNodes[i].tagName == "IMG";
-                                iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
-                                is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
-                                rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
-                                image_count += images.length;
-                                iframe_count += iframes.length;
-                                rocketlazy_count += rocket_lazy.length;
-                                if (is_image) {
-                                    image_count += 1
-                                }
-                                if (is_iframe) {
-                                    iframe_count += 1
-                                }
-                            }
-                        });
-                        if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) {
-                            lazyLoadInstance.update()
-                        }
-                    }
-                    );
-                    var b = document.getElementsByTagName("body")[0];
-                    var config = {
-                        childList: !0,
-                        subtree: !0
-                    };
-                    observer.observe(b, config)
-                }
-            }, !1)
-        </script>
+        <div class="story-body">
+          <p class="story-role">Fleet Owner, Coimbatore</p>
+          <h3 class="story-name">Lakshmi Devi</h3>
+          <div class="story-location">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+            Tamil Nadu, Coimbatore
+          </div>
+          <div class="story-divider"></div>
+          <p class="story-quote">Started with one e-rickshaw, now manages a fleet of 12 vehicles serving local businesses across the city.</p>
+        </div>
+      </article>
 
-        <style id="heading-fix">
-                .elementor-invisible { visibility: visible !important; opacity: 1 !important; }
-                @keyframes logico_heading_animation { from { transform: translateY(120%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-                @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-                .elementor-widget-logico_heading[data-settings*="logico_heading_animation"] .word { display: inline-flex; clip-path: inset(-0.15em -0.1em); }
-                .elementor-widget-logico_heading[data-settings*="logico_heading_animation"] .word .letter { display: inline-flex; opacity: 0; transform: translateY(120%); animation: fadeIn 0.35s forwards, logico_heading_animation 0.7s cubic-bezier(.26,-.14,0,1.01) forwards; }
-                header#masthead { position: sticky !important; top: 0 !important; z-index: 9999 !important; background-color: #fff !important; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-                .elementor-element-466de1b { position: relative !important; top: auto !important; }
-                </style>
+      <!-- Story 2 -->
+      <article class="story-card reveal reveal-d2">
+        <div class="story-img-wrap">
+          <img
+            class="story-img"
+            src="/logistic/assets/images/women_story_2.png"
+            alt="Priya Sharma"
+            loading="lazy"
+          />
+        </div>
+        <div class="story-body">
+          <p class="story-role">Delivery Partner, Bengaluru</p>
+          <h3 class="story-name">Priya Sharma</h3>
+          <div class="story-location">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+            Karnataka, Bengaluru
+          </div>
+          <div class="story-divider"></div>
+          <p class="story-quote">A single mother who found financial independence through Doormile's delivery network, now mentoring 30+ women.</p>
+        </div>
+      </article>
 
+      <!-- Story 3 -->
+      <article class="story-card reveal reveal-d3">
+        <div class="story-img-wrap">
+          <img
+            class="story-img"
+            src="/logistic/assets/images/women_story_3.png"
+            alt="Fatima Khan"
+            loading="lazy"
+          />
+        </div>
+        <div class="story-body">
+          <p class="story-role">Hub Manager, Hyderabad</p>
+          <h3 class="story-name">Fatima Khan</h3>
+          <div class="story-location">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+            Telangana, Hyderabad
+          </div>
+          <div class="story-divider"></div>
+          <p class="story-quote">From delivery rider to managing a regional hub with 50+ partners in just 2 years through sheer determination.</p>
+        </div>
+      </article>
 
-        
-        <script data-no-minify="1" async src="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
-    </body>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section class="cta-section">
+  <div class="cta-circle cta-circle-1"></div>
+  <div class="cta-circle cta-circle-2"></div>
+  <div class="cta-inner reveal">
+    <p class="cta-eyebrow">Take the first step</p>
+    <h2 class="cta-title">Ready to Start<br><em>Your Journey?</em></h2>
+    <p class="cta-sub">Join our Women Entrepreneurship program and become part of India's fastest-growing logistics network.</p>
+    <div class="cta-buttons">
+      <a href="#" class="btn-primary">
+        Apply Now
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+        </svg>
+      </a>
+      <a href="#" class="btn-outline">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Intersection Observer for scroll reveals
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+
+</body>
 </html>

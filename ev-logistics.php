@@ -8,7 +8,7 @@
     align-items: center !important;
     gap: 40px !important;
     justify-content: space-between !important;
-    padding-top: 50px;
+    paddiing
 }
 .elementor-element-aef73c1 {
     flex: 1 1 45% !important;
@@ -137,99 +137,3 @@
 
     </div>
 </div>
-
-<script>
-(function() {
-    var accordion = document.querySelector('.elementor-element-155d377 .elementor-accordion');
-    if (!accordion) return;
-
-    var items = accordion.querySelectorAll('.elementor-accordion-item');
-    var ACTIVE_CLASS = 'elementor-active';
-
-    function collapseItem(item) {
-        var title = item.querySelector('.elementor-tab-title');
-        var content = item.querySelector('.elementor-tab-content');
-        if (!title || !content) return;
-        title.classList.remove(ACTIVE_CLASS);
-        title.setAttribute('aria-expanded', 'false');
-        content.classList.remove(ACTIVE_CLASS);
-        content.style.overflow = 'hidden';
-        var h = content.scrollHeight;
-        content.style.height = h + 'px';
-        content.offsetHeight; // force reflow
-        content.style.transition = 'height 0.35s ease';
-        content.style.height = '0px';
-        setTimeout(function() {
-            content.style.display = 'none';
-            content.style.height = '';
-            content.style.transition = '';
-            content.style.overflow = '';
-        }, 350);
-    }
-
-    function expandItem(item) {
-        var title = item.querySelector('.elementor-tab-title');
-        var content = item.querySelector('.elementor-tab-content');
-        if (!title || !content) return;
-        title.classList.add(ACTIVE_CLASS);
-        title.setAttribute('aria-expanded', 'true');
-        content.classList.add(ACTIVE_CLASS);
-        content.style.display = 'block';
-        content.style.overflow = 'hidden';
-        var h = content.scrollHeight;
-        content.style.height = '0px';
-        content.offsetHeight; // force reflow
-        content.style.transition = 'height 0.35s ease';
-        content.style.height = h + 'px';
-        setTimeout(function() {
-            content.style.height = '';
-            content.style.transition = '';
-            content.style.overflow = '';
-        }, 350);
-    }
-
-    // Initialize: collapse all, then expand first
-    items.forEach(function(item) {
-        var content = item.querySelector('.elementor-tab-content');
-        var title = item.querySelector('.elementor-tab-title');
-        if (content) {
-            content.style.display = 'none';
-            content.classList.remove(ACTIVE_CLASS);
-        }
-        if (title) {
-            title.classList.remove(ACTIVE_CLASS);
-            title.setAttribute('aria-expanded', 'false');
-        }
-    });
-
-    // Expand first item immediately
-    if (items.length > 0) {
-        var firstTitle = items[0].querySelector('.elementor-tab-title');
-        var firstContent = items[0].querySelector('.elementor-tab-content');
-        if (firstTitle && firstContent) {
-            firstTitle.classList.add(ACTIVE_CLASS);
-            firstTitle.setAttribute('aria-expanded', 'true');
-            firstContent.classList.add(ACTIVE_CLASS);
-            firstContent.style.display = 'block';
-        }
-    }
-
-    // Click handler
-    items.forEach(function(item) {
-        var title = item.querySelector('.elementor-tab-title');
-        if (!title) return;
-        title.addEventListener('click', function(e) {
-            e.preventDefault();
-            var isOpen = title.classList.contains(ACTIVE_CLASS);
-            items.forEach(function(other) {
-                if (other.querySelector('.elementor-tab-title.'+ACTIVE_CLASS)) {
-                    collapseItem(other);
-                }
-            });
-            if (!isOpen) {
-                expandItem(item);
-            }
-        });
-    });
-})();
-</script>

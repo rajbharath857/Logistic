@@ -525,7 +525,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <?php include 'ev-logistics.php'; ?>
 
                                 
                                 <div class="elementor-element elementor-element-42672a9 e-flex e-con-boxed cut-corner-no sticky-container-off e-con e-parent" data-id="42672a9" data-element_type="container">
