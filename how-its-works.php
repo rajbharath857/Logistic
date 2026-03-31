@@ -9479,7 +9479,7 @@ include 'header.php';
                                                                                     <source media="(max-width: 480px)" sizes="(max-width: 480px) 480px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/07/bg-header-3-480x480.jpg 480w">
                                                                                     <source media="(max-width: 660px)" sizes="(max-width: 660px) 660px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/07/bg-header-3-480x480.jpg 660w">
                                                                                     <source media="(max-width: 840px)" sizes="(max-width: 840px) 840px" srcset="https://8ded8880.delivery.rocketcdn.me/themes/logico-rounded/wp-content/uploads/2024/07/bg-header-3-480x480.jpg 840w">
-                                                                                    <img decoding="async" alt="bg-header-3" title="bg-header-3" src="/logistic/assets/images/bg-header-3.png" class="attachment-medium size-medium wp-post-image"/>
+                                                                                    <img decoding="async" alt="bg-header-3" title="bg-header-3" src="/logistic/assets/images/bg-header-3.jpeg" class="attachment-medium size-medium wp-post-image"/>
                                                                                 </picture>
                                                                             </div>
                                                                         </span>
@@ -10117,6 +10117,7 @@ include 'header.php';
                 <?php include 'footer.php'; ?>
             </div>
             <!-- #page -->
+
             <script type="speculationrules">
                 {
                     "prefetch": [

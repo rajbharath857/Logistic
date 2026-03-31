@@ -3575,6 +3575,7 @@
             .elementor-61 .elementor-element.elementor-element-de254c2:not(.elementor-motion-effects-element-type-background),
             .elementor-61 .elementor-element.elementor-element-de254c2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
                 background-color: #1F1F1F;
+                margin-bottom: 20px;
             }
 
             .elementor-61 .elementor-element.elementor-element-d5b30d0 {
@@ -6865,6 +6866,7 @@
                 --container-widget-flex-grow: 0;
                 --container-widget-align-self: initial;
                 --flex-wrap-mobile: wrap;
+                
             }
 
 
@@ -6892,13 +6894,15 @@
 
 
             .elementor-3397 .elementor-element.elementor-element-09db825 {
-                text-align: left;
+                text-align: center;
             }
 
 
             .elementor-3397 .elementor-element.elementor-element-09db825 img {
-                width: 100%;
+                width: 80%;
                 border-radius: 25px 25px 25px 25px;
+                margin: 0 auto;
+                display: block;
             }
 
 
@@ -12052,7 +12056,7 @@
                 --gap: 0px 0px;
                 --row-gap: 0px;
                 --column-gap: 0px;
-                --margin-top: 150px;
+                --margin-top: 100px;
                 --margin-bottom: 0px;
                 --margin-left: 0px;
                 --margin-right: 0px;
@@ -12065,7 +12069,7 @@
                 --column-gap: 0px;
                 --flex-wrap: nowrap;
                 --padding-top: 0px;
-                --padding-bottom: 0px;
+                --padding-bottom: 20px;
                 --padding-left: 20px;
                 --padding-right: 20px;
             }
